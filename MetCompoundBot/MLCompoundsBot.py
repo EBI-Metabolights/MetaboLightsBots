@@ -22,6 +22,7 @@ destinationDirectory = ""
 workingDirectory = ""
 mlSCMappingFile = ""
 reactomeJSONFile = ""
+ftp = ""
 
 reactomeData = {}
 mlMapping = {}
@@ -43,13 +44,17 @@ def main(arguments):
     parser.add_argument('-l', '--launch_directory', action=readable_dir, default = "" )
     parser.add_argument('-w', '--destination', action=readable_dir, help="Output directory", default="/nfs/www-prod/web_hx2/cm/metabolights/prod/reference/")
     parser.add_argument('-c', '--compound', help="- MetaboLights Compound Identifier", default="all")
+    parser.add_argument('-f', '--ftp', action=readable_dir, default="/ebi/ftp/pub/databases/metabolights/compounds/", help="FTP directory")
     args = parser.parse_args(arguments)
     global workingDirectory
     global destinationDirectory
     global requestedCompound
+    global ftp
+
     workingDirectory = args.launch_directory
     destinationDirectory = args.destination
     requestedCompound = args.compound.replace('"','')
+    ftp = args.ftp
 
     if(workingDirectory == ""):
         workingDirectory = os.getcwd();
@@ -68,10 +73,10 @@ def main(arguments):
     logging.info('Generating MetaboLights Study - Compound Mapping file')
 
     global mlSCMappingFile
-    mlSCMappingFile = workingDirectory + "/resources/mapping.json"
+    mlSCMappingFile = ftp + "mapping.json"
 
     global reactomeJSONFile
-    reactomeJSONFile = workingDirectory + "/resources/reactome.json"
+    reactomeJSONFile = ftp + "reactome.json"
 
     with open(reactomeJSONFile) as reactome_file:
         global reactomeData

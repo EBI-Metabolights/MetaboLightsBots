@@ -58,8 +58,8 @@ def main(arguments):
     if(root == ""):
         root = os.getcwd();
 
-    mlSCMappingFile     = ftp + "/mapping.json"
-    reactomeJSONFile    = ftp + "/reactome.json"
+    mlSCMappingFile     = ftp + "mapping.json"
+    reactomeJSONFile    = ftp + "reactome.json"
 
     utils.generateMLStudyCompoundMappingFile(mlSCMappingFile)
     utils.getReactomeData(reactomeJSONFile)
