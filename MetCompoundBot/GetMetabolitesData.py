@@ -60,51 +60,11 @@ def main(arguments):
     if(root == ""):
         root = os.getcwd();
 
-    mlSCMappingFile     = root + "/resources/mapping.json"
-    reactomeJSONFile    = root + "/resources/reactome.json"
+    mlSCMappingFile     = ftp + "/mapping.json"
+    reactomeJSONFile    = ftp + "/reactome.json"
 
     utils.generateMLStudyCompoundMappingFile(mlSCMappingFile)
     utils.getReactomeData(reactomeJSONFile)
-
-    if (request == "missing"):
-        subprocess.call(["python", "PatrolBot.py", workingDirectory, destinationDirectory])
-        with open( workingDirectory + '/MetabolitesReport.json') as reportFile:
-            global reportData
-            reportData = json.load(reportFile)
-
-        missingMetabolites = []
-        for key in reportData:
-            report = reportData[key]
-            if report['rating'] == 0:
-                missingMetabolites.append(key)
-        compoundBatches = []
-        interval = len(missingMetabolites)/batch
-        current = 0
-        for i in range(0, batch):
-            compoundsTempList = missingMetabolites[current: current + interval]
-            compoundsTempListString = '"' + ', '.join(compoundsTempList) + '"'
-            compoundBatches.append(compoundsTempListString)
-            current = current + interval
-        procs = [subprocess.Popen(["python", "MLCompoundsBot.py", root, destination, cp]) for cp in compoundBatches]
-        for proc in procs:
-            proc.wait()
-        if any(proc.returncode != 0 for proc in procs):
-            print "Error importing missing compound's Data"
-    else:
-        fetchMetaboLightsCompoundsList()
-        compoundBatches = []
-        interval = len(metabolites)/batch
-        current = 0
-        for i in range(0, batch):
-            compoundsTempList = metabolites[current: current + interval]
-            compoundsTempListString = '"' + ', '.join(compoundsTempList) + '"'
-            compoundBatches.append(compoundsTempListString)
-            current = current + interval
-        procs = [subprocess.Popen(["python", "MLCompoundsBot.py", "-c" , cp]) for cp in compoundBatches]
-        for proc in procs:
-            proc.wait()
-        if any(proc.returncode != 0 for proc in procs):
-            print "Error reimporting all compound's data"
 
 if __name__ == '__main__':
     sys.exit(main(sys.argv[1:]))
