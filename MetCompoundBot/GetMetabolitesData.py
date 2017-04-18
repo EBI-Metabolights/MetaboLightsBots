@@ -46,7 +46,6 @@ def main(arguments):
     parser.add_argument('-l', '--launch_directory', action=readable_dir, default = "" )
     parser.add_argument('-w', '--destination', action=readable_dir, default="/nfs/www-prod/web_hx2/cm/metabolights/prod/reference/", help="Output directory")
     parser.add_argument('-f', '--ftp', action=readable_dir, default="/ebi/ftp/pub/databases/metabolights/compounds/", help="FTP directory")
-    parser.add_argument("--request", help="- Import request (all/missing) ", default="all")
     args = parser.parse_args(arguments)
 
     global metabolites, root, destination, request, batch
