@@ -410,53 +410,54 @@ def fetchCompound(metabolightsID, wd, dd, reactomeData, mlMapping):
         logger.info("Compound Error: "+ metabolightsID + "Reactions not assigned")
         pass
         
-    try:
-        MetaboLightsCompoundJSON["spectra"] = fetchSpectra(mtblcs['mc']['metSpectras'],metabolightsID, dd)
-        if MetaboLightsCompoundJSON["spectra"]['MS']:
-            MetaboLightsCompoundJSON["flags"]['hasMS'] = "true"
-        if MetaboLightsCompoundJSON["spectra"]['NMR']:
-            MetaboLightsCompoundJSON["flags"]['hasNMR'] = "true"
-    except:
-        MetaboLightsCompoundJSON["spectra"] = []
-        logger.info("Compound Error: "+ metabolightsID + "Spectra not assigned")
-        pass
+    MetaboLightsCompoundJSON["spectra"] = fetchSpectra(mtblcs['mc']['metSpectras'],metabolightsID, dd)
+    if MetaboLightsCompoundJSON["spectra"]['MS']:
+        MetaboLightsCompoundJSON["flags"]['hasMS'] = "true"
+    if MetaboLightsCompoundJSON["spectra"]['NMR']:
+        MetaboLightsCompoundJSON["flags"]['hasNMR'] = "true"
 
     logger.info("Writing data to _data.json file - location: " + dd + "/" + metabolightsID + "/" + metabolightsID + "_data.json")
     writeDataToFile(dd + "/" + metabolightsID + "/" + metabolightsID + "_data.json", MetaboLightsCompoundJSON)
     logger.info("-----------------------------------------------")
 
-def fetchSpectra(spectra,metabolightsID, dd):
+def fetchSpectra(spectra, metabolightsID, dd):
     MetSpec = {}
     MetSpec['NMR'] = []
     MetSpec['MS'] = []
-    for spec in spectra:
-        if(spec["spectraType"] == "NMR"):
-            tempSpec = {}
-            tempSpec["name"] = spec["name"]
-            tempSpec["id"] = str(spec["id"])
-            tempSpec["url"] = "http://www.ebi.ac.uk/metabolights/webservice/compounds/spectra/" + str(spec["id"]) + "/json"
-            tempSpec["path"] = spec["pathToJsonSpectra"]
-            tempSpec["type"] = spec["spectraType"]
-            attriArray = []
-            for attri in spec["attributes"]:
-                tempAttri = {}
-                tempAttri["attributeName"] = attri["attributeDefinition"]["name"]
-                tempAttri["attributeDescription"] = attri["attributeDefinition"]["description"]
-                tempAttri["attributeValue"] = attri["value"]
-                attriArray.append(tempAttri)
-            tempSpec["attributes"] = attriArray
-            MetSpec['NMR'].append(tempSpec)
+    try:
+        for spec in spectra:
+            if(spec["spectraType"] == "NMR"):
+                tempSpec = {}
+                tempSpec["name"] = spec["name"]
+                tempSpec["id"] = str(spec["id"])
+                tempSpec["url"] = "http://www.ebi.ac.uk/metabolights/webservice/compounds/spectra/" + str(spec["id"]) + "/json"
+                tempSpec["path"] = spec["pathToJsonSpectra"]
+                tempSpec["type"] = spec["spectraType"]
+                attriArray = []
+                for attri in spec["attributes"]:
+                    tempAttri = {}
+                    tempAttri["attributeName"] = attri["attributeDefinition"]["name"]
+                    tempAttri["attributeDescription"] = attri["attributeDefinition"]["description"]
+                    tempAttri["attributeValue"] = attri["value"]
+                    attriArray.append(tempAttri)
+                tempSpec["attributes"] = attriArray
+                MetSpec['NMR'].append(tempSpec)
+    except:
+        logger.info("Compound Error: "+ metabolightsID + " NMR Spectra not assigned")
+        pass
+    
     MetSpec['MS'] = fetchMSFromMONA(chebiCompound["inchiKey"], metabolightsID, dd)
+   
     return MetSpec
 
 def fetchMSFromMONA(inchikey, metabolightsID, dd):
     ml_spectrum = []
-    curl = 'curl -H "Content-Type: application/json" -d \'{"compound":{"inchiKey":{"eq":"'+ inchikey + '"}},"metadata":[],"tags":[]}\' http://mona.fiehnlab.ucdavis.edu/rest/spectra/search'
-    result = json.loads(os.popen(curl).read())
+    url = "http://mona.fiehnlab.ucdavis.edu/rest/spectra/search?query=compound.metaData=q=%27name==\%22InChIKey\%22%20and%20value==\%22"+inchikey+"\%22%27"
+    result = json.load(urllib2.urlopen(url))
     for spectra in result:
         ml_spectra = {}
         ml_spectra['splash'] = spectra['splash']
-        tempSpectraName = str(spectra['libraryIdentifier']) + "_" + str(spectra['id'])
+        tempSpectraName = str(spectra['id'])
         ml_spectra['name'] =  tempSpectraName
         ml_spectra['type'] = "MS"
         ml_spectra['url'] = "/metabolights/webservice/beta/spectra/"+ metabolightsID + "/" + tempSpectraName
