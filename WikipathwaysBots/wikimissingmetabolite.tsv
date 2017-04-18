@@ -1,0 +1,1450 @@
+MetaboLightsID	ChEBIId	CompoundName	KEGGPathwaysMappings
+MTBLC100	CHEBI:100	(-)-medicarpin	Isoflavonoid biosynthesis; Biosynthesis of phenylpropanoids; Biosynthesis of secondary metabolites
+MTBLC100241	CHEBI:100241	ciprofloxacin	ABC transporters
+MTBLC10072	CHEBI:10072	xanthurenic acid	Tryptophan metabolism
+MTBLC10136	CHEBI:10136	gingerol	Stilbenoid, diarylheptanoid and gingerol biosynthesis; Biosynthesis of secondary metabolites
+MTBLC10280	CHEBI:10280	(E,E)-alpha-farnesene	Sesquiterpenoid and triterpenoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC10319	CHEBI:10319	1-naphthol	Metabolism of xenobiotics by cytochrome P450; Naphthalene family
+MTBLC10352	CHEBI:10352	beta-amyrin	Sesquiterpenoid and triterpenoid biosynthesis; Biosynthesis of terpenoids and steroids; Biosynthesis of secondary metabolites
+MTBLC10360	CHEBI:10360	(R)-(+)-citronellol	Geraniol degradation; Biosynthesis of terpenoids and steroids; Biosynthesis of secondary metabolites
+MTBLC10418	CHEBI:10418	trans-beta-farnesene	Sesquiterpenoid and triterpenoid biosynthesis
+MTBLC10432	CHEBI:10432	2-naphthol	Metabolism of xenobiotics by cytochrome P450; Naphthalene family
+MTBLC10443	CHEBI:10443	(+)-beta-selinene	Sesquiterpenoid and triterpenoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC10525	CHEBI:10525	dTDP-beta-L-mycarose	Biosynthesis of 12-, 14- and 16-membered macrolides; Polyketide sugar unit biosynthesis; Biosynthesis of antibiotics
+MTBLC10565	CHEBI:10565	gamma-glutamyl-beta-cyanoalanine	Cyanoamino acid metabolism
+MTBLC10589	CHEBI:10589	m-toluic acid	Xylene degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC10642	CHEBI:10642	scyllo-inositol	Inositol phosphate metabolism; Microbial metabolism in diverse environments
+MTBLC10782	CHEBI:10782	(-)-perillyl alcohol	Monoterpenoid biosynthesis; Limonene and pinene degradation; Biosynthesis of secondary metabolites
+MTBLC11010	CHEBI:11010	(R)-phenyllactoyl-CoA	Tropane, piperidine and pyridine alkaloid biosynthesis
+MTBLC1109	CHEBI:1109	2-hexaprenyl-6-methoxyphenol	Ubiquinone and other terpenoid-quinone biosynthesis; Biosynthesis of secondary metabolites
+MTBLC11412	CHEBI:11412	(2R,3S,4S)-leucocyanidin	Flavonoid biosynthesis; Biosynthesis of phenylpropanoids; Biosynthesis of secondary metabolites
+MTBLC1142	CHEBI:1142	2-Hydroxy-cis-hex-2,4-dienoate	Xylene degradation; Steroid degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC1162	CHEBI:1162	2-hydroxyhepta-2,4-dienedioic acid	Tyrosine metabolism; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC11684	CHEBI:11684	3,3',5'-triiodo-L-thyronine	Thyroid hormone signaling pathway
+MTBLC1171	CHEBI:1171	2-hydroxypropylphosphonic acid	Phosphonate and phosphinate metabolism; Biosynthesis of antibiotics
+MTBLC11935	CHEBI:11935	4-(beta-D-glucosyloxy)benzoate	Ubiquinone and other terpenoid-quinone biosynthesis
+MTBLC11951	CHEBI:11951	4-acetamidobutanoate	Arginine and proline metabolism; Metabolic pathways
+MTBLC1241	CHEBI:1241	2-Oxo-4-hydroxy-5-aminovalerate	Arginine and proline metabolism
+MTBLC12532	CHEBI:12532	N,N-dihydroxy-L-tyrosine	Cyanoamino acid metabolism; Biosynthesis of secondary metabolites
+MTBLC17330	CHEBI:17330	carboxyacetyl-[acyl-carrier protein]	Fatty acid biosynthesis; Biotin metabolism; Metabolic pathways; Fatty acid metabolism
+MTBLC17334	CHEBI:17334	penicillin	Penicillin and cephalosporin biosynthesis; Metabolic pathways; Biosynthesis of antibiotics
+MTBLC17360	CHEBI:17360	D-altronate	Pentose and glucuronate interconversions; Metabolic pathways
+MTBLC17371	CHEBI:17371	macrocin	Biosynthesis of 12-, 14- and 16-membered macrolides; Biosynthesis of antibiotics
+MTBLC17372	CHEBI:17372	1,2-dihydrovomilenine	Indole alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC17379	CHEBI:17379	isovitexin 2''-O-beta-D-glucoside	Flavone and flavonol biosynthesis
+MTBLC17383	CHEBI:17383	GDP-D-glucose	Starch and sucrose metabolism; Amino sugar and nucleotide sugar metabolism; Metabolic pathways
+MTBLC17384	CHEBI:17384	17-O-acetylnorajmaline	Indole alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC17390	CHEBI:17390	allocryptopine	Isoquinoline alkaloid biosynthesis
+MTBLC17396	CHEBI:17396	(R)-prunasin	Cyanoamino acid metabolism; Biosynthesis of secondary metabolites
+MTBLC17428	CHEBI:17428	(R)-reticuline	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC17435	CHEBI:17435	naphthalene-1,2-diol	Polycyclic aromatic hydrocarbon degradation; Naphthalene degradation; Metabolism of xenobiotics by cytochrome P450; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds; Chemical carcinogenesis
+MTBLC17437	CHEBI:17437	dimethyl sulfide	Sulfur metabolism
+MTBLC17440	CHEBI:17440	4-nitrophenyl phosphate	Aminobenzoate degradation; Microbial metabolism in diverse environments
+MTBLC17447	CHEBI:17447	geraniol	Geraniol degradation; Monoterpenoid biosynthesis; Biosynthesis of plant secondary metabolites; Biosynthesis of terpenoids and steroids; Biosynthesis of alkaloids derived from terpenoid and polyketide; Metabolic pathways; Biosynthesis of secondary metabolites; Biosynthesis of antibiotics
+MTBLC17458	CHEBI:17458	N-methyltyramine	Tyrosine metabolism
+MTBLC17464	CHEBI:17464	L-galactono-1,4-lactone	Ascorbate and aldarate metabolism; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC17476	CHEBI:17476	1-(alk-1-enyl)-2-acyl-sn-glycero-3-phosphoethanolamine	Ether lipid metabolism; Metabolic pathways
+MTBLC17485	CHEBI:17485	homocystine	Cysteine and methionine metabolism
+MTBLC17486	CHEBI:17486	(S)-atropine	Tropane, piperidine and pyridine alkaloid biosynthesis; Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC17488	CHEBI:17488	scopoletin	Phenylpropanoid biosynthesis; Biosynthesis of phenylpropanoids
+MTBLC17516	CHEBI:17516	but-1-ene-1,2,4-tricarboxylic acid	Lysine biosynthesis; Metabolic pathways; Microbial metabolism in diverse environments; Biosynthesis of antibiotics; 2-Oxocarboxylic acid metabolism; Biosynthesis of amino acids
+MTBLC17543	CHEBI:17543	1-phospho-alpha-D-galacturonic acid	Amino sugar and nucleotide sugar metabolism
+MTBLC17572	CHEBI:17572	5-amino-2-oxopentanoate	Arginine and proline metabolism; D-Arginine and D-ornithine metabolism; Metabolic pathways
+MTBLC17574	CHEBI:17574	biochanin A	Isoflavonoid biosynthesis; Biosynthesis of phenylpropanoids; Biosynthesis of secondary metabolites
+MTBLC17605	CHEBI:17605	2-formylbenzoic acid	Polycyclic aromatic hydrocarbon degradation; Microbial metabolism in diverse environments
+MTBLC17615	CHEBI:17615	1,2-diacyl-3-beta-D-galactosyl-sn-glycerol	Glycerolipid metabolism; Metabolic pathways
+MTBLC17628	CHEBI:17628	2-aminoacetaldehyde	Taurine and hypotaurine metabolism
+MTBLC17630	CHEBI:17630	kanamycin A	Biosynthesis of antibiotics
+MTBLC17642	CHEBI:17642	pentachlorophenol	Chlorocyclohexane and chlorobenzene degradation; Metabolic pathways; Microbial metabolism in diverse environments
+MTBLC17645	CHEBI:17645	4-acetamidobutanoic acid	Arginine and proline metabolism; Metabolic pathways
+MTBLC17655	CHEBI:17655	4-hydroxy-2-oxopentanoic acid	Phenylalanine metabolism; Benzoate degradation; Dioxin degradation; Xylene degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC17656	CHEBI:17656	(R)-mandelic acid	Aminobenzoate degradation; Microbial metabolism in diverse environments
+MTBLC17658	CHEBI:17658	tylosin	Biosynthesis of 12-, 14- and 16-membered macrolides; Type I polyketide structures; Biosynthesis of antibiotics
+MTBLC17666	CHEBI:17666	L-ribulose 5-phosphate	Pentose and glucuronate interconversions; Ascorbate and aldarate metabolism; Metabolic pathways; Microbial metabolism in diverse environments
+MTBLC17699	CHEBI:17699	16-hydroxytabersonine	Indole alkaloid biosynthesis
+MTBLC17705	CHEBI:17705	N(2)-succinyl-L-arginine	Arginine and proline metabolism; Metabolic pathways
+MTBLC17711	CHEBI:17711	nocardicin A	Monobactam biosynthesis; Biosynthesis of antibiotics; Cephalosporins - parenteral agents
+MTBLC17729	CHEBI:17729	(S)-norcoclaurine	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC17764	CHEBI:17764	2-C-methyl-D-erythritol 4-(dihydrogen phosphate)	Terpenoid backbone biosynthesis; Biosynthesis of plant secondary metabolites; Biosynthesis of terpenoids and steroids; Biosynthesis of plant hormones; Metabolic pathways; Biosynthesis of secondary metabolites; Biosynthesis of antibiotics
+MTBLC17768	CHEBI:17768	N-acetylputrescine	Arginine and proline metabolism; Metabolic pathways
+MTBLC17772	CHEBI:17772	(S)-tetrahydrocolumbamine	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Biosynthesis of secondary metabolites
+MTBLC17781	CHEBI:17781	lumichrome	Riboflavin metabolism
+MTBLC17784	CHEBI:17784	2-amino-2-deoxy-D-gluconic acid	Pentose phosphate pathway; Microbial metabolism in diverse environments; Phosphotransferase system (PTS)
+MTBLC17789	CHEBI:17789	dihydrochelirubine	Isoquinoline alkaloid biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC17791	CHEBI:17791	obtusifoliol	Steroid biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC17792	CHEBI:17792	organic halide	Glutathione metabolism
+MTBLC17847	CHEBI:17847	p-cresol	Toluene degradation; Nitrotoluene degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds; Protein digestion and absorption
+MTBLC17860	CHEBI:17860	6-phospho-2-dehydro-3-deoxy-D-galactonic acid	Galactose metabolism; Metabolic pathways
+MTBLC17876	CHEBI:17876	rifamycin B	Biosynthesis of ansamycins; Type I polyketide structures; Biosynthesis of antibiotics
+MTBLC17886	CHEBI:17886	D-tagaturonate	Pentose and glucuronate interconversions; Metabolic pathways
+MTBLC17892	CHEBI:17892	L-rhamnulose 1-phosphate	Fructose and mannose metabolism; Microbial metabolism in diverse environments
+MTBLC17922	CHEBI:17922	fluoren-9-one	Polycyclic aromatic hydrocarbon degradation; Metabolic pathways; Microbial metabolism in diverse environments
+MTBLC17936	CHEBI:17936	2-acyl-sn-glycero-3-phosphate	Glycerophospholipid metabolism
+MTBLC17939	CHEBI:17939	puromycin	Puromycin biosynthesis; Biosynthesis of antibiotics
+MTBLC17942	CHEBI:17942	D-allose 6-phosphate	Fructose and mannose metabolism; Microbial metabolism in diverse environments
+MTBLC17945	CHEBI:17945	N-cyclohexylformamide	Caprolactam degradation; Microbial metabolism in diverse environments
+MTBLC17957	CHEBI:17957	5-(2-hydroxyethyl)-4-methylthiazole	Thiamine metabolism; Metabolic pathways
+MTBLC18010	CHEBI:18010	3',4',5-trihydroxy-3,7-dimethoxyflavone	Flavone and flavonol biosynthesis
+MTBLC18023	CHEBI:18023	sirohydrochlorin	Porphyrin and chlorophyll metabolism; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC18027	CHEBI:18027	(-)-aristolochene	Sesquiterpenoid and triterpenoid biosynthesis; Biosynthesis of terpenoids and steroids; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC18029	CHEBI:18029	dihydromacarpine	Isoquinoline alkaloid biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC18049	CHEBI:18049	piperidine	Tropane, piperidine and pyridine alkaloid biosynthesis; Protein digestion and absorption
+MTBLC18057	CHEBI:18057	vellosimine	Indole alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC18062	CHEBI:18062	4-guanidinobutanamide	Arginine and proline metabolism
+MTBLC18065	CHEBI:18065	deacetylcephalosporin C	Penicillin and cephalosporin biosynthesis; Metabolic pathways; Biosynthesis of antibiotics
+MTBLC18067	CHEBI:18067	phylloquinone	Ubiquinone and other terpenoid-quinone biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites; Vitamin digestion and absorption
+MTBLC18081	CHEBI:18081	3-hexaprenyl-4,5-dihydroxybenzoic acid	Ubiquinone and other terpenoid-quinone biosynthesis; Biosynthesis of secondary metabolites
+MTBLC18098	CHEBI:18098	CMP-N-glycoloyl-beta-neuraminic acid	Amino sugar and nucleotide sugar metabolism
+MTBLC18106	CHEBI:18106	deacetylipecoside	Isoquinoline alkaloid biosynthesis
+MTBLC18124	CHEBI:18124	phosphonoacetaldehyde	Phosphonate and phosphinate metabolism; Metabolic pathways; Microbial metabolism in diverse environments; Biosynthesis of antibiotics
+MTBLC18128	CHEBI:18128	luteolin 7-O-beta-D-glucosiduronic acid	Flavone and flavonol biosynthesis
+MTBLC18136	CHEBI:18136	3-(2,3-dihydroxyphenyl)propanoic acid	Phenylalanine metabolism; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC18144	CHEBI:18144	all-trans-nonaprenyl diphosphate	Ubiquinone and other terpenoid-quinone biosynthesis; Terpenoid backbone biosynthesis; Biosynthesis of secondary metabolites
+MTBLC18146	CHEBI:18146	(R)-canadine	Isoquinoline alkaloid biosynthesis
+MTBLC18157	CHEBI:18157	aerobactin	Lysine degradation; Microbial metabolism in diverse environments
+MTBLC18162	CHEBI:18162	nonaprenyl 4-hydroxybenzoate	Ubiquinone and other terpenoid-quinone biosynthesis; Biosynthesis of secondary metabolites
+MTBLC18165	CHEBI:18165	isopenicillin N	Penicillin and cephalosporin biosynthesis; Metabolic pathways; Biosynthesis of antibiotics
+MTBLC18170	CHEBI:18170	selenic acid	Selenocompound metabolism
+MTBLC18171	CHEBI:18171	8-O-methylsterigmatocystin	Aflatoxin biosynthesis
+MTBLC18188	CHEBI:18188	(S)-3-aminoisobutyrate	Valine, leucine and isoleucine degradation
+MTBLC18195	CHEBI:18195	alpha,alpha'-trehalose 6,6'-bismycolate	Tuberculosis
+MTBLC18197	CHEBI:18197	di-trans,poly-cis-undecaprenyl diphosphate	Peptidoglycan biosynthesis; Terpenoid backbone biosynthesis; Biosynthesis of terpenoids and steroids; Biosynthesis of secondary metabolites
+MTBLC18199	CHEBI:18199	UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine	Lysine biosynthesis; Peptidoglycan biosynthesis
+MTBLC18203	CHEBI:18203	penicillin N	Penicillin and cephalosporin biosynthesis; Metabolic pathways; Biosynthesis of antibiotics
+MTBLC18206	CHEBI:18206	2-amino-5-oxocyclohex-1-enecarbonyl-CoA	Aminobenzoate degradation; Microbial metabolism in diverse environments
+MTBLC18215	CHEBI:18215	syringetin	Flavone and flavonol biosynthesis
+MTBLC18224	CHEBI:18224	isoeugenol	Phenylpropanoid biosynthesis
+MTBLC18227	CHEBI:18227	sterigmatocystin	Aflatoxin biosynthesis
+MTBLC18229	CHEBI:18229	deacetoxycephalosporin C	Penicillin and cephalosporin biosynthesis; Metabolic pathways; Biosynthesis of antibiotics
+MTBLC18232	CHEBI:18232	D-galactosamine 6-phosphate	Galactose metabolism; Phosphotransferase system (PTS)
+MTBLC18236	CHEBI:18236	6-demethylsterigmatocystin	Aflatoxin biosynthesis
+MTBLC18237	CHEBI:18237	glutamic acid	Cyanoamino acid metabolism
+MTBLC18249	CHEBI:18249	ergosta-5,7,22,24(28)-tetraen-3beta-ol	Steroid biosynthesis; Metabolic pathways; Biosynthesis of antibiotics
+MTBLC18267	CHEBI:18267	5-oxo-4,5-dihydro-2-furylacetic acid	Benzoate degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC18285	CHEBI:18285	(S)-stylopine	Isoquinoline alkaloid biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC18291	CHEBI:18291	manganese atom	Photosynthesis; Metabolic pathways; ABC transporters; Two-component system
+MTBLC18292	CHEBI:18292	jasmonic acid	alpha-Linolenic acid metabolism; Biosynthesis of plant secondary metabolites; Biosynthesis of plant hormones; Metabolic pathways; Biosynthesis of secondary metabolites; Plant hormone signal transduction
+MTBLC18299	CHEBI:18299	1-C-(indol-3-yl)glycerol 3-phosphate	Phenylalanine, tyrosine and tryptophan biosynthesis; Benzoxazinoid biosynthesis; Indole diterpene alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Metabolic pathways; Biosynthesis of secondary metabolites; Biosynthesis of antibiotics; Biosynthesis of amino acids
+MTBLC18316	CHEBI:18316	4-ethylamino-6-isopropylamino-1,3,5-triazin-2-ol	Atrazine degradation; Metabolic pathways; Microbial metabolism in diverse environments
+MTBLC18328	CHEBI:18328	13-hydroxylupanine	Tropane, piperidine and pyridine alkaloid biosynthesis
+MTBLC18330	CHEBI:18330	isovitexin	Flavone and flavonol biosynthesis
+MTBLC18333	CHEBI:18333	D-arabinitol	Pentose and glucuronate interconversions; Metabolic pathways
+MTBLC18346	CHEBI:18346	vanillin	Phenylalanine metabolism; Aminobenzoate degradation; Biosynthesis of phenylpropanoids; Biosynthesis of alkaloids derived from shikimate pathway; Metabolic pathways; Biosynthesis of secondary metabolites; Microbial metabolism in diverse environments
+MTBLC18353	CHEBI:18353	vanillyl alcohol	Aminobenzoate degradation; Microbial metabolism in diverse environments
+MTBLC18360	CHEBI:18360	13-(2-methylcrotonoyloxy)lupanine	Tropane, piperidine and pyridine alkaloid biosynthesis
+MTBLC18362	CHEBI:18362	17-O-deacetylvindoline	Indole alkaloid biosynthesis
+MTBLC18363	CHEBI:18363	reticulinylium	Isoquinoline alkaloid biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC18373	CHEBI:18373	(7S)-salutaridinol	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC18399	CHEBI:18399	codeinone	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC18400	CHEBI:18400	2-hydroxy-1,4-benzoquinone	Chlorocyclohexane and chlorobenzene degradation; Aminobenzoate degradation; Metabolic pathways; Microbial metabolism in diverse environments
+MTBLC18404	CHEBI:18404	3-methylcatechol	Xylene degradation; Toluene degradation; Naphthalene degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC18412	CHEBI:18412	N(omega)-phospho-L-arginine	Arginine and proline metabolism
+MTBLC18425	CHEBI:18425	2-C-methyl-D-erythritol 2,4-cyclic diphosphate	Terpenoid backbone biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites; Biosynthesis of antibiotics
+MTBLC18430	CHEBI:18430	3-hydroxy-16-methoxy-2,3-dihydrotabersonine	Indole alkaloid biosynthesis
+MTBLC18435	CHEBI:18435	(+)-7-isojasmonic acid	alpha-Linolenic acid metabolism; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC1848	CHEBI:1848	4-hydroxy-4-methylglutamate	C5-Branched dibasic acid metabolism
+MTBLC1879	CHEBI:1879	2-(4-hydroxyphenyl)ethanol	Tyrosine metabolism
+MTBLC1883	CHEBI:1883	4-hydroxystyrene	Phenylpropanoid biosynthesis
+MTBLC1893	CHEBI:1893	4-Methyl-L-glutamate	C5-Branched dibasic acid metabolism
+MTBLC1895	CHEBI:1895	4-methylbenzyl alcohol	Xylene degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC19143	CHEBI:19143	12-oxo-cis-dodec-9-enoic acid	alpha-Linolenic acid metabolism; Biosynthesis of secondary metabolites
+MTBLC19144	CHEBI:19144	12-oxo-trans-10-dodecenoic acid	alpha-Linolenic acid metabolism; Biosynthesis of secondary metabolites
+MTBLC19341	CHEBI:19341	2,4-diamino-6-hydroxylaminotoluene	Nitrotoluene degradation; Microbial metabolism in diverse environments
+MTBLC19342	CHEBI:19342	2,4-diamino-6-nitrotoluene	Nitrotoluene degradation; Microbial metabolism in diverse environments
+MTBLC19357	CHEBI:19357	2,4-dihydroxylamino-6-nitrotoluene	Nitrotoluene degradation; Microbial metabolism in diverse environments
+MTBLC19389	CHEBI:19389	2,6-diamino-4-nitrotoluene	Nitrotoluene degradation; Microbial metabolism in diverse environments
+MTBLC1941	CHEBI:1941	4-(trimethylammonio)butanoic acid	Lysine degradation; ABC transporters
+MTBLC19450	CHEBI:19450	2-amino-5-oxohexanoic acid	Lysine degradation
+MTBLC19452	CHEBI:19452	2-amino-4,6-dinitrotoluene	Nitrotoluene degradation; Microbial metabolism in diverse environments
+MTBLC1949	CHEBI:1949	4alpha-methylzymosterol	Steroid biosynthesis; Metabolic pathways; Biosynthesis of antibiotics
+MTBLC19644	CHEBI:19644	2-hydroxylamino-4,6-dinitrotoluene	Nitrotoluene degradation; Microbial metabolism in diverse environments
+MTBLC27865	CHEBI:27865	fucosterol	Biosynthesis of plant secondary metabolites
+MTBLC27881	CHEBI:27881	resveratrol	Stilbenoid, diarylheptanoid and gingerol biosynthesis; Biosynthesis of phenylpropanoids; Biosynthesis of secondary metabolites; Longevity regulating pathway - mammal; Longevity regulating pathway - worm
+MTBLC27882	CHEBI:27882	(S)-colchicine	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Biosynthesis of secondary metabolites
+MTBLC27891	CHEBI:27891	S-sulfo-L-cysteine	Cysteine and methionine metabolism; Biosynthesis of amino acids
+MTBLC27893	CHEBI:27893	4-fluorobenzoate	Fluorobenzoate degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC27902	CHEBI:27902	tetracycline	Tetracycline biosynthesis; Biosynthesis of type II polyketide products; Biosynthesis of antibiotics; Bile secretion
+MTBLC27920	CHEBI:27920	cuscohygrine	Tropane, piperidine and pyridine alkaloid biosynthesis; Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid; Biosynthesis of secondary metabolites
+MTBLC27930	CHEBI:27930	indan-2-one	Polycyclic aromatic hydrocarbon degradation; Microbial metabolism in diverse environments
+MTBLC27953	CHEBI:27953	physostigmine	Biosynthesis of alkaloids derived from shikimate pathway; Biosynthesis of secondary metabolites
+MTBLC27956	CHEBI:27956	L-dehydroascorbic acid	Ascorbate and aldarate metabolism; Glutathione metabolism; Metabolic pathways
+MTBLC27963	CHEBI:27963	(Kdo)2-lipid A	Lipopolysaccharide biosynthesis; Metabolic pathways; Cationic antimicrobial peptide (CAMP) resistance
+MTBLC27967	CHEBI:27967	11beta-hydroxyandrost-4-ene-3,17-dione	Steroid hormone biosynthesis
+MTBLC27969	CHEBI:27969	mesaconyl-CoA	Glyoxylate and dicarboxylate metabolism; C5-Branched dibasic acid metabolism; Carbon fixation pathways in prokaryotes; Microbial metabolism in diverse environments; Carbon metabolism
+MTBLC27975	CHEBI:27975	L-glyceraldehyde	Pentose and glucuronate interconversions; Metabolic pathways
+MTBLC27977	CHEBI:27977	erythronolide B	Biosynthesis of 12-, 14- and 16-membered macrolides; Biosynthesis of antibiotics
+MTBLC27986	CHEBI:27986	nitrosobenzene	Aminobenzoate degradation; Microbial metabolism in diverse environments
+MTBLC27994	CHEBI:27994	luteolin 7-O-beta-D-glucoside	Flavone and flavonol biosynthesis
+MTBLC28	CHEBI:28	(R)-linalool	Monoterpenoid biosynthesis; Biosynthesis of terpenoids and steroids; Biosynthesis of secondary metabolites; Biosynthesis of antibiotics
+MTBLC28001	CHEBI:28001	vancomycin	Biosynthesis of vancomycin group antibiotics; Biosynthesis of antibiotics; Vancomycin resistance; Two-component system
+MTBLC28005	CHEBI:28005	cyclohex-1-ene-1-carbonyl-CoA	Benzoate degradation; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC28006	CHEBI:28006	O,O-diethyl hydrogen thiophosphate	Aminobenzoate degradation
+MTBLC28012	CHEBI:28012	lupinine	Tropane, piperidine and pyridine alkaloid biosynthesis; Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid; Biosynthesis of secondary metabolites
+MTBLC28024	CHEBI:28024	cyanic acid	Nitrogen metabolism; ABC transporters
+MTBLC28029	CHEBI:28029	aldehydo-D-rhamnose	ABC transporters
+MTBLC28032	CHEBI:28032	4'-hydroxyacetophenone	Bisphenol degradation; Metabolic pathways; Microbial metabolism in diverse environments
+MTBLC28040	CHEBI:28040	gibberellin A29	Diterpenoid biosynthesis
+MTBLC28064	CHEBI:28064	cyanidin 3-O-rutinoside	Anthocyanin biosynthesis
+MTBLC28072	CHEBI:28072	guanosine 3'-monophosphate	Purine metabolism
+MTBLC28077	CHEBI:28077	rifampicin	Bile secretion
+MTBLC28089	CHEBI:28089	N-hydroxy-L-tyrosine	Cyanoamino acid metabolism; Biosynthesis of secondary metabolites
+MTBLC28092	CHEBI:28092	gamma-glutamyl-beta-aminopropiononitrile	Cyanoamino acid metabolism
+MTBLC28094	CHEBI:28094	2,2,2-trichloroethanol	Chloroalkane and chloroalkene degradation; Metabolism of xenobiotics by cytochrome P450; Microbial metabolism in diverse environments; Chemical carcinogenesis; Hypnotics
+MTBLC28098	CHEBI:28098	kanamycin B	Biosynthesis of antibiotics
+MTBLC28103	CHEBI:28103	pinobanksin	Flavonoid biosynthesis
+MTBLC28113	CHEBI:28113	24,25-dihydrolanosterol	Steroid biosynthesis
+MTBLC28116	CHEBI:28116	5-guanidino-2-oxopentanoic acid	Arginine and proline metabolism; D-Arginine and D-ornithine metabolism; Metabolic pathways
+MTBLC28121	CHEBI:28121	harmine	Biosynthesis of alkaloids derived from shikimate pathway
+MTBLC28137	CHEBI:28137	D-glycero-D-manno-heptose 1-phosphate	Lipopolysaccharide biosynthesis; Metabolic pathways
+MTBLC28138	CHEBI:28138	undecaprenyldiphospho-N-acetyl-(N-acetylglucosaminyl)muramoyl-L-alanyl-D-gamma-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine	Peptidoglycan biosynthesis
+MTBLC28142	CHEBI:28142	chloral hydrate	Metabolism of xenobiotics by cytochrome P450; Chemical carcinogenesis
+MTBLC28157	CHEBI:28157	pinocembrin	Flavonoid biosynthesis
+MTBLC28163	CHEBI:28163	iron(III) hydroxamate	ABC transporters
+MTBLC28169	CHEBI:28169	2-hydroxycyclohexane-1-carbonyl-CoA	Benzoate degradation; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC28172	CHEBI:28172	harmaline	Biosynthesis of alkaloids derived from shikimate pathway
+MTBLC28177	CHEBI:28177	theophylline	Caffeine metabolism; Biosynthesis of plant secondary metabolites; Biosynthesis of alkaloids derived from histidine and purine; Metabolic pathways; Biosynthesis of secondary metabolites; Microbial metabolism in diverse environments
+MTBLC28185	CHEBI:28185	kanamycin C	Biosynthesis of antibiotics
+MTBLC28193	CHEBI:28193	lupanine	Tropane, piperidine and pyridine alkaloid biosynthesis; Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid
+MTBLC28196	CHEBI:28196	erythromycin B	Biosynthesis of 12-, 14- and 16-membered macrolides; Biosynthesis of antibiotics
+MTBLC28199	CHEBI:28199	ferrienterobactin(3-)	ABC transporters; Two-component system
+MTBLC28200	CHEBI:28200	2-chloroethanol	Chloroalkane and chloroalkene degradation; Metabolic pathways; Microbial metabolism in diverse environments
+MTBLC28201	CHEBI:28201	rotenone	Isoflavonoid biosynthesis; Biosynthesis of phenylpropanoids; Biosynthesis of secondary metabolites; Parkinson's disease
+MTBLC28202	CHEBI:28202	[hydroxy(phenyl)methyl]succinyl-CoA	Toluene degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC28203	CHEBI:28203	N-acetyl-D-phenylalanine	Phenylalanine metabolism
+MTBLC28205	CHEBI:28205	phaseic acid	Carotenoid biosynthesis
+MTBLC28230	CHEBI:28230	hesperetin	Flavonoid biosynthesis
+MTBLC28239	CHEBI:28239	erythromycin E	Biosynthesis of 12-, 14- and 16-membered macrolides; Biosynthesis of antibiotics
+MTBLC28245	CHEBI:28245	(S)-2-amino-6-oxopimelic acid	Lysine biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites; Biosynthesis of amino acids
+MTBLC28247	CHEBI:28247	11beta-hydroxyprogesterone	Steroid hormone biosynthesis
+MTBLC28262	CHEBI:28262	dimethyl sulfoxide	Sulfur metabolism
+MTBLC28269	CHEBI:28269	6-oxo-prostaglandin E1	Arachidonic acid metabolism; Metabolic pathways
+MTBLC28292	CHEBI:28292	gentamycin C2	Biosynthesis of antibiotics
+MTBLC28297	CHEBI:28297	hydantoin-5-propionic acid	Histidine metabolism
+MTBLC28299	CHEBI:28299	quercetin 3-O-beta-D-glucofuranoside	Flavone and flavonol biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC28309	CHEBI:28309	xylobiose	ABC transporters
+MTBLC28310	CHEBI:28310	1D-3-O-methyl-myo-inositol	Inositol phosphate metabolism
+MTBLC28322	CHEBI:28322	(+)-coniine	Biosynthesis of plant secondary metabolites; Biosynthesis of alkaloids derived from terpenoid and polyketide
+MTBLC28323	CHEBI:28323	3,4-dihydroxycinnamaldehyde	Phenylpropanoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC28327	CHEBI:28327	naringenin 7-O-beta-D-glucoside	Flavonoid biosynthesis
+MTBLC28330	CHEBI:28330	4-hydroxy-L-threonine	Vitamin B6 metabolism
+MTBLC28331	CHEBI:28331	erythromycin D	Biosynthesis of 12-, 14- and 16-membered macrolides; Biosynthesis of antibiotics
+MTBLC28334	CHEBI:28334	malonamoyl-CoA	Tetracycline biosynthesis; Biosynthesis of type II polyketide backbone; Biosynthesis of antibiotics
+MTBLC28339	CHEBI:28339	lactose 6'-phosphate	Galactose metabolism; Metabolic pathways; Phosphotransferase system (PTS)
+MTBLC28340	CHEBI:28340	L-2-aminobutyrate	Cysteine and methionine metabolism; Metabolic pathways
+MTBLC28343	CHEBI:28343	3-O-alpha-mycarosylerythronolide B	Biosynthesis of 12-, 14- and 16-membered macrolides; Biosynthesis of antibiotics
+MTBLC28346	CHEBI:28346	mescaline	Biosynthesis of alkaloids derived from shikimate pathway
+MTBLC28353	CHEBI:28353	4-hydroxycinnamaldehyde	Phenylpropanoid biosynthesis; Biosynthesis of phenylpropanoids; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC28368	CHEBI:28368	novobiocin	Novobiocin biosynthesis; Biosynthesis of antibiotics
+MTBLC28374	CHEBI:28374	solanidine	Biosynthesis of alkaloids derived from terpenoid and polyketide
+MTBLC28376	CHEBI:28376	6-acetamido-2-oxohexanoic acid	Lysine degradation
+MTBLC28386	CHEBI:28386	4-hydroxycinnamyl alcohol	Phenylpropanoid biosynthesis; Biosynthesis of phenylpropanoids; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC28391	CHEBI:28391	S(8)-glutaryldihydrolipoamide	Lysine degradation; Metabolic pathways; Biosynthesis of antibiotics
+MTBLC28396	CHEBI:28396	3-[alpha-D-galactosyl-(1->6)-beta-D-galactosyl]-1,2-diacyl-sn-glycerol	Glycerolipid metabolism; Metabolic pathways
+MTBLC28410	CHEBI:28410	2,2-bis(4-chlorophenyl)ethanol	DDT degradation; Microbial metabolism in diverse environments
+MTBLC28411	CHEBI:28411	allicin	Inflammatory mediator regulation of TRP channels
+MTBLC28418	CHEBI:28418	gentamycin A	Biosynthesis of antibiotics
+MTBLC28429	CHEBI:28429	(+)-dihydromyricetin	Flavonoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC28443	CHEBI:28443	cyclohexa-1,4-diene-1-carbonyl-CoA	Benzoate degradation; Microbial metabolism in diverse environments
+MTBLC28445	CHEBI:28445	vincristine	Indole alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC28456	CHEBI:28456	L-threo-3-methylmalic acid	C5-Branched dibasic acid metabolism
+MTBLC28462	CHEBI:28462	ajmaline	Indole alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC28476	CHEBI:28476	m-tolualdehyde	Xylene degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC28484	CHEBI:28484	isovaleric acid	Biosynthesis of alkaloids derived from histidine and purine; Biosynthesis of secondary metabolites; Protein digestion and absorption
+MTBLC28508	CHEBI:28508	2,5-dihydroxybenzaldehyde	Tyrosine metabolism; Metabolic pathways; Microbial metabolism in diverse environments
+MTBLC28516	CHEBI:28516	1,2-dihydronaphthalene-1,2-diol	Metabolism of xenobiotics by cytochrome P450
+MTBLC28517	CHEBI:28517	biphenyl-2,2',3-triol	Dioxin degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC28522	CHEBI:28522	4-hydroxybutyryl-CoA	Butanoate metabolism; Carbon fixation pathways in prokaryotes; Metabolic pathways; Microbial metabolism in diverse environments; Carbon metabolism
+MTBLC28526	CHEBI:28526	(KDO)2-lipid IVA	Lipopolysaccharide biosynthesis; Metabolic pathways
+MTBLC28527	CHEBI:28527	rutin	Flavone and flavonol biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC28531	CHEBI:28531	cob(I)yrinic acid a,c diamide	Porphyrin and chlorophyll metabolism; Metabolic pathways
+MTBLC28534	CHEBI:28534	1,2-dibromoethane	Metabolism of xenobiotics by cytochrome P450
+MTBLC28557	CHEBI:28557	cyclohexane-1-carbonyl-CoA	Benzoate degradation; Microbial metabolism in diverse environments
+MTBLC28578	CHEBI:28578	2-hydroxyglutaryl-CoA	Butanoate metabolism
+MTBLC28579	CHEBI:28579	epsilon-caprolactam	Caprolactam degradation; Metabolic pathways; Microbial metabolism in diverse environments
+MTBLC28580	CHEBI:28580	3-mercaptolactic acid	Cysteine and methionine metabolism
+MTBLC28582	CHEBI:28582	cupreine	Sulfonamide derivatives - sulfa drugs
+MTBLC28594	CHEBI:28594	(S)-nororientaline	Isoquinoline alkaloid biosynthesis
+MTBLC28595	CHEBI:28595	4-hydroxyphenylacetylglycine	Tyrosine metabolism
+MTBLC28599	CHEBI:28599	siroheme	Porphyrin and chlorophyll metabolism; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC28600	CHEBI:28600	farnesol	Insect hormone biosynthesis
+MTBLC28611	CHEBI:28611	(S)-norreticuline	Isoquinoline alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC28617	CHEBI:28617	p-tolualdehyde	Xylene degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC28651	CHEBI:28651	(S)-norlaudanosoline	Isoquinoline alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC28658	CHEBI:28658	(R)-norreticuline	Isoquinoline alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC28663	CHEBI:28663	galactitol 1-phosphate	Galactose metabolism; Metabolic pathways; Phosphotransferase system (PTS)
+MTBLC28673	CHEBI:28673	3-oxopropanoyl-CoA	Propanoate metabolism; Metabolic pathways
+MTBLC28681	CHEBI:28681	N,N'-diacetylchitobiose	Amino sugar and nucleotide sugar metabolism; Metabolic pathways; ABC transporters
+MTBLC28700	CHEBI:28700	20-hydroxy-leukotriene E4	Arachidonic acid metabolism
+MTBLC28711	CHEBI:28711	2-hexaprenyl-6-methoxy-3-methyl-1,4-benzoquinone	Ubiquinone and other terpenoid-quinone biosynthesis; Biosynthesis of secondary metabolites
+MTBLC28723	CHEBI:28723	D-glycero-D-manno-heptose 7-phosphate	Lipopolysaccharide biosynthesis; Metabolic pathways
+MTBLC28736	CHEBI:28736	formyl-5-hydroxykynurenamine	Tryptophan metabolism
+MTBLC28748	CHEBI:28748	doxorubicin	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC28751	CHEBI:28751	biochanin A 7-O-beta-D-glucoside	Isoflavonoid biosynthesis
+MTBLC28752	CHEBI:28752	3,4-dihydroxyfluorene	Polycyclic aromatic hydrocarbon degradation; Microbial metabolism in diverse environments
+MTBLC28753	CHEBI:28753	2-hexaprenyl-5-hydroxy-6-methoxy-3-methyl-1,4-benzoquinone	Ubiquinone and other terpenoid-quinone biosynthesis; Biosynthesis of secondary metabolites
+MTBLC28773	CHEBI:28773	4-hydroxyphenylacetyl-CoA	Tyrosine metabolism
+MTBLC28792	CHEBI:28792	erucic acid	Biosynthesis of unsaturated fatty acids
+MTBLC2880	CHEBI:2880	asperlicin	Benzodiazepine family
+MTBLC2881	CHEBI:2881	asperuloside	Monoterpenoid biosynthesis
+MTBLC28813	CHEBI:28813	sinapyl alcohol	Phenylpropanoid biosynthesis; Biosynthesis of phenylpropanoids; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC28814	CHEBI:28814	piceatannol	Stilbenoid, diarylheptanoid and gingerol biosynthesis; Biosynthesis of secondary metabolites
+MTBLC28818	CHEBI:28818	(24R)-24,25-dihydroxycalciol	Steroid biosynthesis; Metabolic pathways
+MTBLC28819	CHEBI:28819	naringin	Flavonoid biosynthesis
+MTBLC28821	CHEBI:28821	piperine	Tropane, piperidine and pyridine alkaloid biosynthesis; Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid
+MTBLC28827	CHEBI:28827	sparteine	Tropane, piperidine and pyridine alkaloid biosynthesis; Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid; Biosynthesis of secondary metabolites
+MTBLC28832	CHEBI:28832	androsterone 3-glucosiduronic acid	Steroid hormone biosynthesis
+MTBLC28835	CHEBI:28835	testosterone 17-glucosiduronic acid	Steroid hormone biosynthesis
+MTBLC28851	CHEBI:28851	phenanthrene	Polycyclic aromatic hydrocarbon degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC28855	CHEBI:28855	enterobactin	Biosynthesis of siderophore group nonribosomal peptides; Biosynthesis of phenylpropanoids; Biosynthesis of secondary metabolites; Biosynthesis of antibiotics
+MTBLC28857	CHEBI:28857	(Z)-hex-3-en-1-ol	alpha-Linolenic acid metabolism; Biosynthesis of secondary metabolites
+MTBLC28861	CHEBI:28861	gibberellin A8	Diterpenoid biosynthesis
+MTBLC28864	CHEBI:28864	tobramycin	Biosynthesis of antibiotics
+MTBLC28870	CHEBI:28870	1-O-all-trans-retinoyl-beta-glucuronic acid	Retinol metabolism
+MTBLC28873	CHEBI:28873	cis-2-coumaric acid	Phenylpropanoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC28882	CHEBI:28882	2-benzoylsuccinyl-CoA	Toluene degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC28888	CHEBI:28888	trichloroepoxyethane	Chloroalkane and chloroalkene degradation; Metabolism of xenobiotics by cytochrome P450; Microbial metabolism in diverse environments; Chemical carcinogenesis
+MTBLC28915	CHEBI:28915	fosfomycin	Phosphonate and phosphinate metabolism; Biosynthesis of antibiotics
+MTBLC28941	CHEBI:28941	behenic acid	Cutin, suberine and wax biosynthesis; Biosynthesis of unsaturated fatty acids
+MTBLC28943	CHEBI:28943	N-acylsphingosine 1-phosphoethanolamine	Sphingolipid metabolism
+MTBLC28946	CHEBI:28946	theobromine	Caffeine metabolism; Biosynthesis of plant secondary metabolites; Biosynthesis of alkaloids derived from histidine and purine; Metabolic pathways; Biosynthesis of secondary metabolites; Microbial metabolism in diverse environments
+MTBLC28947	CHEBI:28947	(5-oxo-2-sulfo-2,5-dihydrofuran-2-yl)acetic acid	Aminobenzoate degradation; Microbial metabolism in diverse environments
+MTBLC28952	CHEBI:28952	5alpha-pregnane-3,20-dione	Steroid hormone biosynthesis
+MTBLC28956	CHEBI:28956	cobinamide	Porphyrin and chlorophyll metabolism
+MTBLC28959	CHEBI:28959	1,1-dichloro-2-(4-chloro-2,3-dihydroxyphenyl)-2-(4-chlorophenyl)ethylene	DDT degradation; Microbial metabolism in diverse environments
+MTBLC28960	CHEBI:28960	trans-3-chloroprop-2-en-1-ol	Chloroalkane and chloroalkene degradation; Metabolic pathways; Microbial metabolism in diverse environments
+MTBLC28967	CHEBI:28967	cis-3-chloroprop-2-en-1-ol	Chloroalkane and chloroalkene degradation; Metabolic pathways; Microbial metabolism in diverse environments
+MTBLC28981	CHEBI:28981	gentianine	Biosynthesis of alkaloids derived from terpenoid and polyketide
+MTBLC28986	CHEBI:28986	anabasine	Tropane, piperidine and pyridine alkaloid biosynthesis; Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid; Biosynthesis of secondary metabolites
+MTBLC28987	CHEBI:28987	abietic acid	Diterpenoid biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC28996	CHEBI:28996	pinocarvone	Limonene and pinene degradation
+MTBLC29000	CHEBI:29000	(2E,4E)-3,8,8,8-tetrachloro-7-(4-chlorophenyl)-2-hydroxy-6-oxo-octa-2,4-dienoate	DDT degradation; Microbial metabolism in diverse environments
+MTBLC29004	CHEBI:29004	(3R)-3-isopropenyl-6-oxoheptanoyl-CoA	Limonene and pinene degradation; Degradation of aromatic compounds
+MTBLC29010	CHEBI:29010	2'-aminobiphenyl-2,3-diol	Dioxin degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC29020	CHEBI:29020	neral	Geraniol degradation; Biosynthesis of terpenoids and steroids; Biosynthesis of secondary metabolites
+MTBLC29026	CHEBI:29026	urobilinogen	Porphyrin and chlorophyll metabolism
+MTBLC29045	CHEBI:29045	maleamic acid	Nicotinate and nicotinamide metabolism; Microbial metabolism in diverse environments
+MTBLC29060	CHEBI:29060	alpha-pinene oxide	Limonene and pinene degradation
+MTBLC29069	CHEBI:29069	phthalic acid	Polycyclic aromatic hydrocarbon degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds; ABC transporters
+MTBLC2909	CHEBI:2909	atisine	Biosynthesis of alkaloids derived from terpenoid and polyketide
+MTBLC29091	CHEBI:29091	nocardicin E	Monobactam biosynthesis; Biosynthesis of antibiotics
+MTBLC29107	CHEBI:29107	24-methylidenelophenol	Steroid biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC29123	CHEBI:29123	2-acetamido-5-oxopentanoate	Arginine biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites; Biosynthesis of antibiotics; 2-Oxocarboxylic acid metabolism; Biosynthesis of amino acids
+MTBLC2942	CHEBI:2942	azadirachtin A	Biosynthesis of terpenoids and steroids
+MTBLC29452	CHEBI:29452	nerol	Geraniol degradation; Biosynthesis of terpenoids and steroids
+MTBLC29457	CHEBI:29457	(5Z,7E,9E,14Z,17Z)-icosapentaenoic acid	Inflammatory mediator regulation of TRP channels
+MTBLC29461	CHEBI:29461	10-deoxymethynolide	Biosynthesis of 12-, 14- and 16-membered macrolides; Biosynthesis of antibiotics
+MTBLC29467	CHEBI:29467	2,3-didehydro-gibberellin A9	Diterpenoid biosynthesis
+MTBLC29473	CHEBI:29473	2-hydroxy-4-isopropenylcyclohexane-1-carbonyl-CoA	Limonene and pinene degradation; Degradation of aromatic compounds
+MTBLC29474	CHEBI:29474	(S)-3,5-dihydroxyphenylglycine	Biosynthesis of vancomycin group antibiotics; Biosynthesis of antibiotics
+MTBLC29489	CHEBI:29489	4-isopropenyl-2-oxocyclohexane-1-carbonyl-CoA	Limonene and pinene degradation; Degradation of aromatic compounds
+MTBLC29491	CHEBI:29491	5-O-beta-D-mycaminosyltylactone	Biosynthesis of 12-, 14- and 16-membered macrolides; Biosynthesis of antibiotics
+MTBLC29514	CHEBI:29514	5-amino-5-deoxy-3-dehydroshikimic acid	Biosynthesis of ansamycins; Biosynthesis of antibiotics
+MTBLC29515	CHEBI:29515	ansamitocin P3	Biosynthesis of ansamycins; Type I polyketide structures; Biosynthesis of antibiotics
+MTBLC29534	CHEBI:29534	avermectin B1a	Biosynthesis of 12-, 14- and 16-membered macrolides; Biosynthesis of antibiotics
+MTBLC29537	CHEBI:29537	avermectin B1b	Biosynthesis of 12-, 14- and 16-membered macrolides; Biosynthesis of antibiotics
+MTBLC29556	CHEBI:29556	chloroeremomycin	Biosynthesis of vancomycin group antibiotics; Biosynthesis of antibiotics
+MTBLC29560	CHEBI:29560	cyanidin 3-O-(6-O-(E)-4-coumaroyl-beta-D-glucoside)	Anthocyanin biosynthesis
+MTBLC29572	CHEBI:29572	demethyllactenocin	Biosynthesis of 12-, 14- and 16-membered macrolides; Biosynthesis of antibiotics
+MTBLC29582	CHEBI:29582	ascomycin	Type I polyketide structures
+MTBLC29598	CHEBI:29598	gibberellin A5	Diterpenoid biosynthesis
+MTBLC29600	CHEBI:29600	gibberellin A51-catabolite	Diterpenoid biosynthesis
+MTBLC29604	CHEBI:29604	gibberellin A8-catabolite	Diterpenoid biosynthesis
+MTBLC29608	CHEBI:29608	isoformononetin	Isoflavonoid biosynthesis; Biosynthesis of phenylpropanoids
+MTBLC29613	CHEBI:29613	3-O-(alpha-L-oleandrosyl)oleandolide	Biosynthesis of 12-, 14- and 16-membered macrolides; Biosynthesis of antibiotics
+MTBLC29614	CHEBI:29614	3-O-(alpha-L-olivosyl)oleandolide	Biosynthesis of 12-, 14- and 16-membered macrolides; Biosynthesis of antibiotics
+MTBLC29630	CHEBI:29630	methymycin	Biosynthesis of 12-, 14- and 16-membered macrolides; Type I polyketide structures; Biosynthesis of antibiotics
+MTBLC29649	CHEBI:29649	narbomycin	Biosynthesis of 12-, 14- and 16-membered macrolides; Biosynthesis of antibiotics
+MTBLC29650	CHEBI:29650	narbonolide	Biosynthesis of 12-, 14- and 16-membered macrolides; Biosynthesis of antibiotics
+MTBLC29656	CHEBI:29656	neomethymycin	Biosynthesis of 12-, 14- and 16-membered macrolides; Biosynthesis of antibiotics
+MTBLC29658	CHEBI:29658	oleandolide	Biosynthesis of 12-, 14- and 16-membered macrolides; Biosynthesis of antibiotics
+MTBLC29665	CHEBI:29665	pikromycin	Biosynthesis of 12-, 14- and 16-membered macrolides; Type I polyketide structures; Biosynthesis of antibiotics
+MTBLC29669	CHEBI:29669	pyochelin	Biosynthesis of siderophore group nonribosomal peptides; Biosynthesis of secondary metabolites; Biosynthesis of antibiotics
+MTBLC29673	CHEBI:29673	rifamycin SV	Biosynthesis of ansamycins; Biosynthesis of antibiotics
+MTBLC34230	CHEBI:34230	2,3-dinor-8-epi-prostaglandin F2alpha	Arachidonic acid metabolism
+MTBLC34237	CHEBI:34237	2,4-diaminotoluene	Nitrotoluene degradation; Microbial metabolism in diverse environments
+MTBLC3424	CHEBI:3424	carnitinium	Lysine degradation; ABC transporters
+MTBLC34300	CHEBI:34300	2-naphthoyl-CoA	Naphthalene degradation; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC34311	CHEBI:34311	27-O-demethylrifamycin SV	Biosynthesis of ansamycins; Biosynthesis of antibiotics
+MTBLC34484	CHEBI:34484	8(R)-HETE	Arachidonic acid metabolism
+MTBLC34485	CHEBI:34485	8(R)-HPODE	Linoleic acid metabolism
+MTBLC34486	CHEBI:34486	8(S)-HETE	Arachidonic acid metabolism; Metabolic pathways; PPAR signaling pathway
+MTBLC34487	CHEBI:34487	8(S)-HPETE	Arachidonic acid metabolism; Metabolic pathways; Serotonergic synapse
+MTBLC34495	CHEBI:34495	9(S)-HETE	Arachidonic acid metabolism
+MTBLC34497	CHEBI:34497	9(S)-HPETE	Arachidonic acid metabolism; Serotonergic synapse
+MTBLC34498	CHEBI:34498	9(S)-HPODE	Linoleic acid metabolism; Metabolic pathways
+MTBLC34499	CHEBI:34499	9,10,13-TriHOME	Linoleic acid metabolism
+MTBLC34500	CHEBI:34500	9,10-12,13-Diepoxyoctadecanoate	Linoleic acid metabolism
+MTBLC34503	CHEBI:34503	9,10-Dihydroxy-12,13-epoxyoctadecanoate	Linoleic acid metabolism
+MTBLC34506	CHEBI:34506	pinellic acid	Linoleic acid metabolism
+MTBLC3469	CHEBI:3469	Catharanthine	Indole alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC3472	CHEBI:3472	Cathenamine	Indole alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC34768	CHEBI:34768	furfural	Furfural degradation; Microbial metabolism in diverse environments
+MTBLC34778	CHEBI:34778	glycitein	Isoflavonoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC34848	CHEBI:34848	mevastatin	HMG-CoA reductase inhibitors
+MTBLC35291	CHEBI:35291	all-trans-retinoate	Retinol metabolism; Metabolic pathways; Intestinal immune network for IgA production; Pathways in cancer; Small cell lung cancer; Non-small cell lung cancer
+MTBLC3530	CHEBI:3530	Celosianin II	Betalain biosynthesis
+MTBLC35305	CHEBI:35305	9-cis-violaxanthin	Carotenoid biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC35328	CHEBI:35328	spirilloxanthin	Carotenoid biosynthesis; Metabolic pathways
+MTBLC35331	CHEBI:35331	rhodopin	Carotenoid biosynthesis; Metabolic pathways
+MTBLC3537	CHEBI:3537	cefaloridine	Bile secretion
+MTBLC35596	CHEBI:35596	(+)-pulegone	Monoterpenoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC35616	CHEBI:35616	trans-anethole	Phenylpropanoid biosynthesis
+MTBLC35672	CHEBI:35672	(4R)-limonene 1,2-epoxide	Limonene and pinene degradation
+MTBLC35862	CHEBI:35862	bacitracin A	Nonribosomal peptide structures
+MTBLC35940	CHEBI:35940	protirelin	Neuroactive ligand-receptor interaction
+MTBLC36011	CHEBI:36011	pinosylvin	Stilbenoid, diarylheptanoid and gingerol biosynthesis; Biosynthesis of secondary metabolites
+MTBLC36028	CHEBI:36028	4,4'-dihydroxy-alpha-methylstilbene	Bisphenol degradation; Metabolic pathways; Microbial metabolism in diverse environments
+MTBLC36106	CHEBI:36106	2-naphthoic acid	Naphthalene degradation; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC36108	CHEBI:36108	1-hydroxy-2-naphthoic acid	Polycyclic aromatic hydrocarbon degradation; Naphthalene degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC36163	CHEBI:36163	ferroheme a	Porphyrin and chlorophyll metabolism; Biosynthesis of secondary metabolites
+MTBLC36203	CHEBI:36203	trioxilin A3	Arachidonic acid metabolism
+MTBLC36241	CHEBI:36241	3,4-dihydroxybenzoate	Benzoate degradation; Phenylalanine, tyrosine and tryptophan biosynthesis; Toluene degradation; Polycyclic aromatic hydrocarbon degradation; Aminobenzoate degradation; Biosynthesis of phenylpropanoids; Metabolic pathways; Biosynthesis of secondary metabolites; Microbial metabolism in diverse environments; Biosynthesis of antibiotics; Degradation of aromatic compounds
+MTBLC36386	CHEBI:36386	dichloroacetic acid	Chloroalkane and chloroalkene degradation; Metabolism of xenobiotics by cytochrome P450; Microbial metabolism in diverse environments; Chemical carcinogenesis
+MTBLC36407	CHEBI:36407	5-hydroxy-N-formyl-L-kynurenine	Tryptophan metabolism
+MTBLC36408	CHEBI:36408	5-hydroxy-L-kynurenine	Tryptophan metabolism
+MTBLC36466	CHEBI:36466	1-naphthoic acid	Naphthalene degradation; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC36484	CHEBI:36484	hopan-22-ol	Sesquiterpenoid and triterpenoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC36491	CHEBI:36491	2-methoxy-17beta-estradiol 3-glucosiduronic acid	Steroid hormone biosynthesis
+MTBLC36492	CHEBI:36492	(+)-isomenthone	Monoterpenoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC36557	CHEBI:36557	N-methylanthranilate	Acridone alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Biosynthesis of secondary metabolites
+MTBLC36575	CHEBI:36575	N-formylanthranilic acid	Tryptophan metabolism
+MTBLC36632	CHEBI:36632	o-toluic acid	Xylene degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC36659	CHEBI:36659	3-(4-hydroxyphenyl)lactate	Ubiquinone and other terpenoid-quinone biosynthesis; Tyrosine metabolism; Biosynthesis of secondary metabolites
+MTBLC36740	CHEBI:36740	alpha-pinene	Limonene and pinene degradation; Biosynthesis of secondary metabolites
+MTBLC368	CHEBI:368	(S)-(-)-citronellal	Geraniol degradation
+MTBLC36882	CHEBI:36882	(3S)-citramalyl-CoA	C5-Branched dibasic acid metabolism; Carbon fixation pathways in prokaryotes; Metabolic pathways; Microbial metabolism in diverse environments; Carbon metabolism
+MTBLC36926	CHEBI:36926	but-2-enoyl-CoA	Fatty acid degradation; Lysine degradation; Benzoate degradation; Tryptophan metabolism; Aminobenzoate degradation; Glyoxylate and dicarboxylate metabolism; Butanoate metabolism; Carbon fixation pathways in prokaryotes; Metabolic pathways; Microbial metabolism in diverse environments; Biosynthesis of antibiotics; Carbon metabolism; Fatty acid metabolism
+MTBLC36999	CHEBI:36999	perillic acid	Limonene and pinene degradation
+MTBLC37002	CHEBI:37002	perillyl-coenzyme A	Limonene and pinene degradation; Degradation of aromatic compounds
+MTBLC37023	CHEBI:37023	L-2-aminoadipic acid	Lysine biosynthesis; Lysine degradation; Penicillin and cephalosporin biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites; Biosynthesis of antibiotics; 2-Oxocarboxylic acid metabolism; Biosynthesis of amino acids
+MTBLC3703	CHEBI:3703	cinchonidine	Biosynthesis of alkaloids derived from shikimate pathway
+MTBLC37070	CHEBI:37070	2-methylbutyric acid	Protein digestion and absorption
+MTBLC37425	CHEBI:37425	L-galactonic acid	Pentose and glucuronate interconversions; Ascorbate and aldarate metabolism; Metabolic pathways
+MTBLC37439	CHEBI:37439	3-isopropenylpimeloyl-CoA	Limonene and pinene degradation; Degradation of aromatic compounds
+MTBLC37450	CHEBI:37450	2-methoxyestrone 3-glucosiduronic acid	Steroid hormone biosynthesis
+MTBLC37451	CHEBI:37451	3alpha-hydroxy-5beta-androstan-17-one 3-glucosiduronic acid	Steroid hormone biosynthesis
+MTBLC37525	CHEBI:37525	O-phospho-L-threonine	Porphyrin and chlorophyll metabolism
+MTBLC37548	CHEBI:37548	phenyl phosphate	Aminobenzoate degradation; Microbial metabolism in diverse environments
+MTBLC37923	CHEBI:37923	astromicin	Biosynthesis of antibiotics
+MTBLC37943	CHEBI:37943	colistin	ABC transporters; Two-component system
+MTBLC38137	CHEBI:38137	(1-naphthyl)methanol	Naphthalene degradation; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC38266	CHEBI:38266	O-beta-D-glucosyl-trans-zeatin	Zeatin biosynthesis; Biosynthesis of secondary metabolites
+MTBLC3830	CHEBI:3830	camphene	Monoterpenoid biosynthesis; Biosynthesis of terpenoids and steroids; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC48400	CHEBI:48400	3-(3,4-dihydroxyphenyl)propanoic acid	Tyrosine metabolism
+MTBLC48427	CHEBI:48427	N-formimidoyl-L-aspartic acid	Histidine metabolism
+MTBLC48649	CHEBI:48649	L-sorbopyranose	Fructose and mannose metabolism
+MTBLC48701	CHEBI:48701	7alpha,24-dihydroxycholest-4-en-3-one	Primary bile acid biosynthesis
+MTBLC48723	CHEBI:48723	(-)-lobeline	Tropane, piperidine and pyridine alkaloid biosynthesis; Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid; Biosynthesis of secondary metabolites
+MTBLC48814	CHEBI:48814	trichloroacetaldehyde	Chloroalkane and chloroalkene degradation; Metabolism of xenobiotics by cytochrome P450; Microbial metabolism in diverse environments; Chemical carcinogenesis
+MTBLC48947	CHEBI:48947	clavulanic acid	Clavulanic acid biosynthesis; Biosynthesis of antibiotics; Penicillins
+MTBLC48957	CHEBI:48957	N(2)-succinyl-L-glutamic acid	Arginine and proline metabolism; Metabolic pathways
+MTBLC48991	CHEBI:48991	7-methylxanthine	Caffeine metabolism; Metabolic pathways; Biosynthesis of secondary metabolites; Microbial metabolism in diverse environments
+MTBLC49000	CHEBI:49000	2-phenylethanol	Phenylalanine metabolism
+MTBLC490095	CHEBI:490095	esculetin	Biosynthesis of phenylpropanoids
+MTBLC49014	CHEBI:49014	(S)-1-piperideine-6-carboxylic acid	Lysine degradation; Tropane, piperidine and pyridine alkaloid biosynthesis; Biosynthesis of plant secondary metabolites; Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC4911	CHEBI:4911	etoposide	Bile secretion
+MTBLC4917	CHEBI:4917	eugenol	Phenylpropanoid biosynthesis
+MTBLC4918	CHEBI:4918	O-methyleugenol	Phenylpropanoid biosynthesis
+MTBLC49260	CHEBI:49260	4-(L-gamma-glutamylamino)butanoic acid	Arginine and proline metabolism; Metabolic pathways
+MTBLC49584	CHEBI:49584	4-ethylphenol	Bisphenol degradation; Microbial metabolism in diverse environments
+MTBLC4991	CHEBI:4991	iron(III)  dicitrate	ABC transporters
+MTBLC50158	CHEBI:50158	chavicol	Phenylpropanoid biosynthesis
+MTBLC50169	CHEBI:50169	3alpha-hydroxy-5alpha-pregnan-20-one	Steroid hormone biosynthesis
+MTBLC5019	CHEBI:5019	ferrichrome	ABC transporters
+MTBLC50232	CHEBI:50232	(+)-neoisodihydrocarveol	Limonene and pinene degradation
+MTBLC50233	CHEBI:50233	(+)-isodihydrocarveol	Limonene and pinene degradation
+MTBLC50235	CHEBI:50235	(+)-dihydrocarveol	Limonene and pinene degradation
+MTBLC50271	CHEBI:50271	(1R,2S,5S,6S)-2-(3-carboxypropanoyl)-5-[(1-carboxyvinyl)oxy]-6-hydroxycyclohex-3-ene-1-carboxylic acid	Ubiquinone and other terpenoid-quinone biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC50305	CHEBI:50305	podophyllotoxin	Biosynthesis of phenylpropanoids; Biosynthesis of secondary metabolites
+MTBLC50371	CHEBI:50371	(R)-rosmarinic acid	Tyrosine metabolism
+MTBLC50385	CHEBI:50385	hemin	ABC transporters
+MTBLC50436	CHEBI:50436	10beta-hydroxytaxa-4(20),11-dien-5alpha-yl acetate	Diterpenoid biosynthesis
+MTBLC50450	CHEBI:50450	1-naphthylamine	Metabolism of xenobiotics by cytochrome P450
+MTBLC50519	CHEBI:50519	sulfoacetic acid	Taurine and hypotaurine metabolism
+MTBLC50545	CHEBI:50545	trans-isoeugenol	Phenylpropanoid biosynthesis
+MTBLC50586	CHEBI:50586	9xi-episterol	Steroid biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites; Biosynthesis of antibiotics
+MTBLC50591	CHEBI:50591	4beta-methylzymosterol-4alpha-carboxylic acid	Steroid biosynthesis; Metabolic pathways; Biosynthesis of antibiotics
+MTBLC50602	CHEBI:50602	precorrin-2	Porphyrin and chlorophyll metabolism; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC50605	CHEBI:50605	2-hydroxy-5-(methylsulfanyl)-3-oxopent-1-enyl phosphate	Cysteine and methionine metabolism; Metabolic pathways
+MTBLC50651	CHEBI:50651	myristoyl-[acyl-carrier protein]	Fatty acid biosynthesis; Lipopolysaccharide biosynthesis; Metabolic pathways; Fatty acid metabolism
+MTBLC5070	CHEBI:5070	flavanone	Biosynthesis of plant secondary metabolites
+MTBLC50710	CHEBI:50710	dihomomethionine	Glucosinolate biosynthesis; 2-Oxocarboxylic acid metabolism
+MTBLC50711	CHEBI:50711	trihomomethionine	Glucosinolate biosynthesis; 2-Oxocarboxylic acid metabolism
+MTBLC50712	CHEBI:50712	tetrahomomethionine	Glucosinolate biosynthesis; 2-Oxocarboxylic acid metabolism
+MTBLC50713	CHEBI:50713	pentahomomethionine	Glucosinolate biosynthesis; 2-Oxocarboxylic acid metabolism
+MTBLC50714	CHEBI:50714	hexahomomethionine	Glucosinolate biosynthesis; 2-Oxocarboxylic acid metabolism
+MTBLC50717	CHEBI:50717	1-methylnaphthalene	Naphthalene degradation; Microbial metabolism in diverse environments; Degradation of aromatic compounds; Naphthalene family
+MTBLC507499	CHEBI:507499	tricetin	Flavonoid biosynthesis
+MTBLC51460	CHEBI:51460	albaflavenone	Sesquiterpenoid and triterpenoid biosynthesis; Biosynthesis of antibiotics
+MTBLC5202	CHEBI:5202	fustin	Flavonoid biosynthesis
+MTBLC52023	CHEBI:52023	hyodeoxycholic acid	Secondary bile acid biosynthesis
+MTBLC52030	CHEBI:52030	murideoxycholic acid	Secondary bile acid biosynthesis
+MTBLC52043	CHEBI:52043	7-methyl-3-oxooct-6-enoyl-CoA	Geraniol degradation
+MTBLC52086	CHEBI:52086	glyceollin III	Isoflavonoid biosynthesis
+MTBLC52367	CHEBI:52367	1-naphthaldehyde	Naphthalene degradation; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC52368	CHEBI:52368	2-naphthaldehyde	Naphthalene degradation; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC6441	CHEBI:6441	levacetylmethadol	Drug metabolism - cytochrome P450
+MTBLC64555	CHEBI:64555	trans-p-coumaryl alcohol	Phenylpropanoid biosynthesis; Biosynthesis of phenylpropanoids; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC64557	CHEBI:64557	trans-sinapyl alcohol	Phenylpropanoid biosynthesis; Biosynthesis of phenylpropanoids; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC64685	CHEBI:64685	methylselenol	Selenocompound metabolism
+MTBLC64729	CHEBI:64729	glutathioselenol	Selenocompound metabolism
+MTBLC64962	CHEBI:64962	glucobrassicin(1-)	Tryptophan metabolism; Glucosinolate biosynthesis; Biosynthesis of secondary metabolites; 2-Oxocarboxylic acid metabolism
+MTBLC6506	CHEBI:6506	Littorine	Tropane, piperidine and pyridine alkaloid biosynthesis; Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC65108	CHEBI:65108	gamma-L-glutamylbutirosin B	Butirosin and neomycin biosynthesis; Biosynthesis of antibiotics
+MTBLC65110	CHEBI:65110	butirosin B	Butirosin and neomycin biosynthesis; Biosynthesis of antibiotics
+MTBLC65112	CHEBI:65112	butirosin A	Butirosin and neomycin biosynthesis; Biosynthesis of antibiotics
+MTBLC6601	CHEBI:6601	lycorine	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Biosynthesis of secondary metabolites
+MTBLC66331	CHEBI:66331	xanthohumol	Flavonoid biosynthesis
+MTBLC6641	CHEBI:6641	Magnoflorine	Isoquinoline alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC6664	CHEBI:6664	malonylapiin	Flavone and flavonol biosynthesis
+MTBLC6698	CHEBI:6698	(-)-matairesinol	Biosynthesis of phenylpropanoids; Biosynthesis of secondary metabolites
+MTBLC67168	CHEBI:67168	UDP-N-acetyl-alpha-D-galactosamine	Amino sugar and nucleotide sugar metabolism; Metabolic pathways
+MTBLC67204	CHEBI:67204	carboxynorspermidine	Arginine and proline metabolism
+MTBLC67237	CHEBI:67237	(22R)-22-hydroxycholesterol	Steroid hormone biosynthesis; Metabolic pathways
+MTBLC67264	CHEBI:67264	geranic acid	Geraniol degradation; Biosynthesis of antibiotics
+MTBLC67347	CHEBI:67347	(+)-pisatin	Isoflavonoid biosynthesis; Biosynthesis of phenylpropanoids; Biosynthesis of secondary metabolites
+MTBLC6736	CHEBI:6736	melittin	Cationic antimicrobial peptide (CAMP) resistance
+MTBLC6750	CHEBI:6750	(+)-menthofuran	Monoterpenoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC68329	CHEBI:68329	syringic acid	Aminobenzoate degradation; Microbial metabolism in diverse environments
+MTBLC68330	CHEBI:68330	gallocatechin	Flavonoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC68352	CHEBI:68352	quercetin 3-O-beta-D-glucopyranoside	Flavone and flavonol biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC68441	CHEBI:68441	1-methyluric acid	Caffeine metabolism
+MTBLC68444	CHEBI:68444	1-methyl-7H-xanthine	Caffeine metabolism; Metabolic pathways; Biosynthesis of secondary metabolites; Microbial metabolism in diverse environments
+MTBLC68449	CHEBI:68449	1,7-dimethyluric acid	Caffeine metabolism; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC68531	CHEBI:68531	3,7-dimethyluric acid	Caffeine metabolism
+MTBLC68555	CHEBI:68555	5-sulfosalicylic acid	Naphthalene degradation
+MTBLC6877	CHEBI:6877	trans-isomethyleugenol	Phenylpropanoid biosynthesis
+MTBLC68947	CHEBI:68947	13-oxo-9Z,11E-ODE	Linoleic acid metabolism
+MTBLC69042	CHEBI:69042	Demethylsuberosin	Biosynthesis of phenylpropanoids
+MTBLC691622	CHEBI:691622	1,3,7-trimethyluric acid	Caffeine metabolism; Microbial metabolism in diverse environments
+MTBLC692	CHEBI:692	10,16-Dihydroxyhexadecanoic acid	Cutin, suberine and wax biosynthesis
+MTBLC6925	CHEBI:6925	microcystin-LR	Nonribosomal peptide structures; Bile secretion
+MTBLC6941	CHEBI:6941	Minovincinine	Indole alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC69414	CHEBI:69414	hygromycin A	Biosynthesis of antibiotics
+MTBLC69438	CHEBI:69438	3-hydroxy-2-methyl-4-pyrone	Polyketide sugar unit biosynthesis; Biosynthesis of antibiotics
+MTBLC70031	CHEBI:70031	2'-hydroxygenistein	Isoflavonoid biosynthesis
+MTBLC70060	CHEBI:70060	Landomycin D	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC70431	CHEBI:70431	p-coumaroylputrescine	Arginine and proline metabolism
+MTBLC7061	CHEBI:7061	myxochelin B	Biosynthesis of siderophore group nonribosomal peptides
+MTBLC7101	CHEBI:7101	N(5)-[(Z)-amino(hydroxyimino)methyl]ornithine	Arginine and proline metabolism; Biosynthesis of antibiotics
+MTBLC71045	CHEBI:71045	bisdemethoxycurcumin	Stilbenoid, diarylheptanoid and gingerol biosynthesis; Biosynthesis of secondary metabolites
+MTBLC71201	CHEBI:71201	xanthurenate	Tryptophan metabolism
+MTBLC71215	CHEBI:71215	(4-coumaroyl)acetyl-CoA	Stilbenoid, diarylheptanoid and gingerol biosynthesis; Biosynthesis of secondary metabolites
+MTBLC71236	CHEBI:71236	feruloylacetyl-CoA	Stilbenoid, diarylheptanoid and gingerol biosynthesis; Biosynthesis of secondary metabolites
+MTBLC71335	CHEBI:71335	7,2'-dihydroxy-4'-methoxyisoflavanol	Isoflavonoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC71690	CHEBI:71690	staphyloxanthin	Carotenoid biosynthesis
+MTBLC71961	CHEBI:71961	lividomycin A	Biosynthesis of antibiotics
+MTBLC71962	CHEBI:71962	lividomycin B	Biosynthesis of antibiotics
+MTBLC71970	CHEBI:71970	proansamycin X	Biosynthesis of ansamycins; Biosynthesis of antibiotics
+MTBLC71978	CHEBI:71978	surfactin C	Nonribosomal peptide structures
+MTBLC7347	CHEBI:7347	2-trimethylaminoethylphosphonic acid	Phosphonate and phosphinate metabolism
+MTBLC73686	CHEBI:73686	nebramycin 5'	Biosynthesis of antibiotics
+MTBLC73688	CHEBI:73688	Ac-Asp-Glu	Alanine, aspartate and glutamate metabolism; Metabolic pathways; Neuroactive ligand-receptor interaction
+MTBLC73722	CHEBI:73722	hexadecanedioic acid	Cutin, suberine and wax biosynthesis; Metabolic pathways
+MTBLC73731	CHEBI:73731	(11Z,14Z)-icosadienoic acid	Biosynthesis of unsaturated fatty acids
+MTBLC7386	CHEBI:7386	4-acetamidobutanal	Arginine and proline metabolism; Metabolic pathways
+MTBLC74809	CHEBI:74809	pelargonidin 3-O-beta-D-sambubioside	Anthocyanin biosynthesis
+MTBLC74810	CHEBI:74810	delphinidin 3-O-beta-D-sambubioside	Anthocyanin biosynthesis
+MTBLC74811	CHEBI:74811	cyanidin 3-O-beta-D-sambubioside	Anthocyanin biosynthesis
+MTBLC74812	CHEBI:74812	apiforol	Flavonoid biosynthesis
+MTBLC74957	CHEBI:74957	4',6,7-trihydroxyisoflavone	Isoflavonoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC74960	CHEBI:74960	homoeriodictyol	Flavonoid biosynthesis
+MTBLC7508	CHEBI:7508	framycetin	Butirosin and neomycin biosynthesis; Biosynthesis of antibiotics
+MTBLC75091	CHEBI:75091	aclacinomycin N	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC75093	CHEBI:75093	aclacinomycin Y	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC75095	CHEBI:75095	chrysin	Flavonoid biosynthesis
+MTBLC7510	CHEBI:7510	neopinone	Isoquinoline alkaloid biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC75117	CHEBI:75117	(13Z,16Z)-docosadienoic acid	Biosynthesis of unsaturated fatty acids
+MTBLC75244	CHEBI:75244	aklaviketone	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC75291	CHEBI:75291	epsilon-rhodomycinone	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC7542	CHEBI:7542	neurotensin	Neuroactive ligand-receptor interaction
+MTBLC75431	CHEBI:75431	ghrelin	Neuroactive ligand-receptor interaction
+MTBLC75432	CHEBI:75432	2''-O-(beta-D-glucosyl)isovitexin	Flavone and flavonol biosynthesis
+MTBLC75544	CHEBI:75544	feruloylagmatine	Arginine and proline metabolism
+MTBLC75677	CHEBI:75677	delphinidin 3-O-(6-O-(E)-4-coumaroyl-beta-D-glucoside)	Anthocyanin biosynthesis
+MTBLC75856	CHEBI:75856	3-methylfumaryl-CoA	Carbon fixation pathways in prokaryotes; Microbial metabolism in diverse environments; Carbon metabolism
+MTBLC75920	CHEBI:75920	(R,R)-2-methyl-6-phytylhydroquinone	Ubiquinone and other terpenoid-quinone biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC9169	CHEBI:9169	sisomycin	Biosynthesis of antibiotics
+MTBLC9172	CHEBI:9172	Skimmianine	Biosynthesis of alkaloids derived from shikimate pathway
+MTBLC9173	CHEBI:9173	slaframine	Tropane, piperidine and pyridine alkaloid biosynthesis; Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid; Biosynthesis of secondary metabolites
+MTBLC9188	CHEBI:9188	solanine	Biosynthesis of alkaloids derived from terpenoid and polyketide
+MTBLC9190	CHEBI:9190	Solasodine	Biosynthesis of alkaloids derived from terpenoid and polyketide
+MTBLC9192	CHEBI:9192	solavetivone	Sesquiterpenoid and triterpenoid biosynthesis
+MTBLC92	CHEBI:92	(-)-hygrine	Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid; Biosynthesis of secondary metabolites
+MTBLC9200	CHEBI:9200	soraphen A	Type I polyketide structures
+MTBLC9215	CHEBI:9215	spectinomycin	Biosynthesis of antibiotics
+MTBLC9260	CHEBI:9260	Stemmadenine	Indole alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC9261	CHEBI:9261	sterculic acid	Biosynthesis of plant secondary metabolites
+MTBLC929	CHEBI:929	2,5-diamino-6-ribosylamino-4(3H)pyrimidinone 5'-triphosphate	Folate biosynthesis; Metabolic pathways
+MTBLC9367	CHEBI:9367	swainsonine	Tropane, piperidine and pyridine alkaloid biosynthesis; Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid
+MTBLC9402	CHEBI:9402	taraxerol	Sesquiterpenoid and triterpenoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC9470	CHEBI:9470	tetracenomycin C	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC9479	CHEBI:9479	Tetrahydroalstonine	Indole alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC9485	CHEBI:9485	Tetrahydroharmine	Biosynthesis of alkaloids derived from shikimate pathway
+MTBLC9519	CHEBI:9519	thebaine	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Metabolic pathways; Biosynthesis of secondary metabolites; Opioid analgesics
+MTBLC9542	CHEBI:9542	Thienamycin	Carbapenem biosynthesis; Biosynthesis of antibiotics
+MTBLC9630	CHEBI:9630	tomatine	Biosynthesis of alkaloids derived from terpenoid and polyketide
+MTBLC9774	CHEBI:9774	tubocurarine	Biosynthesis of alkaloids derived from shikimate pathway; Nicotinic cholinergic receptor antagonists
+MTBLC9775	CHEBI:9775	tubulosine	Isoquinoline alkaloid biosynthesis
+MTBLC98	CHEBI:98	(S)-linalool	Monoterpenoid biosynthesis; Biosynthesis of terpenoids and steroids; Biosynthesis of secondary metabolites; Biosynthesis of antibiotics
+MTBLC9907	CHEBI:9907	ursodeoxycholic acid	Secondary bile acid biosynthesis
+MTBLC9951	CHEBI:9951	veratramine	Biosynthesis of alkaloids derived from terpenoid and polyketide
+MTBLC29700	CHEBI:29700	tylactone	Biosynthesis of 12-, 14- and 16-membered macrolides; Biosynthesis of antibiotics
+MTBLC29701	CHEBI:29701	tyrocidine A	Nonribosomal peptide structures
+MTBLC29706	CHEBI:29706	10-deoxymethymycin	Biosynthesis of 12-, 14- and 16-membered macrolides; Biosynthesis of antibiotics
+MTBLC29865	CHEBI:29865	benzo[a]pyrene	Polycyclic aromatic hydrocarbon degradation; Metabolism of xenobiotics by cytochrome P450; Microbial metabolism in diverse environments; Chemical carcinogenesis
+MTBLC299	CHEBI:299	(R)-(+)-citronellal	Geraniol degradation; Biosynthesis of terpenoids and steroids; Biosynthesis of secondary metabolites
+MTBLC30021	CHEBI:30021	L-selenomethionine	Selenocompound metabolism
+MTBLC30041	CHEBI:30041	taxa-4(20),11-dien-5alpha,13alpha-diol	Diterpenoid biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC30042	CHEBI:30042	taxa-4(20),11-dien-5alpha-yl acetate	Diterpenoid biosynthesis
+MTBLC30109	CHEBI:30109	4alpha-methyl-5alpha-ergosta-8,14,24(28)-trien-3beta-ol	Steroid biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC30154	CHEBI:30154	5beta-pregnane-3,20-dione	Steroid hormone biosynthesis; Metabolic pathways
+MTBLC30200	CHEBI:30200	kaempferol 3-O-glucoside	Flavone and flavonol biosynthesis; Biosynthesis of secondary metabolites
+MTBLC30305	CHEBI:30305	N-methylanthraniloyl-CoA	Acridone alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC30308	CHEBI:30308	meso-2,6-diaminopimelate(2-)	Lysine biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites; Microbial metabolism in diverse environments; Biosynthesis of antibiotics; Biosynthesis of amino acids
+MTBLC30632	CHEBI:30632	loganic acid	Monoterpenoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC30633	CHEBI:30633	L-pipecolate	Lysine degradation; Tropane, piperidine and pyridine alkaloid biosynthesis; Biosynthesis of plant secondary metabolites; Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC30747	CHEBI:30747	4-chlorobenzoic acid	DDT degradation; Fluorobenzoate degradation; Dioxin degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC30748	CHEBI:30748	2,4-dichlorobenzoic acid	Fluorobenzoate degradation; Metabolic pathways; Microbial metabolism in diverse environments
+MTBLC30749	CHEBI:30749	4-chlorophenylacetic acid	Tyrosine metabolism; DDT degradation; Microbial metabolism in diverse environments
+MTBLC30765	CHEBI:30765	tropic acid	Tropane, piperidine and pyridine alkaloid biosynthesis; Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid; Biosynthesis of secondary metabolites
+MTBLC30793	CHEBI:30793	2-chlorobenzoic acid	Fluorobenzoate degradation; Microbial metabolism in diverse environments
+MTBLC3080	CHEBI:3080	Betanin	Betalain biosynthesis; Biosynthesis of secondary metabolites
+MTBLC30807	CHEBI:30807	tetradecanoate	Fatty acid biosynthesis; Metabolic pathways
+MTBLC30816	CHEBI:30816	vanillic acid	Aminobenzoate degradation; Microbial metabolism in diverse environments
+MTBLC30838	CHEBI:30838	itaconic acid	C5-Branched dibasic acid metabolism
+MTBLC30845	CHEBI:30845	2-furoic acid	Furfural degradation; Microbial metabolism in diverse environments
+MTBLC3088	CHEBI:3088	bilanafos	Phosphonate and phosphinate metabolism; Biosynthesis of antibiotics
+MTBLC30903	CHEBI:30903	(-)-homoisocitric acid	Lysine biosynthesis; Metabolic pathways; Microbial metabolism in diverse environments; Biosynthesis of antibiotics; 2-Oxocarboxylic acid metabolism; Biosynthesis of amino acids
+MTBLC3092	CHEBI:3092	bicuculline	GABA-A receptor agonists/antagonists
+MTBLC30956	CHEBI:30956	trichloroacetic acid	Chloroalkane and chloroalkene degradation; Metabolism of xenobiotics by cytochrome P450; Microbial metabolism in diverse environments; Chemical carcinogenesis
+MTBLC30960	CHEBI:30960	5-pyridoxate	Vitamin B6 metabolism
+MTBLC31018	CHEBI:31018	(+)-gallocatechin	Flavonoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC31028	CHEBI:31028	(-)-epiafzelechin	Flavonoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC31031	CHEBI:31031	(13S)-13-dihydrodaunorubicin	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC31035	CHEBI:31035	1,2-bis(4-hydroxyphenyl)propan-2-ol	Bisphenol degradation; Metabolic pathways; Microbial metabolism in diverse environments
+MTBLC31042	CHEBI:31042	4-(1-hydroxyethyl)phenol	Bisphenol degradation; Microbial metabolism in diverse environments
+MTBLC31047	CHEBI:31047	10-carboxy-13-deoxycarminomycin	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC31048	CHEBI:31048	100-1	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC31051	CHEBI:31051	104-2	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC31056	CHEBI:31056	13-Deoxycarminomycin	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC31057	CHEBI:31057	13-deoxydaunorubicin	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC31058	CHEBI:31058	13-Dihydrocarminomycin	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC31059	CHEBI:31059	13-dihydrodaunorubicin	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC31064	CHEBI:31064	2'-hydroxybiochanin A	Isoflavonoid biosynthesis
+MTBLC31080	CHEBI:31080	2-hydroxy-2,3-dihydrogenistein	Isoflavonoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC31103	CHEBI:31103	3,5-dihydroxyphenylacetyl-CoA	Biosynthesis of vancomycin group antibiotics; Biosynthesis of antibiotics
+MTBLC31107	CHEBI:31107	3-amino-4,7-dihydroxycoumarin	Novobiocin biosynthesis; Biosynthesis of antibiotics
+MTBLC31111	CHEBI:31111	3-dimethylallyl-4-hydroxybenzoic acid	Novobiocin biosynthesis; Biosynthesis of antibiotics
+MTBLC31116	CHEBI:31116	3-hexaprenyl-4-hydroxybenzoic acid	Ubiquinone and other terpenoid-quinone biosynthesis; Biosynthesis of secondary metabolites
+MTBLC31128	CHEBI:31128	4-hydroxyphenyl acetate	Bisphenol degradation; Metabolic pathways; Microbial metabolism in diverse environments
+MTBLC31136	CHEBI:31136	5-hydroxyferuloyl-CoA	Phenylpropanoid biosynthesis; Biosynthesis of phenylpropanoids; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC31143	CHEBI:31143	7-O-methylvitexin 2''-O-alpha-L-rhamnoside	Flavone and flavonol biosynthesis
+MTBLC31144	CHEBI:31144	8-demethyltetracenomycin C	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC31167	CHEBI:31167	Acetylpseudotropine	Tropane, piperidine and pyridine alkaloid biosynthesis
+MTBLC31170	CHEBI:31170	O-acetyltropine	Tropane, piperidine and pyridine alkaloid biosynthesis
+MTBLC31181	CHEBI:31181	aklavinone	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC31227	CHEBI:31227	apigenin 7-O-neohesperidoside	Flavone and flavonol biosynthesis
+MTBLC31230	CHEBI:31230	Aquayamycin	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC31359	CHEBI:31359	carminomycin	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC31432	CHEBI:31432	corynebactin	Biosynthesis of siderophore group nonribosomal peptides; Biosynthesis of secondary metabolites; Biosynthesis of antibiotics
+MTBLC31437	CHEBI:31437	Crinine	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Biosynthesis of secondary metabolites
+MTBLC31445	CHEBI:31445	cyclic ADP-ribose	Calcium signaling pathway; Oxytocin signaling pathway; Salivary secretion; Pancreatic secretion
+MTBLC31461	CHEBI:31461	dehydrorabelomycin	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC31467	CHEBI:31467	descarbamoylnovobiocin	Novobiocin biosynthesis; Biosynthesis of antibiotics
+MTBLC31469	CHEBI:31469	desmethyldescarbamoylnovobiocin	Novobiocin biosynthesis; Biosynthesis of antibiotics
+MTBLC31491	CHEBI:31491	Dihydrokalafungin	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC31529	CHEBI:31529	ecgonine methyl ester	Tropane, piperidine and pyridine alkaloid biosynthesis; Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC31549	CHEBI:31549	epothilone A	Type I polyketide structures
+MTBLC31738	CHEBI:31738	jadomycin B	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC31741	CHEBI:31741	kaempferol 3-O-[6-(4-coumaroyl)-beta-D-glucosyl-(1->2)-beta-D-glucosyl-(1->2)-beta-D-glucoside]	Flavone and flavonol biosynthesis
+MTBLC31742	CHEBI:31742	kaempferol 3-O-beta-D-galactoside	Flavone and flavonol biosynthesis
+MTBLC31743	CHEBI:31743	kaempferol 3-O-beta-D-glucosyl-(1->2)-beta-D-glucoside	Flavone and flavonol biosynthesis
+MTBLC31744	CHEBI:31744	kaempferol 3-O-beta-D-glucosyl-(1->2)-beta-D-glucosyl-(1->2)-beta-D-glucoside	Flavone and flavonol biosynthesis
+MTBLC31751	CHEBI:31751	kinamycin D	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC31755	CHEBI:31755	L-4-hydroxyphenylglycine	Monobactam biosynthesis; Biosynthesis of vancomycin group antibiotics; Biosynthesis of antibiotics
+MTBLC31763	CHEBI:31763	laricitrin	Flavone and flavonol biosynthesis
+MTBLC31788	CHEBI:31788	luteolin 7-O-neohesperidoside	Flavone and flavonol biosynthesis
+MTBLC3179	CHEBI:3179	bromobenzene	Metabolism of xenobiotics by cytochrome P450
+MTBLC31799	CHEBI:31799	malvidin 3-O-beta-D-glucoside	Anthocyanin biosynthesis
+MTBLC31808	CHEBI:31808	Medermycin	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC31832	CHEBI:31832	methyl salicylate	Biosynthesis of phenylpropanoids
+MTBLC31856	CHEBI:31856	mithramycin	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC31915	CHEBI:31915	nogalonic acid	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC31923	CHEBI:31923	novobiocic acid	Novobiocin biosynthesis; Biosynthesis of antibiotics
+MTBLC31968	CHEBI:31968	pelargonidin 3-O-rutinoside	Anthocyanin biosynthesis
+MTBLC31969	CHEBI:31969	pelargonidin 3-O-rutinoside 5-O-beta-D-glucoside	Anthocyanin biosynthesis
+MTBLC31985	CHEBI:31985	petunidin 3-O-beta-D-glucoside	Anthocyanin biosynthesis
+MTBLC32023	CHEBI:32023	plaunotol	Diterpenoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC32047	CHEBI:32047	premithramycin A2'	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC32049	CHEBI:32049	premithramycin A3'	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC32072	CHEBI:32072	Pseudoecgonine	Tropane, piperidine and pyridine alkaloid biosynthesis
+MTBLC32079	CHEBI:32079	pyrrolnitrin	Biosynthesis of antibiotics
+MTBLC32080	CHEBI:32080	quercetin 3-O-(6-O-malonyl-beta-D-glucoside)	Flavone and flavonol biosynthesis
+MTBLC32081	CHEBI:32081	quercetin 3-O-[beta-D-xylosyl-(1->2)-beta-D-glucoside]	Flavone and flavonol biosynthesis
+MTBLC32082	CHEBI:32082	quercetin 3-O-beta-D-glucosyl-(1->2)-beta-D-glucoside	Flavone and flavonol biosynthesis
+MTBLC32083	CHEBI:32083	quercetin 3-O-beta-D-glucosyl-(1->2)-beta-D-glucosyl-(1->2)-beta-D-glucoside	Flavone and flavonol biosynthesis
+MTBLC32086	CHEBI:32086	Rabelomycin	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC32096	CHEBI:32096	rhodomycin D	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC32155	CHEBI:32155	stigmatellin A	Type I polyketide structures
+MTBLC32197	CHEBI:32197	tetracenomycin A2	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC32198	CHEBI:32198	tetracenomycin B1	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC32199	CHEBI:32199	tetracenomycin B2	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC32200	CHEBI:32200	tetracenomycin B3	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC32201	CHEBI:32201	tetracenomycin D1	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC32202	CHEBI:32202	tetracenomycin D3	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC32204	CHEBI:32204	tetracenomycin E	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC32205	CHEBI:32205	tetracenomycin F1	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC32207	CHEBI:32207	tetracenomycin F2	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC32209	CHEBI:32209	tetracenomycin X	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC7599	CHEBI:7599	Nivalenol	Sesquiterpenoid and triterpenoid biosynthesis
+MTBLC76103	CHEBI:76103	laudanine	Isoquinoline alkaloid biosynthesis
+MTBLC76151	CHEBI:76151	(8Z,11Z,14Z)-heptadecatrienal	alpha-Linolenic acid metabolism
+MTBLC7621	CHEBI:7621	norajmaline	Indole alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC76234	CHEBI:76234	(R)-2-hydroxy-alpha-linolenic acid	alpha-Linolenic acid metabolism
+MTBLC76235	CHEBI:76235	(8Z,11Z,14Z)-heptadecatrienoic acid	alpha-Linolenic acid metabolism
+MTBLC76236	CHEBI:76236	(R)-2-hydroperoxy-alpha-linolenic acid	alpha-Linolenic acid metabolism
+MTBLC76318	CHEBI:76318	22-oxodocosanoic acid	Cutin, suberine and wax biosynthesis
+MTBLC76319	CHEBI:76319	docosanedioic acid	Cutin, suberine and wax biosynthesis
+MTBLC76322	CHEBI:76322	22-hydroxydocosanoic acid	Cutin, suberine and wax biosynthesis
+MTBLC7633	CHEBI:7633	Normorphine	Drug metabolism - cytochrome P450
+MTBLC76450	CHEBI:76450	(4Z,7Z,10Z,13Z,16Z)-docosapentaenoyl-CoA	Biosynthesis of unsaturated fatty acids; Fatty acid metabolism
+MTBLC76534	CHEBI:76534	(11Z,14Z)-icosadienoyl-CoA	Biosynthesis of unsaturated fatty acids; Fatty acid metabolism
+MTBLC766	CHEBI:766	16-Glucuronide-estriol	Steroid hormone biosynthesis
+MTBLC769	CHEBI:769	16-methoxytabersonine	Indole alkaloid biosynthesis
+MTBLC77010	CHEBI:77010	1beta-methylseleno-N-acetyl-D-galactosamine	Selenocompound metabolism
+MTBLC77011	CHEBI:77011	5-O-mycaminosyltylonolide	Biosynthesis of 12-, 14- and 16-membered macrolides; Biosynthesis of antibiotics
+MTBLC77012	CHEBI:77012	methylseleninic acid	Selenocompound metabolism
+MTBLC77058	CHEBI:77058	trimethylselenonium	Selenocompound metabolism
+MTBLC7719	CHEBI:7719	ochratoxin A	Bile secretion
+MTBLC72663	CHEBI:72663	9,10-DiHOME	Linoleic acid metabolism
+MTBLC72665	CHEBI:72665	12,13-DiHOME	Linoleic acid metabolism
+MTBLC72765	CHEBI:72765	verruculogen	Biosynthesis of antibiotics
+MTBLC72842	CHEBI:72842	9-oxo-10E,12Z-ODE	Linoleic acid metabolism
+MTBLC73078	CHEBI:73078	3''-deamino-3''-hydroxykanamycin C	Biosynthesis of antibiotics
+MTBLC73083	CHEBI:73083	(7,8-dihydropterin-6-yl)methyl diphosphate	Folate biosynthesis; Metabolic pathways
+MTBLC73346	CHEBI:73346	trans-coumaryl acetate	Phenylpropanoid biosynthesis
+MTBLC60959	CHEBI:60959	colnelenic acid	alpha-Linolenic acid metabolism; Biosynthesis of secondary metabolites
+MTBLC6099	CHEBI:6099	kaempferide	Flavone and flavonol biosynthesis
+MTBLC61289	CHEBI:61289	(S)-3-sulfonatolactate(2-)	Cysteine and methionine metabolism
+MTBLC61437	CHEBI:61437	fructoselysine 6-phosphate	Phosphotransferase system (PTS)
+MTBLC615	CHEBI:615	1-carbapenem-3-carboxylic acid	Carbapenem biosynthesis; Biosynthesis of antibiotics
+MTBLC6151	CHEBI:6151	(3R,5S)-1-pyrroline-3-hydroxy-5-carboxylic acid	Arginine and proline metabolism; Metabolic pathways
+MTBLC61521	CHEBI:61521	gamma-glutamyl-gamma-aminobutyraldehyde	Arginine and proline metabolism; Metabolic pathways
+MTBLC61683	CHEBI:61683	ubiquinone-8	Ubiquinone and other terpenoid-quinone biosynthesis; Biosynthesis of secondary metabolites
+MTBLC62207	CHEBI:62207	3-methyl-9H-xanthine	Caffeine metabolism; Metabolic pathways; Biosynthesis of secondary metabolites; Microbial metabolism in diverse environments
+MTBLC62208	CHEBI:62208	3-methyl-7H-xanthine	Caffeine metabolism; Metabolic pathways; Biosynthesis of secondary metabolites; Microbial metabolism in diverse environments
+MTBLC62213	CHEBI:62213	D-4-hydroxy-2-oxoglutarate(2-)	Arginine and proline metabolism; Metabolic pathways
+MTBLC62480	CHEBI:62480	spheroiden-2-one	Carotenoid biosynthesis; Metabolic pathways
+MTBLC62481	CHEBI:62481	(3E)-3,4-didehydrorhodopin	Carotenoid biosynthesis; Metabolic pathways
+MTBLC3900	CHEBI:3900	costunolide	Sesquiterpenoid and triterpenoid biosynthesis
+MTBLC3907	CHEBI:3907	coumermycin A1	Novobiocin biosynthesis; Biosynthesis of antibiotics
+MTBLC3908	CHEBI:3908	coumestrol	Isoflavonoid biosynthesis; Biosynthesis of phenylpropanoids; Biosynthesis of secondary metabolites
+MTBLC39153	CHEBI:39153	5-oxopentanoic acid	Lysine degradation
+MTBLC39251	CHEBI:39251	anteisopentadecanoic acid	Two-component system
+MTBLC3978	CHEBI:3978	cyanin	Anthocyanin biosynthesis
+MTBLC39867	CHEBI:39867	valproic acid	Drug metabolism - cytochrome P450; Bile secretion
+MTBLC39876	CHEBI:39876	3-fluorocatechol	Fluorobenzoate degradation; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC39949	CHEBI:39949	triphosphoric acid	Oxidative phosphorylation
+MTBLC40	CHEBI:40	(+)-pinoresinol	Biosynthesis of phenylpropanoids
+MTBLC40009	CHEBI:40009	D-cycloserine	Biosynthesis of antibiotics
+MTBLC40101	CHEBI:40101	5-fluorouridine 5'-monophosphate	Drug metabolism - other enzymes
+MTBLC40407	CHEBI:40407	2-octaprenylphenol	Ubiquinone and other terpenoid-quinone biosynthesis; Biosynthesis of secondary metabolites
+MTBLC4055	CHEBI:4055	cytisine	Tropane, piperidine and pyridine alkaloid biosynthesis; Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid; Biosynthesis of secondary metabolites
+MTBLC40646	CHEBI:40646	autoinducer-2	ABC transporters; Two-component system; Vibrio cholerae pathogenic cycle
+MTBLC40813	CHEBI:40813	4-methoxybenzoic acid	Benzoate degradation; Degradation of aromatic compounds
+MTBLC4083	CHEBI:4083	D-4-hydroxy-2-oxoglutaric acid	Arginine and proline metabolism; Metabolic pathways
+MTBLC4093	CHEBI:4093	D-allopyranose	Fructose and mannose metabolism; Microbial metabolism in diverse environments; ABC transporters
+MTBLC4110	CHEBI:4110	cathinone	Phenylalanine metabolism; Biosynthesis of alkaloids derived from shikimate pathway; Metabolic pathways
+MTBLC4188	CHEBI:4188	D-glycero-D-manno-heptose 1,7-bisphosphate	Lipopolysaccharide biosynthesis; Metabolic pathways
+MTBLC41941	CHEBI:41941	(3,4-dihydroxyphenyl)acetic acid	Tyrosine metabolism; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds; Dopaminergic synapse; Cocaine addiction; Amphetamine addiction; Alcoholism
+MTBLC41977	CHEBI:41977	daunorubicin	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC42082	CHEBI:42082	(4R,5S,6S,7R)-4,7-dibenzyl-5,6-dihydroxy-1,3-bis[4-(hydroxymethyl)benzyl]-1,3-diazepan-2-one	HIV protease inhibitors
+MTBLC42111	CHEBI:42111	(R)-lactic acid	Pyruvate metabolism; Microbial metabolism in diverse environments; Vancomycin resistance
+MTBLC42202	CHEBI:42202	daidzein 7-O-beta-D-glucoside	Isoflavonoid biosynthesis
+MTBLC42255	CHEBI:42255	(-)-epigallocatechin	Flavonoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC42768	CHEBI:42768	geneticin	Biosynthesis of antibiotics
+MTBLC42905	CHEBI:42905	alpha-L-galactose	Ascorbate and aldarate metabolism; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC42944	CHEBI:42944	galanthamine	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Biosynthesis of secondary metabolites
+MTBLC43103	CHEBI:43103	L-homophenylalanine	Phenylalanine, tyrosine and tryptophan biosynthesis; Glucosinolate biosynthesis; Biosynthesis of secondary metabolites; 2-Oxocarboxylic acid metabolism
+MTBLC43445	CHEBI:43445	(+)-aristolochene	Sesquiterpenoid and triterpenoid biosynthesis; Biosynthesis of terpenoids and steroids; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC4393	CHEBI:4393	(-)-demecolcine	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Biosynthesis of secondary metabolites
+MTBLC44247	CHEBI:44247	(15Z)-tetracosenoic acid	Biosynthesis of unsaturated fatty acids
+MTBLC4433	CHEBI:4433	Deoxytubulosine	Isoquinoline alkaloid biosynthesis
+MTBLC44337	CHEBI:44337	N-acetyl-L-glutamate(2-)	Arginine biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites; Biosynthesis of antibiotics; 2-Oxocarboxylic acid metabolism; Biosynthesis of amino acids
+MTBLC44343	CHEBI:44343	(1R,2S)-1,2-dihydronaphthalene-1,2-diol	Naphthalene degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC44369	CHEBI:44369	duvoglustat	Biosynthesis of antibiotics
+MTBLC444	CHEBI:444	(S)-cis-N-methylstylopine	Isoquinoline alkaloid biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC44504	CHEBI:44504	nogalamycin	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC4484	CHEBI:4484	Dialdehyde 11678	Indole alkaloid biosynthesis
+MTBLC44841	CHEBI:44841	2-amino-6-(hydroxymethyl)-7,8-dihydropteridin-4-one	Folate biosynthesis; Metabolic pathways
+MTBLC45075	CHEBI:45075	7-cyano-7-deazaguanine	Folate biosynthesis; Metabolic pathways
+MTBLC4512	CHEBI:4512	Dictamnine	Biosynthesis of alkaloids derived from shikimate pathway
+MTBLC45257	CHEBI:45257	ribostamycin	Butirosin and neomycin biosynthesis; Biosynthesis of antibiotics
+MTBLC45707	CHEBI:45707	3,4-dihydrospheroidene	Carotenoid biosynthesis; Metabolic pathways
+MTBLC45713	CHEBI:45713	trans-resveratrol	Stilbenoid, diarylheptanoid and gingerol biosynthesis; Biosynthesis of phenylpropanoids; Biosynthesis of secondary metabolites; Longevity regulating pathway - mammal; Longevity regulating pathway - worm
+MTBLC4572	CHEBI:4572	Dihydromethylsterigmatocystin	Aflatoxin biosynthesis
+MTBLC45757	CHEBI:45757	(5S)-5-(carboxymethyl)-L-proline	Carbapenem biosynthesis; Biosynthesis of antibiotics
+MTBLC4610	CHEBI:4610	dimethylselenide	Selenocompound metabolism
+MTBLC46229	CHEBI:46229	UDP-alpha-D-glucose	Pentose and glucuronate interconversions; Galactose metabolism; Ascorbate and aldarate metabolism; Pyrimidine metabolism; Starch and sucrose metabolism; Amino sugar and nucleotide sugar metabolism; Glycerolipid metabolism; Zeatin biosynthesis; Biosynthesis of ansamycins; Biosynthesis of plant secondary metabolites; Metabolic pathways; Biosynthesis of antibiotics
+MTBLC4629	CHEBI:4629	diosgenin	Biosynthesis of plant secondary metabolites
+MTBLC46745	CHEBI:46745	2,3-dihydroxy-DDT	DDT degradation; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC46762	CHEBI:46762	(E,E,E)-geranylgeraniol	Diterpenoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC46905	CHEBI:46905	(R)-pantothenic acid	beta-Alanine metabolism; Pantothenate and CoA biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites; Vitamin digestion and absorption
+MTBLC46971	CHEBI:46971	premnaspirodiene	Sesquiterpenoid and triterpenoid biosynthesis; Biosynthesis of terpenoids and steroids; Biosynthesis of secondary metabolites
+MTBLC47025	CHEBI:47025	UDP-4-amino-4-deoxy-beta-L-arabinopyranose	Amino sugar and nucleotide sugar metabolism
+MTBLC47027	CHEBI:47027	UDP-4-deoxy-4-formamido-beta-L-arabinopyranose	Amino sugar and nucleotide sugar metabolism
+MTBLC47028	CHEBI:47028	UDP-beta-L-threo-pentopyranos-4-ulose	Amino sugar and nucleotide sugar metabolism
+MTBLC472805	CHEBI:472805	ouabain	Bile secretion
+MTBLC473992	CHEBI:473992	nystatin A1	Type I polyketide structures
+MTBLC474053	CHEBI:474053	cefazolin	Bile secretion
+MTBLC4743	CHEBI:4743	ecgonine	Tropane, piperidine and pyridine alkaloid biosynthesis
+MTBLC4746	CHEBI:4746	echinenone	Carotenoid biosynthesis
+MTBLC4752	CHEBI:4752	Echitovenine	Indole alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC47799	CHEBI:47799	calcitetrol	Steroid biosynthesis; Metabolic pathways
+MTBLC4781	CHEBI:4781	emetine	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC47968	CHEBI:47968	N-acetylmuramic acid 6-phosphate	Amino sugar and nucleotide sugar metabolism; Metabolic pathways; Phosphotransferase system (PTS)
+MTBLC47977	CHEBI:47977	2-amino-2-deoxy-D-glucopyranose	Amino sugar and nucleotide sugar metabolism; Metabolic pathways; Phosphotransferase system (PTS)
+MTBLC47980	CHEBI:47980	threo-3-methyl-L-aspartic acid	Glyoxylate and dicarboxylate metabolism; C5-Branched dibasic acid metabolism; Metabolic pathways; Carbon metabolism
+MTBLC48005	CHEBI:48005	gamma-L-glutamylputrescine	Arginine and proline metabolism; Metabolic pathways
+MTBLC48026	CHEBI:48026	(2S)-dihydrotricetin	Flavonoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC48031	CHEBI:48031	4-methylene-L-glutamic acid	C5-Branched dibasic acid metabolism
+MTBLC4806	CHEBI:4806	(-)-epigallocatechin 3-gallate	AMPK signaling pathway
+MTBLC48209	CHEBI:48209	aflatoxin B2	Aflatoxin biosynthesis
+MTBLC52402	CHEBI:52402	2,5-diamino-6-(5-phosphono)ribitylamino-4(3H)-pyrimidinone	Riboflavin metabolism; Metabolic pathways
+MTBLC5262	CHEBI:5262	galangin	Flavonoid biosynthesis
+MTBLC52668	CHEBI:52668	1,4-dihydroxy-2-naphthoyl-CoA	Ubiquinone and other terpenoid-quinone biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC52971	CHEBI:52971	ubiquinone-6	Ubiquinone and other terpenoid-quinone biosynthesis; Biosynthesis of secondary metabolites
+MTBLC52972	CHEBI:52972	ergosta-5,7,24(28)-trien-3beta-ol	Steroid biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC53013	CHEBI:53013	3'-CMP	Pyrimidine metabolism
+MTBLC5337	CHEBI:5337	(1E,4E)-germacrene B	Sesquiterpenoid and triterpenoid biosynthesis
+MTBLC53647	CHEBI:53647	dehydroglycine	Thiamine metabolism; Metabolic pathways
+MTBLC53800	CHEBI:53800	4-hydroxy-2-oxohexanoate	Xylene degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC5402	CHEBI:5402	glucocochlearin(1-)	Glucosinolate biosynthesis; Biosynthesis of secondary metabolites; 2-Oxocarboxylic acid metabolism
+MTBLC5413	CHEBI:5413	gluconasturtiin(1-)	Glucosinolate biosynthesis; Biosynthesis of secondary metabolites; 2-Oxocarboxylic acid metabolism
+MTBLC5414	CHEBI:5414	glucoputranjivin(1-)	Glucosinolate biosynthesis; Biosynthesis of secondary metabolites; 2-Oxocarboxylic acid metabolism
+MTBLC541975	CHEBI:541975	epiandrosterone	Steroid degradation; Microbial metabolism in diverse environments
+MTBLC55328	CHEBI:55328	juniperic acid	Cutin, suberine and wax biosynthesis; Metabolic pathways
+MTBLC5533	CHEBI:5533	granaticin	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC553473	CHEBI:553473	ceftizoxime	Bile secretion
+MTBLC5568	CHEBI:5568	guattegaumerine	Isoquinoline alkaloid biosynthesis
+MTBLC5623	CHEBI:5623	harman	Biosynthesis of alkaloids derived from shikimate pathway
+MTBLC79176	CHEBI:79176	aclacinomycin S	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC79312	CHEBI:79312	18-hydroxyoleic acid	Cutin, suberine and wax biosynthesis
+MTBLC79329	CHEBI:79329	glucocochlearin	Glucosinolate biosynthesis; Biosynthesis of secondary metabolites; 2-Oxocarboxylic acid metabolism
+MTBLC79331	CHEBI:79331	glucoputranjivin	Glucosinolate biosynthesis; Biosynthesis of secondary metabolites; 2-Oxocarboxylic acid metabolism
+MTBLC79338	CHEBI:79338	isobutylglucosinolic acid	Glucosinolate biosynthesis; Biosynthesis of secondary metabolites; 2-Oxocarboxylic acid metabolism
+MTBLC7934	CHEBI:7934	paromomycin	Biosynthesis of antibiotics
+MTBLC79347	CHEBI:79347	gluconasturtiin	Glucosinolate biosynthesis; Biosynthesis of secondary metabolites; 2-Oxocarboxylic acid metabolism
+MTBLC797	CHEBI:797	19-Hydroxytabersonine	Indole alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC798	CHEBI:798	19-hydroxytestosterone	Steroid hormone biosynthesis; Metabolic pathways
+MTBLC799	CHEBI:799	3,17-dioxoandrost-4-en-19-al	Steroid hormone biosynthesis; Metabolic pathways
+MTBLC801	CHEBI:801	19-epi-Ajmalicine	Indole alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC802	CHEBI:802	19-epi-Cathenamine	Indole alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC80214	CHEBI:80214	3'-hydroxyechinenone	Carotenoid biosynthesis
+MTBLC80266	CHEBI:80266	nociceptin	Opioid receptor agonists/antagonists
+MTBLC80369	CHEBI:80369	7-hydroxy-2',4',5'-trimethoxyisoflavone	Isoflavonoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC80371	CHEBI:80371	malonyldaidzin	Isoflavonoid biosynthesis
+MTBLC80372	CHEBI:80372	malonylgenistin	Isoflavonoid biosynthesis
+MTBLC80373	CHEBI:80373	glycitin	Isoflavonoid biosynthesis
+MTBLC80374	CHEBI:80374	malonylglycitin	Isoflavonoid biosynthesis
+MTBLC80389	CHEBI:80389	formononetin 7-O-glucoside-6''-O-malonate	Isoflavonoid biosynthesis
+MTBLC80392	CHEBI:80392	(-)-vestitol	Isoflavonoid biosynthesis
+MTBLC80393	CHEBI:80393	2',7-dihydroxy-4',5'-methylenedioxyisoflavone	Isoflavonoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC80409	CHEBI:80409	3-Chloro-2-hydroxymuconic semialdehyde	Chlorocyclohexane and chlorobenzene degradation; Microbial metabolism in diverse environments
+MTBLC80443	CHEBI:80443	Etherolenic acid	alpha-Linolenic acid metabolism
+MTBLC80445	CHEBI:80445	9,10-EOT	alpha-Linolenic acid metabolism; Biosynthesis of secondary metabolites
+MTBLC80462	CHEBI:80462	Volicitin	alpha-Linolenic acid metabolism
+MTBLC80475	CHEBI:80475	pelargonidin 3-(6-p-coumaroyl)glucoside	Anthocyanin biosynthesis
+MTBLC80484	CHEBI:80484	pinocembrin chalcone	Flavonoid biosynthesis
+MTBLC80485	CHEBI:80485	homoeriodictyol chalcone	Flavonoid biosynthesis
+MTBLC80486	CHEBI:80486	phlorizin chalcone	Flavonoid biosynthesis
+MTBLC80489	CHEBI:80489	desmethylxanthohumol	Flavonoid biosynthesis
+MTBLC80491	CHEBI:80491	pinostrobin	Flavonoid biosynthesis
+MTBLC80516	CHEBI:80516	3-Fluoro-cis,cis-muconate	Fluorobenzoate degradation; Metabolic pathways; Microbial metabolism in diverse environments
+MTBLC80528	CHEBI:80528	kaempferol 3-O-beta-D-glucosylgalactoside	Flavone and flavonol biosynthesis
+MTBLC80529	CHEBI:80529	isohemiphloin	Flavonoid biosynthesis
+MTBLC80535	CHEBI:80535	methyl farnesoate	Insect hormone biosynthesis
+MTBLC80536	CHEBI:80536	juvenile hormone III acid	Insect hormone biosynthesis
+MTBLC80546	CHEBI:80546	S-(Indolylmethylthiohydroximoyl)-L-cysteine	Tryptophan metabolism; Glucosinolate biosynthesis; Biosynthesis of secondary metabolites; 2-Oxocarboxylic acid metabolism
+MTBLC80579	CHEBI:80579	Norcodeine	Drug metabolism - cytochrome P450
+MTBLC80580	CHEBI:80580	Codeine-6-glucuronide	Drug metabolism - cytochrome P450
+MTBLC80581	CHEBI:80581	Morphine-6-glucuronide	Drug metabolism - cytochrome P450; Bile secretion
+MTBLC80588	CHEBI:80588	7-Oxoheptanoic acid	Methane metabolism; Microbial metabolism in diverse environments
+MTBLC80591	CHEBI:80591	7-Mercaptoheptanoic acid	Methane metabolism; Microbial metabolism in diverse environments
+MTBLC80592	CHEBI:80592	7-Mercaptoheptanoylthreonine	Methane metabolism; Microbial metabolism in diverse environments
+MTBLC80624	CHEBI:80624	5,6-Dihydro-5-fluorouracil	Drug metabolism - other enzymes
+MTBLC80631	CHEBI:80631	Morphine-3-glucuronide	Drug metabolism - cytochrome P450; Bile secretion
+MTBLC80634	CHEBI:80634	2-n-Propyl-4-pentenoic acid	Drug metabolism - cytochrome P450
+MTBLC80635	CHEBI:80635	4-Hydroxyvalproic acid	Drug metabolism - cytochrome P450
+MTBLC80637	CHEBI:80637	3-Hydroxyvalproic acid	Drug metabolism - cytochrome P450
+MTBLC80639	CHEBI:80639	2-n-Propyl-2-pentenoic acid	Drug metabolism - cytochrome P450
+MTBLC80640	CHEBI:80640	2-n-Propyl-3-pentenoic acid	Drug metabolism - cytochrome P450
+MTBLC80642	CHEBI:80642	2-Propyl-2,4-pentadienoic acid	Drug metabolism - cytochrome P450
+MTBLC80656	CHEBI:80656	all-trans-4-oxoretinoic acid	Retinol metabolism; Metabolic pathways
+MTBLC80662	CHEBI:80662	mannopine	ABC transporters
+MTBLC80666	CHEBI:80666	Norbelladine	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Biosynthesis of secondary metabolites
+MTBLC80667	CHEBI:80667	4'-O-Methylnorbelladine	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Biosynthesis of secondary metabolites
+MTBLC80672	CHEBI:80672	(S)-Autumnaline	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Biosynthesis of secondary metabolites
+MTBLC80673	CHEBI:80673	Isoandrocymbine	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Biosynthesis of secondary metabolites
+MTBLC80674	CHEBI:80674	O-Methylandrocymbine	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Biosynthesis of secondary metabolites
+MTBLC80675	CHEBI:80675	N-Formyldemecolcine	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Biosynthesis of secondary metabolites
+MTBLC80676	CHEBI:80676	Deacetylcolchicine	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Biosynthesis of secondary metabolites
+MTBLC80677	CHEBI:80677	Floramultine	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway
+MTBLC80678	CHEBI:80678	Kreysigine	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway
+MTBLC80766	CHEBI:80766	SQ 26180	Monobactam biosynthesis; Biosynthesis of antibiotics
+MTBLC80790	CHEBI:80790	afzelin	Flavone and flavonol biosynthesis
+MTBLC80979	CHEBI:80979	S-(Phenylacetothiohydroximoyl)-L-cysteine	Glucosinolate biosynthesis; Biosynthesis of secondary metabolites; 2-Oxocarboxylic acid metabolism
+MTBLC80980	CHEBI:80980	S-(Hydroxyphenylacetothiohydroximoyl)-L-cysteine	Glucosinolate biosynthesis; 2-Oxocarboxylic acid metabolism
+MTBLC80983	CHEBI:80983	S-(4-Methylthiobutylthiohydroximoyl)-L-cysteine	Glucosinolate biosynthesis; Biosynthesis of secondary metabolites; 2-Oxocarboxylic acid metabolism
+MTBLC80987	CHEBI:80987	Glucolesquerellin	Glucosinolate biosynthesis; Biosynthesis of secondary metabolites; 2-Oxocarboxylic acid metabolism
+MTBLC80988	CHEBI:80988	7-Methylthioheptyl glucosinolate	Glucosinolate biosynthesis; Biosynthesis of secondary metabolites; 2-Oxocarboxylic acid metabolism
+MTBLC80989	CHEBI:80989	8-Methylthiooctyl glucosinolate	Glucosinolate biosynthesis; Biosynthesis of secondary metabolites; 2-Oxocarboxylic acid metabolism
+MTBLC81014	CHEBI:81014	3beta-hydroxycholest-5-en-26-oic acid	Primary bile acid biosynthesis
+MTBLC81021	CHEBI:81021	Nocardicin C	Monobactam biosynthesis; Biosynthesis of antibiotics
+MTBLC81022	CHEBI:81022	Isonocardicin C	Monobactam biosynthesis; Biosynthesis of antibiotics
+MTBLC81024	CHEBI:81024	Nocardicin G	Monobactam biosynthesis; Biosynthesis of antibiotics
+MTBLC81025	CHEBI:81025	2-Formyloxymethylclavam	Biosynthesis of antibiotics
+MTBLC81026	CHEBI:81026	2-Hydroxymethylclavam	Biosynthesis of antibiotics
+MTBLC81027	CHEBI:81027	Clavam-2-carboxylate	Biosynthesis of antibiotics
+MTBLC81030	CHEBI:81030	2-Hydroxyethylclavam	Biosynthesis of antibiotics
+MTBLC81035	CHEBI:81035	NS-5	Carbapenem biosynthesis; Biosynthesis of antibiotics
+MTBLC81036	CHEBI:81036	Northienamycin	Carbapenem biosynthesis; Biosynthesis of antibiotics
+MTBLC81040	CHEBI:81040	OA-6129 B1	Carbapenem biosynthesis; Biosynthesis of antibiotics
+MTBLC81041	CHEBI:81041	OA-6129 B2	Carbapenem biosynthesis; Biosynthesis of antibiotics
+MTBLC81044	CHEBI:81044	N-Acetylthienamycin	Carbapenem biosynthesis; Biosynthesis of antibiotics
+MTBLC81061	CHEBI:81061	Epithienamycin F	Carbapenem biosynthesis; Biosynthesis of antibiotics
+MTBLC81200	CHEBI:81200	(S)-Corytuberine	Isoquinoline alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC81253	CHEBI:81253	isolithocholic acid	Secondary bile acid biosynthesis
+MTBLC81314	CHEBI:81314	Curcumin monoglucoside	Stilbenoid, diarylheptanoid and gingerol biosynthesis
+MTBLC81315	CHEBI:81315	Curcumin diglucoside	Stilbenoid, diarylheptanoid and gingerol biosynthesis
+MTBLC81318	CHEBI:81318	Dopaxanthin quinone	Betalain biosynthesis; Biosynthesis of secondary metabolites
+MTBLC81401	CHEBI:81401	Phosphonoformyl-CMP	Phosphonate and phosphinate metabolism; Biosynthesis of antibiotics
+MTBLC81414	CHEBI:81414	Demethylphosphinothricin	Phosphonate and phosphinate metabolism; Biosynthesis of antibiotics
+MTBLC81419	CHEBI:81419	kasugamycin	Biosynthesis of antibiotics
+MTBLC81461	CHEBI:81461	dTDP-4-dehydro-2,3,6-trideoxy-alpha-D-glucose	Polyketide sugar unit biosynthesis; Biosynthesis of antibiotics
+MTBLC81462	CHEBI:81462	dTDP-4-amino-2,3,4,6-tetradeoxy-alpha-D-glucose	Polyketide sugar unit biosynthesis; Biosynthesis of antibiotics
+MTBLC81463	CHEBI:81463	dTDP-alpha-D-forosamine	Polyketide sugar unit biosynthesis; Biosynthesis of antibiotics
+MTBLC81544	CHEBI:81544	3-(1-hydroxyethyl)bacteriochlorophyllide a	Porphyrin and chlorophyll metabolism
+MTBLC81545	CHEBI:81545	3-(1-hydroxyethyl)chlorophyllide a	Porphyrin and chlorophyll metabolism
+MTBLC81546	CHEBI:81546	bacteriochlorophyllide a	Porphyrin and chlorophyll metabolism
+MTBLC81548	CHEBI:81548	3-vinylbacteriochlorophyllide d	Porphyrin and chlorophyll metabolism
+MTBLC81549	CHEBI:81549	17-Oxosparteine	Tropane, piperidine and pyridine alkaloid biosynthesis
+MTBLC81581	CHEBI:81581	8-Methyl-6-nonenoic acid	Phenylalanine metabolism; Biosynthesis of alkaloids derived from shikimate pathway; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC81585	CHEBI:81585	cis-11-Methyl-2-dodecenoic acid	Two-component system
+MTBLC81646	CHEBI:81646	Pretetramid	Tetracycline biosynthesis; Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC81647	CHEBI:81647	5a,11a-Dehydrooxytetracycline	Tetracycline biosynthesis; Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC81648	CHEBI:81648	Anhydrochlortetracycline	Tetracycline biosynthesis; Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC81649	CHEBI:81649	5a,11a-Dehydrochlortetracycline	Tetracycline biosynthesis; Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC81650	CHEBI:81650	4-Aminoanhydrochlortetracycline	Tetracycline biosynthesis; Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC81654	CHEBI:81654	3,5-Dichloro-2-methylmuconate	Toluene degradation; Microbial metabolism in diverse environments
+MTBLC81659	CHEBI:81659	3,5-Dichloro-2-methylmuconolactone	Toluene degradation; Microbial metabolism in diverse environments
+MTBLC81660	CHEBI:81660	3-Chloro-2-methyldienelactone	Toluene degradation; Microbial metabolism in diverse environments
+MTBLC81661	CHEBI:81661	3-Chloro-2-methylmaleylacetate	Toluene degradation; Microbial metabolism in diverse environments
+MTBLC81666	CHEBI:81666	4-methyl-5-nitrocatechol	Nitrotoluene degradation; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC81669	CHEBI:81669	cis,cis-2,4-Dihydroxy-5-methyl-6-oxo-2,4-hexadienoate	Nitrotoluene degradation; Microbial metabolism in diverse environments
+MTBLC81671	CHEBI:81671	(2Z,6Z,10Z,14Z,18Z,22Z,26Z,30Z,34E)-decaprenyl diphosphate	Terpenoid backbone biosynthesis
+MTBLC81672	CHEBI:81672	(2S)-methylsuccinyl-CoA	Glyoxylate and dicarboxylate metabolism; Microbial metabolism in diverse environments; Carbon metabolism
+MTBLC81873	CHEBI:81873	12-deoxynogalonic acid	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC81874	CHEBI:81874	nogalaviketone	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC81877	CHEBI:81877	epsilon-Rhodomycin T	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC81878	CHEBI:81878	15-Demethoxy-epsilon-rhodomycin	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC81879	CHEBI:81879	beta-Rhodomycin	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC8217	CHEBI:8217	pinidine	Biosynthesis of alkaloids derived from terpenoid and polyketide
+MTBLC83048	CHEBI:83048	4,4'-diaponeurosporenoic acid	Carotenoid biosynthesis
+MTBLC8359	CHEBI:8359	pratensein	Isoflavonoid biosynthesis
+MTBLC16160	CHEBI:16160	O-succinyl-L-homoserine	Cysteine and methionine metabolism; Sulfur metabolism; Metabolic pathways; Biosynthesis of secondary metabolites; Biosynthesis of amino acids
+MTBLC16184	CHEBI:16184	7-O-acetylsalutaridinol	Isoquinoline alkaloid biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC16218	CHEBI:16218	beta-D-glucose 1-phosphate	Starch and sucrose metabolism
+MTBLC16220	CHEBI:16220	coniferin	Phenylpropanoid biosynthesis
+MTBLC16221	CHEBI:16221	sn-glycerol 1-phosphate	Glycerophospholipid metabolism
+MTBLC16233	CHEBI:16233	(S)-cheilanthifoline	Isoquinoline alkaloid biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC16271	CHEBI:16271	2-exo-hydroxy-1,8-cineole	Monoterpenoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC16282	CHEBI:16282	2-ureidoglycine	Purine metabolism; Microbial metabolism in diverse environments
+MTBLC16291	CHEBI:16291	1-alkyl-2-acetyl-sn-glycerol	Ether lipid metabolism; Metabolic pathways
+MTBLC16315	CHEBI:16315	morphinone	Isoquinoline alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC16346	CHEBI:16346	(S)-1-phenylethanol	Ethylbenzene degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC16347	CHEBI:16347	(R)-carnitine	Bile secretion
+MTBLC16353	CHEBI:16353	sinapine	Phenylpropanoid biosynthesis
+MTBLC16364	CHEBI:16364	pyridine-2,5-diol	Nicotinate and nicotinamide metabolism; Microbial metabolism in diverse environments
+MTBLC1637	CHEBI:1637	3-Oxododecanoyl-[acp]	Fatty acid biosynthesis; Metabolic pathways; Fatty acid metabolism
+MTBLC16370	CHEBI:16370	dihydrophloroglucinol	Aminobenzoate degradation; Microbial metabolism in diverse environments
+MTBLC16375	CHEBI:16375	D-cysteine	Cysteine and methionine metabolism
+MTBLC16380	CHEBI:16380	vindoline	Indole alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway
+MTBLC16394	CHEBI:16394	N-methylanthranilic acid	Acridone alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Biosynthesis of secondary metabolites
+MTBLC16408	CHEBI:16408	vomilenine	Indole alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC16409	CHEBI:16409	5-pyridoxic acid	Vitamin B6 metabolism
+MTBLC16415	CHEBI:16415	protopine	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC16418	CHEBI:16418	(20S)-17,20-dihydroxypregn-4-en-3-one	Steroid hormone biosynthesis
+MTBLC16423	CHEBI:16423	(9Z)-octadec-9-en-12-ynoic acid	Linoleic acid metabolism; Biosynthesis of plant secondary metabolites
+MTBLC16425	CHEBI:16425	16-epivellosimine	Indole alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC16440	CHEBI:16440	N-methyl-L-glutamic acid	Methane metabolism; Microbial metabolism in diverse environments
+MTBLC16446	CHEBI:16446	N-acetyl-alpha-D-glucosamine 1-phosphate	Amino sugar and nucleotide sugar metabolism; Metabolic pathways; Biosynthesis of antibiotics
+MTBLC16457	CHEBI:16457	S,S-dimethyl-beta-propiothetin	Sulfur metabolism
+MTBLC16463	CHEBI:16463	N-methylethanolamine phosphate	Glycerophospholipid metabolism
+MTBLC16479	CHEBI:16479	streptomycin 6-phosphate	Streptomycin biosynthesis; Biosynthesis of antibiotics
+MTBLC16482	CHEBI:16482	naphthalene	Naphthalene degradation; Metabolism of xenobiotics by cytochrome P450; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds; Naphthalene family
+MTBLC16483	CHEBI:16483	isonocardicin A	Monobactam biosynthesis; Biosynthesis of antibiotics
+MTBLC16505	CHEBI:16505	dihydrostreptomycin 6-phosphate	Streptomycin biosynthesis; Biosynthesis of antibiotics
+MTBLC16514	CHEBI:16514	4',5,7-trihydroxy-3'-methoxyflavone	Flavone and flavonol biosynthesis
+MTBLC16546	CHEBI:16546	1-O-sinapoyl-beta-D-glucose	Phenylpropanoid biosynthesis
+MTBLC16552	CHEBI:16552	N-formyl-L-methionine	Cysteine and methionine metabolism
+MTBLC16563	CHEBI:16563	tetrahydropalmatine	Isoquinoline alkaloid biosynthesis
+MTBLC16582	CHEBI:16582	oxaluric acid	Purine metabolism; Microbial metabolism in diverse environments
+MTBLC16587	CHEBI:16587	20-hydroxyecdysone	Insect hormone biosynthesis
+MTBLC16592	CHEBI:16592	(S)-canadine	Isoquinoline alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC16593	CHEBI:16593	L-xylulose 5-phosphate	Pentose and glucuronate interconversions; Ascorbate and aldarate metabolism; Metabolic pathways; Microbial metabolism in diverse environments
+MTBLC16596	CHEBI:16596	cyanidin 3-O-rutinoside 5-O-beta-D-glucoside	Anthocyanin biosynthesis
+MTBLC16598	CHEBI:16598	DDE	DDT degradation; Metabolic pathways; Microbial metabolism in diverse environments
+MTBLC166	CHEBI:166	(+)-isodihydrocarvone	Limonene and pinene degradation
+MTBLC16600	CHEBI:16600	mesaconic acid	Glyoxylate and dicarboxylate metabolism; C5-Branched dibasic acid metabolism; Metabolic pathways; Carbon metabolism
+MTBLC16602	CHEBI:16602	trichloroethene	Chloroalkane and chloroalkene degradation; Metabolism of xenobiotics by cytochrome P450; Metabolic pathways; Microbial metabolism in diverse environments; Chemical carcinogenesis
+MTBLC16603	CHEBI:16603	DIMBOA glucoside	Benzoxazinoid biosynthesis
+MTBLC16608	CHEBI:16608	5alpha-cholest-8-en-3beta-ol	Steroid biosynthesis; Metabolic pathways
+MTBLC16613	CHEBI:16613	glutathionylspermidine	Glutathione metabolism; Metabolic pathways
+MTBLC16619	CHEBI:16619	(2-trans,6-trans)-farnesol	Terpenoid backbone biosynthesis; Sesquiterpenoid and triterpenoid biosynthesis; Biosynthesis of secondary metabolites; Biosynthesis of antibiotics
+MTBLC16631	CHEBI:16631	vitexin 2''-O-beta-D-glucoside	Flavone and flavonol biosynthesis
+MTBLC16653	CHEBI:16653	cycloeucalenol	Steroid biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC16684	CHEBI:16684	atropine	Tropane, piperidine and pyridine alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC16688	CHEBI:16688	ecdysone	Insect hormone biosynthesis; Apoptosis - fly
+MTBLC16693	CHEBI:16693	ADP-D-glycero-D-manno-heptose	Lipopolysaccharide biosynthesis; Metabolic pathways
+MTBLC16710	CHEBI:16710	D-ribulose 1,5-bisphosphate	Glyoxylate and dicarboxylate metabolism; Carbon fixation in photosynthetic organisms; Metabolic pathways; Biosynthesis of secondary metabolites; Microbial metabolism in diverse environments; Biosynthesis of antibiotics; Carbon metabolism
+MTBLC16712	CHEBI:16712	(S)-3-sulfolactic acid	Cysteine and methionine metabolism
+MTBLC16718	CHEBI:16718	(S)-reticuline	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC16731	CHEBI:16731	cinnamaldehyde	Phenylpropanoid biosynthesis; Biosynthesis of plant secondary metabolites; Metabolic pathways; Biosynthesis of secondary metabolites; Inflammatory mediator regulation of TRP channels
+MTBLC16741	CHEBI:16741	4-(beta-D-glucosyloxy)benzoic acid	Ubiquinone and other terpenoid-quinone biosynthesis
+MTBLC16747	CHEBI:16747	4-methylene-L-glutamine	C5-Branched dibasic acid metabolism
+MTBLC16760	CHEBI:16760	phenanthrene-3,4-diol	Polycyclic aromatic hydrocarbon degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC16774	CHEBI:16774	(2-cis,6-trans)-farnesol	Sesquiterpenoid and triterpenoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC16776	CHEBI:16776	tabersonine	Indole alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC16777	CHEBI:16777	berbamunine	Isoquinoline alkaloid biosynthesis
+MTBLC16778	CHEBI:16778	apigenin 7-O-beta-D-glucoside	Flavone and flavonol biosynthesis
+MTBLC16791	CHEBI:16791	vinorine	Indole alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC16794	CHEBI:16794	scopolamine	Tropane, piperidine and pyridine alkaloid biosynthesis; Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC168	CHEBI:168	(-)-dihydrocarvone	Limonene and pinene degradation
+MTBLC16821	CHEBI:16821	4-oxo-L-proline	Arginine and proline metabolism
+MTBLC16829	CHEBI:16829	polyneuridine aldehyde	Indole alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC16835	CHEBI:16835	3-hexaprenyl-4-hydroxy-5-methoxybenzoic acid	Ubiquinone and other terpenoid-quinone biosynthesis; Biosynthesis of secondary metabolites
+MTBLC16840	CHEBI:16840	4-CDP-2-C-methyl-D-erythritol 2-phosphate	Terpenoid backbone biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites; Biosynthesis of antibiotics
+MTBLC16855	CHEBI:16855	D-lysine	Lysine degradation
+MTBLC16867	CHEBI:16867	D-methionine	ABC transporters
+MTBLC16869	CHEBI:16869	oleandomycin	Biosynthesis of 12-, 14- and 16-membered macrolides; Type I polyketide structures; Biosynthesis of antibiotics; ABC transporters
+MTBLC16889	CHEBI:16889	trans-3-hydroxy-L-proline	Arginine and proline metabolism
+MTBLC16892	CHEBI:16892	4-amino-5-hydroxymethyl-2-methylpyrimidine	Thiamine metabolism; Metabolic pathways; ABC transporters
+MTBLC16894	CHEBI:16894	3-sulfopyruvic acid	Cysteine and methionine metabolism; Methane metabolism; Microbial metabolism in diverse environments
+MTBLC16904	CHEBI:16904	fluoren-9-ol	Polycyclic aromatic hydrocarbon degradation; Metabolic pathways; Microbial metabolism in diverse environments
+MTBLC16924	CHEBI:16924	5-oxo-D-proline	D-Glutamine and D-glutamate metabolism
+MTBLC16926	CHEBI:16926	2,5-diaminohexanoic acid	Lysine degradation
+MTBLC16931	CHEBI:16931	trans-cyclohexane-1,2-diol	Caprolactam degradation; Microbial metabolism in diverse environments
+MTBLC16934	CHEBI:16934	3-cyano-L-alanine	Cyanoamino acid metabolism; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC16935	CHEBI:16935	L-rhamnofuranose	Fructose and mannose metabolism; Microbial metabolism in diverse environments
+MTBLC16939	CHEBI:16939	3-amino-3-(4-hydroxyphenyl)propanoic acid	Tyrosine metabolism
+MTBLC16954	CHEBI:16954	vitexin	Flavonoid biosynthesis; Flavone and flavonol biosynthesis
+MTBLC16957	CHEBI:16957	deacetoxyvindoline	Indole alkaloid biosynthesis
+MTBLC16971	CHEBI:16971	benzene-1,2,4-triol	Chlorocyclohexane and chlorobenzene degradation; Benzoate degradation; Aminobenzoate degradation; Metabolic pathways; Microbial metabolism in diverse environments
+MTBLC16976	CHEBI:16976	hygromycin B	Biosynthesis of antibiotics
+MTBLC16980	CHEBI:16980	geranial	Geraniol degradation; Biosynthesis of terpenoids and steroids; Biosynthesis of secondary metabolites; Biosynthesis of antibiotics
+MTBLC16998	CHEBI:16998	D-phenylalanine	Phenylalanine metabolism; Taste transduction
+MTBLC17016	CHEBI:17016	L-methionine S-oxide	Cysteine and methionine metabolism
+MTBLC17029	CHEBI:17029	chitin	Amino sugar and nucleotide sugar metabolism; Metabolic pathways
+MTBLC17030	CHEBI:17030	cycloartenol	Steroid biosynthesis; Biosynthesis of plant secondary metabolites; Biosynthesis of terpenoids and steroids; Biosynthesis of plant hormones; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC17031	CHEBI:17031	chelirubine	Isoquinoline alkaloid biosynthesis
+MTBLC17032	CHEBI:17032	2-dehydro-3-deoxy-D-gluconic acid	Pentose phosphate pathway; Pentose and glucuronate interconversions; Metabolic pathways; Microbial metabolism in diverse environments; Carbon metabolism
+MTBLC17037	CHEBI:17037	geissoschizine	Indole alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC17041	CHEBI:17041	(S)-N-methylcoclaurine	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC17057	CHEBI:17057	cellobiose	Starch and sucrose metabolism; Metabolic pathways; ABC transporters; Phosphotransferase system (PTS)
+MTBLC17068	CHEBI:17068	3-hydroxy-3-(4-hydroxy-3-methoxyphenyl)propanoyl-CoA	Phenylalanine metabolism; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC17079	CHEBI:17079	(S)-3'-hydroxy-N-methylcoclaurine	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC17083	CHEBI:17083	2-amino-6-(hydroxymethyl)-7,8-dihydropteridin-4-ol	Folate biosynthesis; Metabolic pathways
+MTBLC17093	CHEBI:17093	acetyl-[acyl-carrier protein]	Fatty acid biosynthesis; Metabolic pathways; Fatty acid metabolism
+MTBLC17096	CHEBI:17096	strictosidine aglycone	Indole alkaloid biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC17101	CHEBI:17101	macarpine	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC17104	CHEBI:17104	6-hydroxyprotopine	Isoquinoline alkaloid biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC17113	CHEBI:17113	erythritol	ABC transporters
+MTBLC1712	CHEBI:1712	3alpha-hydroxy-5beta-pregnan-20-one	Steroid hormone biosynthesis; Metabolic pathways
+MTBLC17123	CHEBI:17123	2-aminoacrylic acid	Cysteine and methionine metabolism
+MTBLC17127	CHEBI:17127	glucotropeolin	Glucosinolate biosynthesis; Biosynthesis of secondary metabolites; 2-Oxocarboxylic acid metabolism
+MTBLC17129	CHEBI:17129	(S)-scoulerine	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC17137	CHEBI:17137	hydrogensulfite	Cysteine and methionine metabolism
+MTBLC17146	CHEBI:17146	anhydrotetracycline	Tetracycline biosynthesis; Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC17166	CHEBI:17166	N-methylputrescine	Tropane, piperidine and pyridine alkaloid biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC17177	CHEBI:17177	cinnamyl alcohol	Biosynthesis of plant secondary metabolites; Biosynthesis of secondary metabolites
+MTBLC17183	CHEBI:17183	sanguinarine	Isoquinoline alkaloid biosynthesis
+MTBLC17209	CHEBI:17209	dihydrosanguinarine	Isoquinoline alkaloid biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC17213	CHEBI:17213	D-lysopine	Lysine degradation
+MTBLC17225	CHEBI:17225	salutaridine	Isoquinoline alkaloid biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC17231	CHEBI:17231	m-cresol	Toluene degradation; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC17248	CHEBI:17248	6-lactoyl-5,6,7,8-tetrahydropterin	Folate biosynthesis; Metabolic pathways
+MTBLC17254	CHEBI:17254	4-methylcatechol	Xylene degradation; Toluene degradation; Naphthalene degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC17279	CHEBI:17279	N-succinyl-LL-2,6-diaminopimelic acid	Lysine biosynthesis; Metabolic pathways; Microbial metabolism in diverse environments; Biosynthesis of amino acids
+MTBLC17285	CHEBI:17285	L-cysteic acid	Cysteine and methionine metabolism; Taurine and hypotaurine metabolism; Metabolic pathways; Neuroactive ligand-receptor interaction
+MTBLC17286	CHEBI:17286	deacetylisoipecoside	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC17294	CHEBI:17294	4,21-dehydrogeissoschizine	Indole alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC17323	CHEBI:17323	trans-pinosylvin	Stilbenoid, diarylheptanoid and gingerol biosynthesis; Biosynthesis of secondary metabolites
+MTBLC19812	CHEBI:19812	24-methylenecholesterol	Steroid biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC19891	CHEBI:19891	3,4-dihydroxyphenylpyruvic acid	Tyrosine metabolism
+MTBLC19896	CHEBI:19896	3,5-dibromo-4-hydroxybenzamide	Fluorobenzoate degradation; Microbial metabolism in diverse environments
+MTBLC20	CHEBI:20	(+)-camphene	Biosynthesis of terpenoids and steroids
+MTBLC20106	CHEBI:20106	vanillylmandelic acid	Tyrosine metabolism; Metabolic pathways
+MTBLC20141	CHEBI:20141	3-methylsalicylic acid	Naphthalene degradation; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC2024	CHEBI:2024	5-acetamidopentanoic acid	Lysine degradation
+MTBLC20302	CHEBI:20302	4-acetamido-2-amino-6-nitrotoluene	Nitrotoluene degradation; Microbial metabolism in diverse environments
+MTBLC20307	CHEBI:20307	4-amino-2-hydroxylamino-6-nitrotoluene	Nitrotoluene degradation; Microbial metabolism in diverse environments
+MTBLC20384	CHEBI:20384	4-hydroxy-4-methylglutamic acid	C5-Branched dibasic acid metabolism
+MTBLC20408	CHEBI:20408	4-hydroxylamino-2,6-dinitrotoluene	Nitrotoluene degradation; Microbial metabolism in diverse environments
+MTBLC20415	CHEBI:20415	4-hydroxymethylsalicylic acid	Naphthalene degradation; Microbial metabolism in diverse environments
+MTBLC20440	CHEBI:20440	4-methyl-L-glutamic acid	C5-Branched dibasic acid metabolism
+MTBLC20450	CHEBI:20450	4-methylsalicylic acid	Naphthalene degradation; Microbial metabolism in diverse environments
+MTBLC20717	CHEBI:20717	6-deoxotyphasterol	Brassinosteroid biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC2106	CHEBI:2106	5-[(E)-caffeoyl]shikimic acid	Phenylpropanoid biosynthesis; Flavonoid biosynthesis; Stilbenoid, diarylheptanoid and gingerol biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC212	CHEBI:212	(3S)-3-isopropenyl-6-oxoheptanoyl-CoA	Limonene and pinene degradation
+MTBLC21264	CHEBI:21264	L-cysteine glutathione disulfide	Cysteine and methionine metabolism
+MTBLC21285	CHEBI:21285	erythro-4-hydroxy-L-glutamic acid	Arginine and proline metabolism; Metabolic pathways
+MTBLC21695	CHEBI:21695	N-cyclopropylammelide	Atrazine degradation; Microbial metabolism in diverse environments
+MTBLC222828	CHEBI:222828	monoethylglycinexylidide	Drug metabolism - cytochrome P450
+MTBLC2260	CHEBI:2260	7-deoxyloganic acid	Monoterpenoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC227	CHEBI:227	(-)-cis-carveol	Limonene and pinene degradation
+MTBLC2295	CHEBI:2295	7alpha -hydroxytestosterone	Steroid hormone biosynthesis
+MTBLC232	CHEBI:232	(+)-cis-carveol	Limonene and pinene degradation
+MTBLC2323	CHEBI:2323	4-hydroxy-8-methoxyquinaldic acid	Tryptophan metabolism
+MTBLC23292	CHEBI:23292	cis-3-hexenal	alpha-Linolenic acid metabolism; Biosynthesis of secondary metabolites
+MTBLC2365	CHEBI:2365	(+)-abscisic acid	Carotenoid biosynthesis; Biosynthesis of plant secondary metabolites; Biosynthesis of terpenoids and steroids; Biosynthesis of plant hormones; Metabolic pathways; Biosynthesis of secondary metabolites; Plant hormone signal transduction
+MTBLC23757	CHEBI:23757	dihydrophaseic acid	Carotenoid biosynthesis
+MTBLC23858	CHEBI:23858	behenate	Cutin, suberine and wax biosynthesis; Biosynthesis of unsaturated fatty acids
+MTBLC24109	CHEBI:24109	fructosyllysine	Phosphotransferase system (PTS)
+MTBLC2422	CHEBI:2422	acetohydrazide	Drug metabolism - other enzymes
+MTBLC2437	CHEBI:2437	acronycine	Acridone alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Biosynthesis of secondary metabolites
+MTBLC2443	CHEBI:2443	actinidine	Biosynthesis of alkaloids derived from terpenoid and polyketide; Biosynthesis of secondary metabolites
+MTBLC2448	CHEBI:2448	actinorhodin	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC2479	CHEBI:2479	adenosylcobinamide guanosyl diphosphate	Porphyrin and chlorophyll metabolism; Metabolic pathways
+MTBLC2480	CHEBI:2480	adenosylcobinamide	Porphyrin and chlorophyll metabolism; Metabolic pathways
+MTBLC2481	CHEBI:2481	adenosylcobinamide phosphate	Porphyrin and chlorophyll metabolism; Metabolic pathways
+MTBLC2482	CHEBI:2482	adenosylcob(III)yrinic acid a,c-diamide	Porphyrin and chlorophyll metabolism; Metabolic pathways
+MTBLC2485	CHEBI:2485	adenylyl selenate	Selenocompound metabolism
+MTBLC2524	CHEBI:2524	Ajmalicine	Indole alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC2536	CHEBI:2536	alangimarckine	Isoquinoline alkaloid biosynthesis
+MTBLC2538	CHEBI:2538	alangiside	Isoquinoline alkaloid biosynthesis
+MTBLC25618	CHEBI:25618	2-hydroxylaminobenzoic acid	Aminobenzoate degradation; Microbial metabolism in diverse environments
+MTBLC25629	CHEBI:25629	stearate	Fatty acid biosynthesis; Biosynthesis of unsaturated fatty acids; Biosynthesis of plant secondary metabolites; Phototransduction - fly
+MTBLC26137	CHEBI:26137	pinocarveol	Limonene and pinene degradation
+MTBLC2621	CHEBI:2621	amaranthin	Betalain biosynthesis
+MTBLC26634	CHEBI:26634	selenodiglutathione	Selenocompound metabolism
+MTBLC2682	CHEBI:2682	amphotericin B	Type I polyketide structures
+MTBLC2710	CHEBI:2710	androst-5-ene-3beta,17beta-diol	Steroid hormone biosynthesis; Ovarian steroidogenesis
+MTBLC27173	CHEBI:27173	typhasterol	Brassinosteroid biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC27375	CHEBI:27375	vincaleukoblastine	Indole alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Biosynthesis of secondary metabolites; Bile secretion
+MTBLC27376	CHEBI:27376	methanesulfonic acid	Sulfur metabolism
+MTBLC27381	CHEBI:27381	2,2',3-trihydroxydiphenyl ether	Dioxin degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC27388	CHEBI:27388	benzoylacetyl-CoA	Ethylbenzene degradation; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC27394	CHEBI:27394	D-erythro-3-methylmalic acid	Valine, leucine and isoleucine biosynthesis; C5-Branched dibasic acid metabolism; Metabolic pathways; 2-Oxocarboxylic acid metabolism; Biosynthesis of amino acids
+MTBLC27399	CHEBI:27399	deisopropylatrazine	Atrazine degradation; Microbial metabolism in diverse environments
+MTBLC2740	CHEBI:2740	ankorine	Isoquinoline alkaloid biosynthesis
+MTBLC27406	CHEBI:27406	indole-5,6-quinone	Tyrosine metabolism; Metabolic pathways
+MTBLC27412	CHEBI:27412	gentamycin C1	Biosynthesis of antibiotics
+MTBLC27422	CHEBI:27422	(KDO)2-(lauroyl)-lipid IVA	Lipopolysaccharide biosynthesis; Metabolic pathways
+MTBLC27434	CHEBI:27434	o-tolualdehyde	Xylene degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC27435	CHEBI:27435	1-methylpyrrolinium	Nicotinate and nicotinamide metabolism; Tropane, piperidine and pyridine alkaloid biosynthesis; Biosynthesis of plant secondary metabolites; Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC27439	CHEBI:27439	(KDO)-lipid IVA	Lipopolysaccharide biosynthesis; Metabolic pathways
+MTBLC27440	CHEBI:27440	3-methoxyanthranilic acid	Tryptophan metabolism
+MTBLC27469	CHEBI:27469	2-dehydro-D-gluconic acid	Pentose phosphate pathway; Metabolic pathways; Microbial metabolism in diverse environments
+MTBLC27479	CHEBI:27479	2'-hydroxydaidzein	Isoflavonoid biosynthesis
+MTBLC27483	CHEBI:27483	betalamic acid	Betalain biosynthesis; Biosynthesis of secondary metabolites
+MTBLC27487	CHEBI:27487	3-(imidazol-5-yl)lactic acid	Histidine metabolism
+MTBLC27491	CHEBI:27491	leukotriene F4	Arachidonic acid metabolism; Metabolic pathways
+MTBLC27493	CHEBI:27493	juvenile hormone III	Insect hormone biosynthesis
+MTBLC27499	CHEBI:27499	N-acetyl-alpha-neuraminosyl-(2->3)-beta-D-galactosylceramide	Sphingolipid metabolism
+MTBLC27500	CHEBI:27500	4-aminobenzenesulfonic acid	Aminobenzoate degradation; Microbial metabolism in diverse environments
+MTBLC27504	CHEBI:27504	mitomycin C	Biosynthesis of antibiotics
+MTBLC27509	CHEBI:27509	cinchonine	Biosynthesis of alkaloids derived from shikimate pathway
+MTBLC27528	CHEBI:27528	1-phenanthrol	Polycyclic aromatic hydrocarbon degradation; Microbial metabolism in diverse environments
+MTBLC27530	CHEBI:27530	4-hydroxy-2-oxohexanoic acid	Xylene degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC27545	CHEBI:27545	2,5-dichlorohydroquinone	Chlorocyclohexane and chlorobenzene degradation; Metabolic pathways; Microbial metabolism in diverse environments
+MTBLC27574	CHEBI:27574	N(2)-succinyl-L-ornithine	Arginine and proline metabolism; Metabolic pathways
+MTBLC27587	CHEBI:27587	garbanzol	Flavonoid biosynthesis
+MTBLC27610	CHEBI:27610	cyclohexa-2,5-diene-1-carbonyl-CoA	Benzoate degradation; Microbial metabolism in diverse environments
+MTBLC27615	CHEBI:27615	(2-naphthyl)methanol	Naphthalene degradation; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC27616	CHEBI:27616	psoralen	Biosynthesis of phenylpropanoids; Biosynthesis of secondary metabolites
+MTBLC27622	CHEBI:27622	vanillylmandelate	Tyrosine metabolism; Metabolic pathways
+MTBLC27625	CHEBI:27625	alpha-D-glucosamine 1-phosphate	Amino sugar and nucleotide sugar metabolism; Metabolic pathways; Biosynthesis of antibiotics; Insulin resistance
+MTBLC27632	CHEBI:27632	acetophenone	Ethylbenzene degradation; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC27637	CHEBI:27637	3,4-dihydroxymandelic acid	Tyrosine metabolism; Metabolic pathways
+MTBLC27644	CHEBI:27644	chlortetracycline	Tetracycline biosynthesis; Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC27652	CHEBI:27652	2',3'-cyclic CMP	Pyrimidine metabolism
+MTBLC27656	CHEBI:27656	camptothecin	Biosynthesis of alkaloids derived from shikimate pathway; Biosynthesis of secondary metabolites; Antineoplastics - agents from natural products
+MTBLC27657	CHEBI:27657	N-succinyl-L-glutamic 5-semialdehyde	Arginine and proline metabolism; Metabolic pathways
+MTBLC2766	CHEBI:2766	aphidicolin	Diterpenoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC27664	CHEBI:27664	2-oxocyclohexane-1-carbonyl-CoA	Benzoate degradation; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC27675	CHEBI:27675	chlorohydroquinone	Chlorocyclohexane and chlorobenzene degradation; Microbial metabolism in diverse environments
+MTBLC27677	CHEBI:27677	4-fluorobenzoyl-CoA	Fluorobenzoate degradation; Microbial metabolism in diverse environments
+MTBLC27683	CHEBI:27683	2-hydroxy-3-(4-hydroxyphenyl)prop-2-enoic acid	Tyrosine metabolism
+MTBLC27686	CHEBI:27686	3-deoxyleucocyanidin	Flavonoid biosynthesis
+MTBLC27701	CHEBI:27701	oxytetracycline	Tetracycline biosynthesis; Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC27708	CHEBI:27708	diethyl hydrogen phosphate	Aminobenzoate degradation
+MTBLC27714	CHEBI:27714	6-acetyl-2-amino-3,7,8,9-tetrahydropyrimido[4,5-b][1,4]diazepin-4-one	Folate biosynthesis
+MTBLC27717	CHEBI:27717	gibberellin A1	Diterpenoid biosynthesis; Biosynthesis of terpenoids and steroids; Biosynthesis of plant hormones; Metabolic pathways; Biosynthesis of secondary metabolites; Plant hormone signal transduction
+MTBLC27725	CHEBI:27725	butin	Flavonoid biosynthesis
+MTBLC27736	CHEBI:27736	D-threo-3-methylmalic acid	C5-Branched dibasic acid metabolism
+MTBLC27752	CHEBI:27752	2-hexaprenyl-6-methoxy-1,4-benzoquinone	Ubiquinone and other terpenoid-quinone biosynthesis; Biosynthesis of secondary metabolites
+MTBLC27753	CHEBI:27753	1-methoxyphenanthrene	Polycyclic aromatic hydrocarbon degradation; Microbial metabolism in diverse environments
+MTBLC27758	CHEBI:27758	3,4-dihydroxybenzenesulfonic acid	Aminobenzoate degradation; Microbial metabolism in diverse environments
+MTBLC27760	CHEBI:27760	L-selenocystathionine	Selenocompound metabolism
+MTBLC27772	CHEBI:27772	4-chlorocatechol	Chlorocyclohexane and chlorobenzene degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC27779	CHEBI:27779	griseofulvin	Biosynthesis of antibiotics
+MTBLC27783	CHEBI:27783	11beta,17alpha,21-trihydroxypregnenolone	Steroid hormone biosynthesis
+MTBLC27784	CHEBI:27784	gentamycin C1a	Biosynthesis of antibiotics
+MTBLC27802	CHEBI:27802	2,3-dihydroxybenzenesulfonic acid	Benzoate degradation; Microbial metabolism in diverse environments
+MTBLC27811	CHEBI:27811	undecaprenyldiphospho-N-acetyl-(N-acetylglucosaminyl)muramoyl-L-alanyl-D-isoglutaminyl-L-lysyl-D-alanyl-D-alanine	Peptidoglycan biosynthesis; Metabolic pathways
+MTBLC27812	CHEBI:27812	Se-methyl-L-selenocysteine	Selenocompound metabolism
+MTBLC27819	CHEBI:27819	clavaldehyde	Clavulanic acid biosynthesis; Biosynthesis of antibiotics
+MTBLC27825	CHEBI:27825	3',5-dihydroxy-3,4',7-trimethoxyflavone	Flavone and flavonol biosynthesis
+MTBLC27826	CHEBI:27826	(S)-4-hydroxymandelonitrile beta-D-glucoside	Cyanoamino acid metabolism; Biosynthesis of secondary metabolites
+MTBLC27832	CHEBI:27832	17alpha,21-dihydroxypregnenolone	Steroid hormone biosynthesis
+MTBLC27841	CHEBI:27841	DDD	DDT degradation; Metabolic pathways; Microbial metabolism in diverse environments
+MTBLC27852	CHEBI:27852	3,4-dihydroxymandelaldehyde	Tyrosine metabolism; Metabolic pathways
+MTBLC27855	CHEBI:27855	L-erythro-3-methylmalyl-CoA	Glyoxylate and dicarboxylate metabolism; C5-Branched dibasic acid metabolism; Carbon fixation pathways in prokaryotes; Microbial metabolism in diverse environments; Carbon metabolism
+MTBLC85368	CHEBI:85368	dTDP-4-dehydro-2,6-dideoxy-alpha-D-glucose	Polyketide sugar unit biosynthesis; Biosynthesis of antibiotics
+MTBLC85674	CHEBI:85674	3alpha,7alpha,12alpha-trihydroxy-5beta-cholestan-26-oate(1-)	Primary bile acid biosynthesis; Metabolic pathways
+MTBLC77424	CHEBI:77424	4-amino-2,6-dinitrotoluene	Nitrotoluene degradation; Microbial metabolism in diverse environments
+MTBLC7775	CHEBI:7775	ononin	Isoflavonoid biosynthesis
+MTBLC7782	CHEBI:7782	Oripavine	Isoquinoline alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC78272	CHEBI:78272	9-cis-retinol	Retinol metabolism
+MTBLC78288	CHEBI:78288	elloramycin A	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC78424	CHEBI:78424	18-hydroxyoleate	Cutin, suberine and wax biosynthesis
+MTBLC78600	CHEBI:78600	11-dehydrocorticosterone	Steroid hormone biosynthesis
+MTBLC78700	CHEBI:78700	9-oxononanoic acid	alpha-Linolenic acid metabolism; Biosynthesis of secondary metabolites
+MTBLC78734	CHEBI:78734	tropan-3alpha-yl 3-hydroxy-2-phenylpropanoate	Tropane, piperidine and pyridine alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC84162	CHEBI:84162	(2E,6E)-farnesoic acid	Insect hormone biosynthesis
+MTBLC8417	CHEBI:8417	pristinamycin IA	Nonribosomal peptide structures
+MTBLC845	CHEBI:845	2'-norberbamunine	Isoquinoline alkaloid biosynthesis
+MTBLC8464	CHEBI:8464	prontosil	Sulfonamide derivatives - overview
+MTBLC85895	CHEBI:85895	4-amino-5-formamidomethyl-2-methylpyrimidine	ABC transporters
+MTBLC85981	CHEBI:85981	L-homocarnosine	Arginine and proline metabolism
+MTBLC8600	CHEBI:8600	prunetin	Isoflavonoid biosynthesis
+MTBLC8602	CHEBI:8602	pseudobaptigenin	Isoflavonoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC86022	CHEBI:86022	(9R,10S)-9(10)-EpOME	Linoleic acid metabolism; Metabolic pathways
+MTBLC86068	CHEBI:86068	5-hydroxyconiferyl alcohol	Phenylpropanoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC8607	CHEBI:8607	pseudopelletierine	Tropane, piperidine and pyridine alkaloid biosynthesis; Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid; Biosynthesis of secondary metabolites
+MTBLC86071	CHEBI:86071	caffeyl alcohol	Phenylpropanoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC8613	CHEBI:8613	psilocin	Biosynthesis of alkaloids derived from shikimate pathway
+MTBLC8614	CHEBI:8614	psilocybin	Biosynthesis of alkaloids derived from shikimate pathway
+MTBLC8630	CHEBI:8630	pterostilbene	Stilbenoid, diarylheptanoid and gingerol biosynthesis
+MTBLC86381	CHEBI:86381	5beta-dihydrocorticosterone	Steroid hormone biosynthesis
+MTBLC86389	CHEBI:86389	5beta-dihydroaldosterone	Steroid hormone biosynthesis
+MTBLC864	CHEBI:864	(S)-2,3,4,5-tetrahydrodipicolinic acid	Monobactam biosynthesis; Lysine biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites; Microbial metabolism in diverse environments; Biosynthesis of antibiotics; Biosynthesis of amino acids
+MTBLC86409	CHEBI:86409	fortimicin KK1	Biosynthesis of antibiotics
+MTBLC87044	CHEBI:87044	4,4-dimethyl-5alpha-cholest-8-en-3beta-ol	Steroid biosynthesis
+MTBLC88	CHEBI:88	(S)-(-)-citronellol	Geraniol degradation
+MTBLC88102	CHEBI:88102	3beta,7alpha-dihydroxy-5beta-cholan-24-oic acid	Secondary bile acid biosynthesis
+MTBLC8988	CHEBI:8988	SN-38	Drug metabolism - other enzymes
+MTBLC90	CHEBI:90	(-)-epicatechin	Flavonoid biosynthesis; Biosynthesis of phenylpropanoids; Biosynthesis of secondary metabolites
+MTBLC90222	CHEBI:90222	(S)-2-methylbutanoyl-CoA	Valine, leucine and isoleucine degradation; Metabolic pathways; Biosynthesis of secondary metabolites; Biosynthesis of antibiotics
+MTBLC90236	CHEBI:90236	(2E,6E)-farnesyl monophosphate	Terpenoid backbone biosynthesis; Biosynthesis of antibiotics
+MTBLC9036	CHEBI:9036	sarpagine	Indole alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC9053	CHEBI:9053	sclareol	Diterpenoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC9096	CHEBI:9096	L-selenohomocysteine	Selenocompound metabolism
+MTBLC91030	CHEBI:91030	epithienamycin E	Carbapenem biosynthesis; Biosynthesis of antibiotics
+MTBLC9107	CHEBI:9107	senecionine	Tropane, piperidine and pyridine alkaloid biosynthesis; Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid; Biosynthesis of secondary metabolites
+MTBLC9119	CHEBI:9119	serpentine	Indole alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC9151	CHEBI:9151	Sinalbin	Glucosinolate biosynthesis; Biosynthesis of secondary metabolites; 2-Oxocarboxylic acid metabolism
+MTBLC6542	CHEBI:6542	Lotaustralin	Cyanoamino acid metabolism; Biosynthesis of secondary metabolites
+MTBLC6570	CHEBI:6570	lupeol	Sesquiterpenoid and triterpenoid biosynthesis; Biosynthesis of terpenoids and steroids; Biosynthesis of secondary metabolites
+MTBLC6572	CHEBI:6572	L-lupinic acid	Zeatin biosynthesis; Biosynthesis of secondary metabolites
+MTBLC65737	CHEBI:65737	demethoxycurcumin	Stilbenoid, diarylheptanoid and gingerol biosynthesis; Biosynthesis of secondary metabolites
+MTBLC59015	CHEBI:59015	hesperetin 7-O-beta-D-glucoside	Flavonoid biosynthesis
+MTBLC59016	CHEBI:59016	neohesperidin	Flavonoid biosynthesis
+MTBLC59063	CHEBI:59063	polymyxin B2	ABC transporters; Two-component system
+MTBLC59560	CHEBI:59560	sapropterin	Folate biosynthesis; Metabolic pathways
+MTBLC5986	CHEBI:5986	Isoboldine	Biosynthesis of alkaloids derived from shikimate pathway
+MTBLC60077	CHEBI:60077	luteolin-7-O-[beta-D-glucuronosyl-(1->2)-beta-D-glucuronide]	Flavone and flavonol biosynthesis
+MTBLC60210	CHEBI:60210	precursor Z hydrate	Folate biosynthesis; Metabolic pathways; Sulfur relay system
+MTBLC6032	CHEBI:6032	isonicotinic acid	Drug metabolism - other enzymes
+MTBLC6039	CHEBI:6039	isopimaric acid	Diterpenoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC74030	CHEBI:74030	3'-N-debenzoyl-2'-deoxytaxol	Diterpenoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC74126	CHEBI:74126	(11Z)-eicosenoyl-CoA	Biosynthesis of unsaturated fatty acids; Fatty acid metabolism
+MTBLC74142	CHEBI:74142	(15Z)-tetracosenoyl-CoA	Biosynthesis of unsaturated fatty acids; Fatty acid metabolism
+MTBLC74155	CHEBI:74155	3-dimethylallyl-4-hydroxybenzoate	Novobiocin biosynthesis; Biosynthesis of antibiotics
+MTBLC74351	CHEBI:74351	aclacinomycin T	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC74359	CHEBI:74359	L-alpha-aminobutyrate zwitterion	Cysteine and methionine metabolism; Metabolic pathways
+MTBLC74606	CHEBI:74606	(11Z,14Z,17Z)-icosatrienoyl-CoA	Biosynthesis of unsaturated fatty acids; Fatty acid metabolism
+MTBLC74619	CHEBI:74619	aclacinomycin A	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC74683	CHEBI:74683	leukoaminochrome	Betalain biosynthesis
+MTBLC74684	CHEBI:74684	dopaminoquinone	Betalain biosynthesis
+MTBLC74760	CHEBI:74760	4-methylhistamine	Histamine H2/H3 receptor agonists/antagonists
+MTBLC15382	CHEBI:15382	(4R)-limonene	Monoterpenoid biosynthesis; Limonene and pinene degradation; Biosynthesis of terpenoids and steroids; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC15385	CHEBI:15385	(+)-delta-cadinene	Sesquiterpenoid and triterpenoid biosynthesis; Biosynthesis of terpenoids and steroids; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC15386	CHEBI:15386	(3S,4R)-3,4-dihydrophenanthrene-3,4-diol	Polycyclic aromatic hydrocarbon degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC15388	CHEBI:15388	(+)-trans-carveol	Monoterpenoid biosynthesis; Limonene and pinene degradation; Biosynthesis of secondary metabolites
+MTBLC15389	CHEBI:15389	(-)-trans-carveol	Monoterpenoid biosynthesis; Limonene and pinene degradation; Biosynthesis of secondary metabolites
+MTBLC15396	CHEBI:15396	(R)-camphor	Inflammatory mediator regulation of TRP channels
+MTBLC15397	CHEBI:15397	(S)-camphor	Inflammatory mediator regulation of TRP channels
+MTBLC15399	CHEBI:15399	(+)-carvone	Monoterpenoid biosynthesis; Limonene and pinene degradation; Biosynthesis of secondary metabolites
+MTBLC154	CHEBI:154	(+)-dihydrocarvone	Limonene and pinene degradation; Degradation of aromatic compounds
+MTBLC15400	CHEBI:15400	(-)-carvone	Monoterpenoid biosynthesis; Limonene and pinene degradation; Biosynthesis of secondary metabolites
+MTBLC15402	CHEBI:15402	(+)-neomenthol	Monoterpenoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC15404	CHEBI:15404	(-)-homoisocitrate(3-)	Lysine biosynthesis; Metabolic pathways; Microbial metabolism in diverse environments; Biosynthesis of antibiotics; 2-Oxocarboxylic acid metabolism; Biosynthesis of amino acids
+MTBLC15405	CHEBI:15405	(-)-endo-fenchol	Monoterpenoid biosynthesis; Biosynthesis of terpenoids and steroids; Biosynthesis of secondary metabolites
+MTBLC15406	CHEBI:15406	(-)-trans-isopiperitenol	Monoterpenoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC15407	CHEBI:15407	(-)-ephedrine	Phenylalanine metabolism; Biosynthesis of alkaloids derived from shikimate pathway; Metabolic pathways
+MTBLC15408	CHEBI:15408	(-)-isopiperitenone	Monoterpenoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC15409	CHEBI:15409	(-)-menthol	Monoterpenoid biosynthesis; Biosynthesis of secondary metabolites; Inflammatory mediator regulation of TRP channels
+MTBLC15410	CHEBI:15410	(-)-menthone	Monoterpenoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC15421	CHEBI:15421	perillyl aldehyde	Limonene and pinene degradation
+MTBLC15455	CHEBI:15455	(S)-3-hydroxyacyl-CoA	Fatty acid elongation
+MTBLC15459	CHEBI:15459	(3S)-citryl-CoA	Carbon fixation pathways in prokaryotes; Metabolic pathways; Microbial metabolism in diverse environments; Carbon metabolism
+MTBLC15463	CHEBI:15463	cinnamoyl-CoA	Phenylpropanoid biosynthesis; Flavonoid biosynthesis; Stilbenoid, diarylheptanoid and gingerol biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites; Degradation of aromatic compounds
+MTBLC15464	CHEBI:15464	(E,E)-piperonyl-CoA	Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid
+MTBLC15469	CHEBI:15469	alk-2-enoyl-CoA	Fatty acid elongation
+MTBLC15470	CHEBI:15470	2,4-dichlorobenzoyl-CoA	Fluorobenzoate degradation; Metabolic pathways; Microbial metabolism in diverse environments
+MTBLC15472	CHEBI:15472	anthraniloyl-CoA	Aminobenzoate degradation; Microbial metabolism in diverse environments
+MTBLC15474	CHEBI:15474	2-furoyl-CoA	Furfural degradation; Microbial metabolism in diverse environments
+MTBLC15480	CHEBI:15480	3-(4-methylpent-3-en-1-yl)pent-2-enedioyl-CoA	Geraniol degradation
+MTBLC15483	CHEBI:15483	3-hydroxy-3-(4-methylpent-3-en-1-yl)glutaryl-CoA	Geraniol degradation
+MTBLC15489	CHEBI:15489	3-oxo-fatty acyl-CoA	Fatty acid elongation
+MTBLC15497	CHEBI:15497	trans-4-carboxybut-2-enoyl-CoA	Benzoate degradation; Butanoate metabolism; Microbial metabolism in diverse environments
+MTBLC15498	CHEBI:15498	4-chlorobenzoyl-CoA	Fluorobenzoate degradation; Metabolic pathways; Microbial metabolism in diverse environments
+MTBLC155	CHEBI:155	(-)-isodihydrocarvone	Limonene and pinene degradation
+MTBLC15500	CHEBI:15500	4-hydroxybenzoyl-CoA	Ubiquinone and other terpenoid-quinone biosynthesis; Benzoate degradation; Fluorobenzoate degradation; Aminobenzoate degradation; Metabolic pathways; Biosynthesis of secondary metabolites; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC15503	CHEBI:15503	2,3-didehydropimeloyl-CoA	Benzoate degradation; Microbial metabolism in diverse environments
+MTBLC15509	CHEBI:15509	2-succinylbenzoyl-CoA	Ubiquinone and other terpenoid-quinone biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC15510	CHEBI:15510	5-hydroxy-2-furoyl-CoA	Furfural degradation; Microbial metabolism in diverse environments
+MTBLC15512	CHEBI:15512	L-3-aminobutanoyl-CoA	Lysine degradation
+MTBLC15516	CHEBI:15516	biotinyl-CoA	Biotin metabolism
+MTBLC15523	CHEBI:15523	cis-geranoyl-CoA	Geraniol degradation
+MTBLC15528	CHEBI:15528	itaconyl-CoA	C5-Branched dibasic acid metabolism
+MTBLC15535	CHEBI:15535	oxalyl-CoA	Glyoxylate and dicarboxylate metabolism; Metabolic pathways
+MTBLC15540	CHEBI:15540	sinapoyl-CoA	Phenylpropanoid biosynthesis; Biosynthesis of phenylpropanoids; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC15543	CHEBI:15543	vinylacetyl-CoA	Butanoate metabolism
+MTBLC15586	CHEBI:15586	D-citramalic acid	Valine, leucine and isoleucine biosynthesis; C5-Branched dibasic acid metabolism; Metabolic pathways; 2-Oxocarboxylic acid metabolism; Biosynthesis of amino acids
+MTBLC15614	CHEBI:15614	(S)-3-methyl-2-oxovaleric acid	Valine, leucine and isoleucine degradation; Valine, leucine and isoleucine biosynthesis; Glucosinolate biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites; Biosynthesis of antibiotics; 2-Oxocarboxylic acid metabolism; Biosynthesis of amino acids
+MTBLC15629	CHEBI:15629	8(R)-HPETE	Arachidonic acid metabolism; Serotonergic synapse
+MTBLC15640	CHEBI:15640	5-formyltetrahydrofolic acid	One carbon pool by folate; Metabolic pathways
+MTBLC15649	CHEBI:15649	3,6,9-trihydroxypterocarpan	Isoflavonoid biosynthesis
+MTBLC15657	CHEBI:15657	(11S)-11-hydroperoxylinoleic acid	Linoleic acid metabolism
+MTBLC15658	CHEBI:15658	7(S),8(S)-DiHODE	Linoleic acid metabolism
+MTBLC15664	CHEBI:15664	(2E)-4-hydroxy-3-methylbut-2-en-1-yl diphosphate	Terpenoid backbone biosynthesis; Biosynthesis of terpenoids and steroids; Metabolic pathways; Biosynthesis of secondary metabolites; Biosynthesis of antibiotics
+MTBLC15672	CHEBI:15672	D-tartaric acid	Aldosterone synthesis and secretion
+MTBLC15673	CHEBI:15673	meso-tartaric acid	Glyoxylate and dicarboxylate metabolism
+MTBLC15674	CHEBI:15674	2,3-dihydroxybutanedioic acid	Glyoxylate and dicarboxylate metabolism
+MTBLC15677	CHEBI:15677	(R)-(-)-allantoin	Purine metabolism; Microbial metabolism in diverse environments
+MTBLC15678	CHEBI:15678	(S)-(+)-allantoin	Purine metabolism; Metabolic pathways; Microbial metabolism in diverse environments
+MTBLC15686	CHEBI:15686	(R)-acetoin	Butanoate metabolism; C5-Branched dibasic acid metabolism
+MTBLC15687	CHEBI:15687	(S)-acetoin	Butanoate metabolism
+MTBLC15700	CHEBI:15700	dTDP-alpha-D-glucose	Streptomycin biosynthesis; Polyketide sugar unit biosynthesis; Biosynthesis of vancomycin group antibiotics; Metabolic pathways; Biosynthesis of antibiotics
+MTBLC15703	CHEBI:15703	alpha-maltose 6'-phosphate	Starch and sucrose metabolism
+MTBLC15712	CHEBI:15712	2,3-dihydrobiochanin A	Isoflavonoid biosynthesis
+MTBLC15714	CHEBI:15714	trans-sinapic acid	Phenylpropanoid biosynthesis; Biosynthesis of phenylpropanoids; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC15716	CHEBI:15716	12-hydroxydihydrochelirubine	Isoquinoline alkaloid biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC15720	CHEBI:15720	8-[(1R,2R)-3-oxo-2-{(Z)-pent-2-en-1-yl}cyclopentyl]octanoate	alpha-Linolenic acid metabolism; Biosynthesis of plant hormones; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC15728	CHEBI:15728	4-guanidinobutanoic acid	Arginine and proline metabolism; Metabolic pathways
+MTBLC15744	CHEBI:15744	dTDP-4-dehydro-6-deoxy-L-mannose	Streptomycin biosynthesis; Polyketide sugar unit biosynthesis; Metabolic pathways; Biosynthesis of antibiotics
+MTBLC15771	CHEBI:15771	loganin	Monoterpenoid biosynthesis; Biosynthesis of terpenoids and steroids; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC15774	CHEBI:15774	dTDP-beta-L-rhamnose	Streptomycin biosynthesis; Polyketide sugar unit biosynthesis; Metabolic pathways; Biosynthesis of antibiotics
+MTBLC15775	CHEBI:15775	3-oxoadipate(2-)	Benzoate degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC15782	CHEBI:15782	viomycin	Nonribosomal peptide structures
+MTBLC15785	CHEBI:15785	1-(alk-1-enyl)-sn-glycero-3-phosphoethanolamine	Ether lipid metabolism; Metabolic pathways
+MTBLC158	CHEBI:158	(-)-neodihydrocarveol	Limonene and pinene degradation
+MTBLC15805	CHEBI:15805	D-octopine	Arginine and proline metabolism; ABC transporters
+MTBLC15808	CHEBI:15808	12-dehydrotetracycline	Tetracycline biosynthesis; Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC15847	CHEBI:15847	2-(alpha-D-mannosyl)-D-glyceric acid	Fructose and mannose metabolism; Phosphotransferase system (PTS)
+MTBLC15852	CHEBI:15852	aquacob(III)alamin	Porphyrin and chlorophyll metabolism
+MTBLC15864	CHEBI:15864	luteolin	Flavonoid biosynthesis; Flavone and flavonol biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC15878	CHEBI:15878	10-hydroxydihydrosanguinarine	Isoquinoline alkaloid biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC15884	CHEBI:15884	tropine	Tropane, piperidine and pyridine alkaloid biosynthesis; Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC15887	CHEBI:15887	5-aminopentanoic acid	Lysine degradation; Arginine and proline metabolism
+MTBLC15906	CHEBI:15906	demethylmacrocin	Biosynthesis of 12-, 14- and 16-membered macrolides; Biosynthesis of antibiotics
+MTBLC15908	CHEBI:15908	L-threonic acid	Ascorbate and aldarate metabolism
+MTBLC15911	CHEBI:15911	desulfoglucotropeolin	Glucosinolate biosynthesis; Biosynthesis of secondary metabolites; 2-Oxocarboxylic acid metabolism
+MTBLC15914	CHEBI:15914	2-amino-4-oxopentanoic acid	D-Arginine and D-ornithine metabolism
+MTBLC15915	CHEBI:15915	ADP-L-glycero-D-manno-heptose	Lipopolysaccharide biosynthesis; Metabolic pathways
+MTBLC15920	CHEBI:15920	columbamine	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Biosynthesis of secondary metabolites
+MTBLC15929	CHEBI:15929	(-)-methyl jasmonate	alpha-Linolenic acid metabolism; Biosynthesis of secondary metabolites
+MTBLC15932	CHEBI:15932	apiin	Flavone and flavonol biosynthesis
+MTBLC15937	CHEBI:15937	trans-5-O-(4-coumaroyl)-D-quinic acid	Phenylpropanoid biosynthesis; Flavonoid biosynthesis; Stilbenoid, diarylheptanoid and gingerol biosynthesis; Biosynthesis of secondary metabolites
+MTBLC15950	CHEBI:15950	(S)-coclaurine	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC15955	CHEBI:15955	discadenine	Zeatin biosynthesis; Biosynthesis of secondary metabolites
+MTBLC15958	CHEBI:15958	phosphatidyl-N-methylethanolamine	Glycerophospholipid metabolism; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC16007	CHEBI:16007	methanethiol	Cysteine and methionine metabolism; Sulfur metabolism
+MTBLC16008	CHEBI:16008	salicylaldehyde	Naphthalene degradation; Biosynthesis of phenylpropanoids; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC16026	CHEBI:16026	LL-2,6-diaminopimelic acid	Lysine biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites; Microbial metabolism in diverse environments; Biosynthesis of antibiotics; Biosynthesis of amino acids
+MTBLC16035	CHEBI:16035	2'-hydroxy-2,3-dihydrodaidzein	Isoflavonoid biosynthesis
+MTBLC16048	CHEBI:16048	FMNH2	Butirosin and neomycin biosynthesis; Riboflavin metabolism; Biosynthesis of type II polyketide products; Metabolic pathways; Biosynthesis of antibiotics
+MTBLC16054	CHEBI:16054	2-benzylsuccinic acid	Toluene degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC16060	CHEBI:16060	10-deoxysarpagine	Indole alkaloid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC16065	CHEBI:16065	scopolin	Phenylpropanoid biosynthesis; Biosynthesis of phenylpropanoids; Biosynthesis of secondary metabolites
+MTBLC16089	CHEBI:16089	6-deoxyerythronolide B	Biosynthesis of 12-, 14- and 16-membered macrolides; Biosynthesis of antibiotics
+MTBLC16096	CHEBI:16096	palmatine	Isoquinoline alkaloid biosynthesis
+MTBLC16109	CHEBI:16109	propane-1,3-diol	Glycerolipid metabolism
+MTBLC16112	CHEBI:16112	chlorogenic acid	Phenylpropanoid biosynthesis; Flavonoid biosynthesis; Stilbenoid, diarylheptanoid and gingerol biosynthesis; Biosynthesis of secondary metabolites
+MTBLC16118	CHEBI:16118	berberine	Isoquinoline alkaloid biosynthesis; Biosynthesis of alkaloids derived from shikimate pathway; Biosynthesis of secondary metabolites; AMPK signaling pathway
+MTBLC16123	CHEBI:16123	6-oxocineole	Monoterpenoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC16151	CHEBI:16151	3,4-dihydrocoumarin	Polycyclic aromatic hydrocarbon degradation; Microbial metabolism in diverse environments
+MTBLC62638	CHEBI:62638	(S)-3-hydroxyisobutyrate	Valine, leucine and isoleucine degradation; Metabolic pathways
+MTBLC63152	CHEBI:63152	alpha-D-rhamnose	ABC transporters
+MTBLC63153	CHEBI:63153	N-acetyl-D-mannosamine	Amino sugar and nucleotide sugar metabolism; Metabolic pathways
+MTBLC63207	CHEBI:63207	mycinamicin III	Biosynthesis of antibiotics
+MTBLC63285	CHEBI:63285	mycinamicin VI	Biosynthesis of antibiotics
+MTBLC6331	CHEBI:6331	erythro-4-hydroxy-L-glutamate(1-)	Arginine and proline metabolism; Metabolic pathways
+MTBLC63552	CHEBI:63552	1-phenyl-1,2-propanedione	Phenylalanine metabolism; Biosynthesis of alkaloids derived from shikimate pathway; Metabolic pathways
+MTBLC63558	CHEBI:63558	DIBOA	Benzoxazinoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC63559	CHEBI:63559	HBOA	Benzoxazinoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC6368	CHEBI:6368	Lampranthin II	Betalain biosynthesis
+MTBLC63741	CHEBI:63741	9,17-dioxo-1,2,3,4,10,19-hexanorandrostan-5-oic acid	Steroid degradation; Metabolic pathways; Microbial metabolism in diverse environments; Degradation of aromatic compounds
+MTBLC63862	CHEBI:63862	3'-N-debenzoyltaxol	Diterpenoid biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC6417	CHEBI:6417	(2R,3S,4S)-leucodelphinidin	Flavonoid biosynthesis; Biosynthesis of secondary metabolites
+MTBLC64273	CHEBI:64273	erythromycin C	Biosynthesis of 12-, 14- and 16-membered macrolides; Biosynthesis of antibiotics
+MTBLC64318	CHEBI:64318	ergotamine	Biosynthesis of alkaloids derived from shikimate pathway; Biosynthesis of secondary metabolites
+MTBLC5760	CHEBI:5760	hopane-29-acetate	Biosynthesis of terpenoids and steroids; Biosynthesis of secondary metabolites
+MTBLC5764	CHEBI:5764	hordenine	Tyrosine metabolism
+MTBLC5768	CHEBI:5768	(1E,4E,8E)-alpha-humulene	Sesquiterpenoid and triterpenoid biosynthesis; Biosynthesis of terpenoids and steroids
+MTBLC1296	CHEBI:1296	20-hydroxycholesterol	Steroid hormone biosynthesis; Metabolic pathways
+MTBLC1322	CHEBI:1322	3',4'-Anhydrovinblastine	Indole alkaloid biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC1387	CHEBI:1387	3,4-dihydroxyphenylethyleneglycol	Tyrosine metabolism; Metabolic pathways
+MTBLC1395	CHEBI:1395	3,5-dibromo-4-hydroxybenzoic acid	Fluorobenzoate degradation; Microbial metabolism in diverse environments
+MTBLC14027	CHEBI:14027	corydaline	Isoquinoline alkaloid biosynthesis
+MTBLC14030	CHEBI:14030	crepenynate	Linoleic acid metabolism; Biosynthesis of plant secondary metabolites
+MTBLC1438	CHEBI:1438	3-(methylthio)propionic acid	Cysteine and methionine metabolism; Sulfur metabolism; Metabolic pathways
+MTBLC1463	CHEBI:1463	3-carboxy-1-hydroxypropylthiamine diphosphate	Citrate cycle (TCA cycle)
+MTBLC149	CHEBI:149	(-)-dihydrocarveol	Limonene and pinene degradation
+MTBLC150	CHEBI:150	(-)-isodihydrocarveol	Limonene and pinene degradation
+MTBLC152	CHEBI:152	(+)-neodihydrocarveol	Limonene and pinene degradation; Degradation of aromatic compounds
+MTBLC153	CHEBI:153	(-)-neoisodihydrocarveol	Limonene and pinene degradation
+MTBLC15335	CHEBI:15335	5,7-dihydroxy-4'-methoxyflavone	Flavone and flavonol biosynthesis
+MTBLC15368	CHEBI:15368	acrolein	Drug metabolism - cytochrome P450
+MTBLC32211	CHEBI:32211	tetrangomycin	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC32212	CHEBI:32212	tetrangulol	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC32279	CHEBI:32279	urdamycin A	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC32283	CHEBI:32283	Urdamycinone B	Biosynthesis of type II polyketide products; Biosynthesis of antibiotics
+MTBLC32298	CHEBI:32298	vitexin 2''-O-alpha-L-rhamnoside	Flavone and flavonol biosynthesis
+MTBLC32389	CHEBI:32389	all-cis-octadeca-6,9,12,15-tetraenoic acid	alpha-Linolenic acid metabolism; Biosynthesis of secondary metabolites
+MTBLC32396	CHEBI:32396	6-aminohexanoate	Caprolactam degradation; Metabolic pathways; Microbial metabolism in diverse environments
+MTBLC32425	CHEBI:32425	gondoic acid	Biosynthesis of unsaturated fatty acids
+MTBLC32798	CHEBI:32798	9-cis,11-trans-octadecadienoic acid	Linoleic acid metabolism
+MTBLC32800	CHEBI:32800	(S)-mandelic acid	Aminobenzoate degradation; Microbial metabolism in diverse environments
+MTBLC32802	CHEBI:32802	(S)-4-hydroxymandelic acid	Monobactam biosynthesis; Aminobenzoate degradation; Biosynthesis of vancomycin group antibiotics; Microbial metabolism in diverse environments; Biosynthesis of antibiotics
+MTBLC32803	CHEBI:32803	(R)-4-hydroxymandelic acid	Microbial metabolism in diverse environments
+MTBLC32815	CHEBI:32815	enol-phenylpyruvic acid	Phenylalanine metabolism
+MTBLC32898	CHEBI:32898	baccatin III	Diterpenoid biosynthesis; Metabolic pathways; Biosynthesis of secondary metabolites
+MTBLC32903	CHEBI:32903	gibberellin A7	Diterpenoid biosynthesis
+MTBLC3306	CHEBI:3306	calcitonin	Neuroactive ligand-receptor interaction
+MTBLC33076	CHEBI:33076	D-mannonic acid	Pentose and glucuronate interconversions; Metabolic pathways
+MTBLC33227	CHEBI:33227	(E)-cinnamyl alcohol	Biosynthesis of plant secondary metabolites; Biosynthesis of secondary metabolites
+MTBLC3323	CHEBI:3323	Calligonine	Biosynthesis of alkaloids derived from shikimate pathway
+MTBLC33270	CHEBI:33270	alpha-tocotrienol	Ubiquinone and other terpenoid-quinone biosynthesis; Biosynthesis of secondary metabolites
+MTBLC33275	CHEBI:33275	beta-tocotrienol	Ubiquinone and other terpenoid-quinone biosynthesis; Biosynthesis of secondary metabolites
+MTBLC33276	CHEBI:33276	delta-tocotrienol	Ubiquinone and other terpenoid-quinone biosynthesis; Biosynthesis of secondary metabolites
+MTBLC33277	CHEBI:33277	gamma-tocotrienol	Ubiquinone and other terpenoid-quinone biosynthesis; Biosynthesis of secondary metabolites
+MTBLC3349	CHEBI:3349	candicidin D	Type I polyketide structures
+MTBLC3374	CHEBI:3374	capsaicin	Phenylalanine metabolism; Biosynthesis of plant secondary metabolites; Biosynthesis of alkaloids derived from shikimate pathway; Metabolic pathways; Biosynthesis of secondary metabolites; Inflammatory mediator regulation of TRP channels
+MTBLC3375	CHEBI:3375	capsanthin	Carotenoid biosynthesis
+MTBLC3388	CHEBI:3388	carbamazepine-10,11-epoxide	Drug metabolism - cytochrome P450
+MTBLC33998	CHEBI:33998	(1R,2S)-naphthalene 1,2-oxide	Metabolism of xenobiotics by cytochrome P450
+MTBLC34031	CHEBI:34031	1,1-dichloroethene	Metabolism of xenobiotics by cytochrome P450
+MTBLC34048	CHEBI:34048	1,2-dihydroxy-3,4-epoxy-1,2,3,4-tetrahydronaphthalene	Metabolism of xenobiotics by cytochrome P450
+MTBLC34104	CHEBI:34104	1-nitronaphthalene	Metabolism of xenobiotics by cytochrome P450
+MTBLC34126	CHEBI:34126	11(R)-HETE	Arachidonic acid metabolism
+MTBLC34127	CHEBI:34127	11(R)-HPETE	Arachidonic acid metabolism; Serotonergic synapse
+MTBLC34128	CHEBI:34128	11,12,15-THETA	Arachidonic acid metabolism; Metabolic pathways
+MTBLC34137	CHEBI:34137	11H-14,15-EETA	Arachidonic acid metabolism; Metabolic pathways
+MTBLC34148	CHEBI:34148	12,13-Epoxy-9-hydroxy-10-octadecenoate	Linoleic acid metabolism
+MTBLC34162	CHEBI:34162	16(R)-HETE	Arachidonic acid metabolism
+MTBLC34185	CHEBI:34185	19(S)-HETE	Arachidonic acid metabolism; Metabolic pathways
