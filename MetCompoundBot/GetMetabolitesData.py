@@ -54,7 +54,6 @@ def main(arguments):
     ftp = args.ftp
     root = args.launch_directory
     destination = args.destination
-    request = args.request
 
     if(root == ""):
         root = os.getcwd();
