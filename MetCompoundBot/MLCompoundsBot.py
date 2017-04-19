@@ -16,6 +16,7 @@ import logging
 import os
 import time
 import json
+import subprocess
 from random import randint
 
 destinationDirectory = ""
@@ -45,16 +46,20 @@ def main(arguments):
     parser.add_argument('-w', '--destination', action=readable_dir, help="Output directory", default="/nfs/www-prod/web_hx2/cm/metabolights/prod/reference/")
     parser.add_argument('-c', '--compound', help="- MetaboLights Compound Identifier", default="all")
     parser.add_argument('-f', '--ftp', action=readable_dir, default="/ebi/ftp/pub/databases/metabolights/compounds/", help="FTP directory")
+    parser.add_argument('-p', '--process', action=readable_dir, default="false", help="Use parallel threads")
     args = parser.parse_args(arguments)
     global workingDirectory
     global destinationDirectory
     global requestedCompound
     global ftp
 
+    batch = 10
+
     workingDirectory = args.launch_directory
     destinationDirectory = args.destination
     requestedCompound = args.compound.replace('"','')
     ftp = args.ftp
+    parallelProcessing = args.process
 
     if(workingDirectory == ""):
         workingDirectory = os.getcwd();
@@ -70,10 +75,12 @@ def main(arguments):
     logging.info("-----------------------------------------------")
     logging.info('# Run started -' + utils.getDateAndTime())
 
-    logging.info('Generating MetaboLights Study - Compound Mapping file')
+    logging.info('Reading MetaboLights Study - Compound Mapping file')
 
     global mlSCMappingFile
     mlSCMappingFile = ftp + "mapping.json"
+
+    logging.info('Reading Reactome data')
 
     global reactomeJSONFile
     reactomeJSONFile = ftp + "reactome.json"
@@ -89,11 +96,32 @@ def main(arguments):
     if (requestedCompound != "all") :
         requestCompoundsList = requestedCompound.split(",")
         for compound in requestCompoundsList:
+            logging.info("-----------------------------------------------")
+            logging.info("Fetching compound: " + compound)
             utils.fetchCompound(compound.strip(), workingDirectory, destinationDirectory, reactomeData, mlMapping)
     else:
-        MLCompoundsList = utils.fetchMetaboLightsCompoundsList()
-        for compound in MLCompoundsList:
-            utils.fetchCompound(compound, workingDirectory, destinationDirectory, reactomeData, mlMapping)
+        if parallelProcessing:
+            MLCompoundsList = utils.fetchMetaboLightsCompoundsList()
+            compoundBatches = []
+            interval = len(MLCompoundsList)/batch
+            current = 0
+            for i in range(0, batch):
+                compoundsTempList = MLCompoundsList[current: current + interval]
+                compoundsTempListString = '"' + ', '.join(compoundsTempList) + '"'
+                compoundBatches.append(compoundsTempListString)
+                current = current + interval
+            procs = [subprocess.Popen(["python", "MLCompoundsBot.py", "-c" , cp]) for cp in compoundBatches]
+            for proc in procs:
+                proc.wait()
+            if any(proc.returncode != 0 for proc in procs):
+                print "Error reimporting all compound's data"
+        else:
+            requestCompoundsList = requestedCompound.split(",")
+            for compound in requestCompoundsList:
+                logging.info("-----------------------------------------------")
+                logging.info("Fetching compound: " + compound)
+                utils.fetchCompound(compound.strip(), workingDirectory, destinationDirectory, reactomeData, mlMapping)
+            
 
 if __name__ == "__main__":
     sys.exit(main(sys.argv[1:]))
