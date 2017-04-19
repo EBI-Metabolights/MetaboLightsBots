@@ -100,27 +100,11 @@ def main(arguments):
             logging.info("Fetching compound: " + compound)
             utils.fetchCompound(compound.strip(), workingDirectory, destinationDirectory, reactomeData, mlMapping)
     else:
-        if parallelProcessing:
-            MLCompoundsList = utils.fetchMetaboLightsCompoundsList()
-            compoundBatches = []
-            interval = len(MLCompoundsList)/batch
-            current = 0
-            for i in range(0, batch):
-                compoundsTempList = MLCompoundsList[current: current + interval]
-                compoundsTempListString = '"' + ', '.join(compoundsTempList) + '"'
-                compoundBatches.append(compoundsTempListString)
-                current = current + interval
-            procs = [subprocess.Popen(["python", "~/metabolights/scripts/MetaboLightsBots/MetCompoundBot/MLCompoundsBot.py", "-c" , cp]) for cp in compoundBatches]
-            for proc in procs:
-                proc.wait()
-            if any(proc.returncode != 0 for proc in procs):
-                print "Error reimporting all compound's data"
-        else:
-            requestCompoundsList = requestedCompound.split(",")
-            for compound in requestCompoundsList:
-                logging.info("-----------------------------------------------")
-                logging.info("Fetching compound: " + compound)
-                utils.fetchCompound(compound.strip(), workingDirectory, destinationDirectory, reactomeData, mlMapping)
+        requestCompoundsList = utils.fetchMetaboLightsCompoundsList()
+        for compound in requestCompoundsList:
+            logging.info("-----------------------------------------------")
+            logging.info("Fetching compound: " + compound)
+            utils.fetchCompound(compound.strip(), workingDirectory, destinationDirectory, reactomeData, mlMapping)
             
 
 if __name__ == "__main__":
