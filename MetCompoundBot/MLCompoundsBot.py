@@ -110,7 +110,7 @@ def main(arguments):
                 compoundsTempListString = '"' + ', '.join(compoundsTempList) + '"'
                 compoundBatches.append(compoundsTempListString)
                 current = current + interval
-            procs = [subprocess.Popen(["python", "MLCompoundsBot.py", "-c" , cp]) for cp in compoundBatches]
+            procs = [subprocess.Popen(["python", "~/metabolights/scripts/MetaboLightsBots/MetCompoundBot/MLCompoundsBot.py", "-c" , cp]) for cp in compoundBatches]
             for proc in procs:
                 proc.wait()
             if any(proc.returncode != 0 for proc in procs):
