@@ -104,8 +104,11 @@ def main(arguments):
         for compound in requestCompoundsList:
             logging.info("-----------------------------------------------")
             logging.info("Fetching compound: " + compound)
-            utils.fetchCompound(compound.strip(), workingDirectory, destinationDirectory, reactomeData, mlMapping)
-            
+            try:
+                utils.fetchCompound(compound.strip(), workingDirectory, destinationDirectory, reactomeData, mlMapping)
+            except:
+                print("Unexpected error:", sys.exc_info()[0])
+                pass
 
 if __name__ == "__main__":
     sys.exit(main(sys.argv[1:]))
