@@ -105,8 +105,7 @@ def main(arguments):
             logging.info("-----------------------------------------------")
             logging.info("Fetching compound: " + metabolite)
             if metabolightsFlagsData[metabolite]['rating'] <= int(importLevel):
-                print str(metabolightsFlagsData[metabolite]['rating']) + " - " + metabolite
-                #utils.fetchCompound(metabolite.strip(), workingDirectory, destinationDirectory, reactomeData, mlMapping)
+                utils.fetchCompound(metabolite.strip(), workingDirectory, destinationDirectory, reactomeData, mlMapping)
     else:
         requestCompoundsList = utils.fetchMetaboLightsCompoundsList()
         for compound in requestCompoundsList:
