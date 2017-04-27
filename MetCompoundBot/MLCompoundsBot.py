@@ -94,11 +94,13 @@ def main(arguments):
         mlMapping = json.load(mapping_file)
 
     if (requestedCompound != "all") :
-        requestCompoundsList = requestedCompound.split(",")
-        for compound in requestCompoundsList:
+        metabolightsFlagsJSONFile = ftp + "ml_flags.json"
+        with open(metabolightsFlagsJSONFile) as flags_file:
+            metabolightsFlagsData = json.load(flags_file)
+        for metabolite in metabolightsFlagsData:
             logging.info("-----------------------------------------------")
-            logging.info("Fetching compound: " + compound)
-            utils.fetchCompound(compound.strip(), workingDirectory, destinationDirectory, reactomeData, mlMapping)
+            logging.info("Fetching compound: " + metabolite)
+            utils.fetchCompound(metabolite.strip(), workingDirectory, destinationDirectory, reactomeData, mlMapping)
     else:
         requestCompoundsList = utils.fetchMetaboLightsCompoundsList()
         for compound in requestCompoundsList:

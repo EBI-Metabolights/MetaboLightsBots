@@ -108,7 +108,7 @@ def setFlags(file_path, tempCompoundReport):
         tempCompoundReport["flags"]["hasSpecies"] = metabolite["flags"]["hasSpecies"]
         if metabolite["structure"]:
             tempCompoundReport["flags"]["has3d"] = "true"
-    return tempCompoundReport
+    return calculateRating(tempCompoundReport)
 
 def checkIfFileEmptyOrNotExist(file_path, tempCompoundReport):
     if not os.path.exists(file_path):
@@ -116,6 +116,21 @@ def checkIfFileEmptyOrNotExist(file_path, tempCompoundReport):
     else:
         if os.stat(file_path).st_size == 0:
             tempCompoundReport['rating'] = 0
+    return tempCompoundReport
+
+def calculateRating(tempCompoundReport):
+    if tempCompoundReport['rating'] != 0:
+        tempCompoundReport['rating'] = 0
+        if tempCompoundReport["flags"]["hasInchiKey"]:
+            tempCompoundReport['rating'] += 1
+        if tempCompoundReport["flags"]["hasNMR"] or tempCompoundReport["flags"]["hasMS"]:
+            tempCompoundReport['rating'] += 1
+        if tempCompoundReport["flags"]["hasPathways"]:
+            tempCompoundReport['rating'] += 1
+        if tempCompoundReport["flags"]["hasReactions"]:
+            tempCompoundReport['rating'] += 1
+        if tempCompoundReport["flags"]["hasSpecies"]:
+            tempCompoundReport['rating'] += 1
     return tempCompoundReport
 
 if __name__ == "__main__":
