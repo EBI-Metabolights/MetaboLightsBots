@@ -121,15 +121,15 @@ def checkIfFileEmptyOrNotExist(file_path, tempCompoundReport):
 def calculateRating(tempCompoundReport):
     if tempCompoundReport['rating'] != 0:
         tempCompoundReport['rating'] = 0
-        if tempCompoundReport["flags"]["hasInchiKey"]:
+        if tempCompoundReport["flags"]["hasInchiKey"] == "true":
             tempCompoundReport['rating'] += 1
-        if tempCompoundReport["flags"]["hasNMR"] or tempCompoundReport["flags"]["hasMS"]:
+        if tempCompoundReport["flags"]["hasNMR"] == "true" or tempCompoundReport["flags"]["hasMS"] == "true":
             tempCompoundReport['rating'] += 1
-        if tempCompoundReport["flags"]["hasPathways"]:
+        if tempCompoundReport["flags"]["hasPathways"]== "true":
             tempCompoundReport['rating'] += 1
-        if tempCompoundReport["flags"]["hasReactions"]:
+        if tempCompoundReport["flags"]["hasReactions"]== "true":
             tempCompoundReport['rating'] += 1
-        if tempCompoundReport["flags"]["hasSpecies"]:
+        if tempCompoundReport["flags"]["hasSpecies"]== "true":
             tempCompoundReport['rating'] += 1
     return tempCompoundReport
 
