@@ -24,6 +24,7 @@ workingDirectory = ""
 mlSCMappingFile = ""
 reactomeJSONFile = ""
 ftp = ""
+importLevel = 0
 
 reactomeData = {}
 mlMapping = {}
@@ -45,6 +46,7 @@ def main(arguments):
     parser.add_argument('-l', '--launch_directory', action=readable_dir, default = "" )
     parser.add_argument('-w', '--destination', action=readable_dir, help="Output directory", default="/nfs/www-prod/web_hx2/cm/metabolights/prod/reference/")
     parser.add_argument('-c', '--compound', help="- MetaboLights Compound Identifier", default="all")
+    parser.add_argument('-s', '--stars', help="- Compounds import level", default="0")
     parser.add_argument('-f', '--ftp', action=readable_dir, default="/ebi/ftp/pub/databases/metabolights/compounds/", help="FTP directory")
     parser.add_argument('-p', '--process', action=readable_dir, default="false", help="Use parallel threads")
     args = parser.parse_args(arguments)
@@ -52,6 +54,7 @@ def main(arguments):
     global destinationDirectory
     global requestedCompound
     global ftp
+    global importLevel
 
     batch = 10
 
@@ -59,6 +62,7 @@ def main(arguments):
     destinationDirectory = args.destination
     requestedCompound = args.compound.replace('"','')
     ftp = args.ftp
+    importLevel = args.stars
     parallelProcessing = args.process
 
     if(workingDirectory == ""):
@@ -100,7 +104,9 @@ def main(arguments):
         for metabolite in metabolightsFlagsData:
             logging.info("-----------------------------------------------")
             logging.info("Fetching compound: " + metabolite)
-            utils.fetchCompound(metabolite.strip(), workingDirectory, destinationDirectory, reactomeData, mlMapping)
+            if metabolightsFlagsData[metabolite]['rating'] <= int(importLevel):
+                print str(metabolightsFlagsData[metabolite]['rating']) + " - " + metabolite
+                #utils.fetchCompound(metabolite.strip(), workingDirectory, destinationDirectory, reactomeData, mlMapping)
     else:
         requestCompoundsList = utils.fetchMetaboLightsCompoundsList()
         for compound in requestCompoundsList:
