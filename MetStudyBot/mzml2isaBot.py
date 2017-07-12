@@ -80,9 +80,12 @@ def main(arguments):
 
         sub = bsub("mzml2isaJob", verbose=True)
         sub("mzml2isa -i " + inputLocation + " -o" + outputLocation + " -s test_isa")
-        print sub
-        print sub.job_id
-
+        status = {
+            "message": "Job submitted successfully",
+            "code"  : "PEND"
+        }
+        status["jobID"] = sub.job_id
+        print status
 
 def _getJobStatus(res):
     status = {
