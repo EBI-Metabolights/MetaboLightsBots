@@ -78,8 +78,8 @@ def main(arguments):
         if not os.path.isdir(outputLocation) or not os.path.exists(outputLocation):
             raise Exception("Output folder doesnt exist")
 
-        sub = bsub("mzml2isaJob", verbose=True)
-        sub("mzml2isa -i " + inputLocation + " -o" + outputLocation + " -s test_isa")
+        sub = bsub("mzml2isaJob", verbose=False)
+        sub("mzml2isa -i " + inputLocation + " -o " + outputLocation + " -s test_isa")
         status = {
             "message": "Job submitted successfully",
             "code"  : "PEND"
