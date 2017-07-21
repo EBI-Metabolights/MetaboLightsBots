@@ -1,7 +1,13 @@
 #!/usr/bin/env python
 
-"""Generate the parallel coordinates compatible JSON and also scripts to
-    analyse the coordinates data
+"""
+Extact metabolites details from the study maf file
+
+Usage: 
+> python ./ExtractMetabolites -w . 
+(extacts all the studies)
+> python ./ExtractMetabolites -w . -s MTBLS1,MTBLS2,MTBLS3
+(extacts from the 3 studies MTBLS1, MTBLS2, MTBLS3)
 """
 import os
 import sys
