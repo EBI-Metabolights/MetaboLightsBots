@@ -87,7 +87,7 @@ def main(arguments):
                 identifiedMetabolites = []
                 for line in metabolitesLines:
                     dbID = str(line['databaseIdentifier'])
-                    if dbID != '' and "CHEBI" in  dbID:
+                    if dbID != '': # and "CHEBI" in  dbID
                         if dbID not in identifiedMetabolites:
                             identifiedMetabolites.append(dbID)
             totalIdentifiedCompounds = totalIdentifiedCompounds + len(identifiedMetabolites)
@@ -96,7 +96,7 @@ def main(arguments):
         row['totalIdentifiedMetabolites'] = totalIdentifiedCompounds
         rows.append(row)
 
-    with open('output.tsv', 'w') as csvfile:
+    with open( destination + "/" + 'output.tsv', 'w') as csvfile:
         writer = csv.DictWriter(csvfile, delimiter='\t', fieldnames=fieldnames)
         writer.writeheader()
         for row in rows:
