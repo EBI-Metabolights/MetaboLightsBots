@@ -80,6 +80,7 @@ def main(arguments):
         row = {}
         totalCompounds = 0
         totalIdentifiedCompounds = 0
+        identifiedMetabolites = []
         for i in range(0, assaysCount):
             metabolitesLines = json.loads(urllib2.urlopen( "http://www.ebi.ac.uk/metabolights/webservice/study/" + study + "/assay/" + str(i+1) + "/maf").read())["content"]['metaboliteAssignmentLines']
             if metabolitesLines != None:
@@ -87,7 +88,8 @@ def main(arguments):
                 identifiedMetabolites = []
                 for line in metabolitesLines:
                     dbID = str(line['databaseIdentifier'])
-                    if dbID != '': # and "CHEBI" in  dbID
+                    metaboliteName = str(line['metaboliteIdentification']) 
+                    if dbID != '' or metaboliteName != '':
                         if dbID not in identifiedMetabolites:
                             identifiedMetabolites.append(dbID)
             totalIdentifiedCompounds = totalIdentifiedCompounds + len(identifiedMetabolites)
