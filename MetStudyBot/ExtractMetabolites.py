@@ -47,6 +47,7 @@ def main(arguments):
     parser.add_argument('-l', '--launch_directory', action=readable_dir, default = "" )
     parser.add_argument('-w', '--destination', action=readable_dir, default="", help="Output directory")
     parser.add_argument('-s', '--studies', help="Studies list")
+    parser.add_argument('-o', '--includeOrganism', default="false", help="Include organism data")
     args = parser.parse_args(arguments)
     
     global studies
@@ -54,6 +55,8 @@ def main(arguments):
     # Reading lauching directory and log file details
     root = args.launch_directory
     destination = args.destination
+    includeOrganism = args.includeOrganism
+
     if(root == ""):
         root = os.getcwd();
     
@@ -68,6 +71,10 @@ def main(arguments):
         studies = str(inputStudies).split(",")
 
     fieldnames = ["StudyID", "totalMetabolites", "totalIdentifiedMetabolites"]
+
+    if includeOrganism:
+        fieldnames.append("Organism")
+
     rows = []
 
     for study in studies:
@@ -76,6 +83,13 @@ def main(arguments):
         MetaboLightsStudyData = MetaboLightsUrl + "study/" + study
         response = urllib2.urlopen(MetaboLightsStudyData)
         studyData = json.loads(response.read())['content']
+        organisms = studyData["organism"]
+        organismData = ""
+        for organism in organisms:
+            if organismData == "":
+                organismData = organism["organismName"] + "(" + organism["organismPart"] + ")"
+            else:
+                organismData = organismData + ";" + organism["organismName"] + "(" + organism["organismPart"] + ")"
         assaysCount =  len(studyData['assays'])
         row = {}
         totalCompounds = 0
@@ -88,7 +102,10 @@ def main(arguments):
                 identifiedMetabolites = []
                 for line in metabolitesLines:
                     dbID = str(line['databaseIdentifier'])
-                    metaboliteName = str(line['metaboliteIdentification']) 
+                    try:
+                        metaboliteName = str(line['metaboliteIdentification'])
+                    except:
+                        metaboliteName = ""
                     if dbID != '' or metaboliteName != '':
                         if dbID not in identifiedMetabolites:
                             identifiedMetabolites.append(dbID)
@@ -96,6 +113,8 @@ def main(arguments):
         row['StudyID'] = study
         row['totalMetabolites'] = totalCompounds
         row['totalIdentifiedMetabolites'] = totalIdentifiedCompounds
+        if includeOrganism:
+            row['Organism'] = organismData
         rows.append(row)
 
     with open( destination + "/" + 'output.tsv', 'w') as csvfile:
