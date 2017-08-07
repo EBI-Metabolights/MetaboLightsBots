@@ -57,6 +57,10 @@ def generateMLStudyCompoundMappingFile(mappingFile):
     for study in MLStudiesList:
         print study
         studyContent = json.loads(urllib2.urlopen(MetaboLightsWSStudyUrl + study).read())["content"]
+        organismData = studyContent["organism"]
+        hasMultipleOrganisms = True
+        if (len(organismData) == 1):
+            hasMultipleOrganisms = False
         assayNumber = 1
         for assay in studyContent["assays"]:
             try:
@@ -65,6 +69,10 @@ def generateMLStudyCompoundMappingFile(mappingFile):
                     dbID = str(line['databaseIdentifier'])
                     if dbID != '':
                         species = str(line['species'])
+                        if species == "":
+                            if not hasMultipleOrganisms:
+                                species = organismData[0]['organismName']
+                                part = organismData[0]['organismPart']
                         if species not in speciesList and species != "":
                             speciesList.append(species)
                         tempCompound = {}
@@ -72,14 +80,19 @@ def generateMLStudyCompoundMappingFile(mappingFile):
                             compoundsList[dbID] = []
                             tempCompound['study'] = study
                             tempCompound['assay'] = assayNumber
+                            tempCompound['assay'] = assayNumber
                             tempCompound['species'] = species
-                            tempCompound['mafEntry'] = line
+                            tempCompound['part'] = part
+                            tempCompound['taxid'] = line['taxid']
+                            #tempCompound['mafEntry'] = line
                             compoundsList[dbID].append(tempCompound)
                         else:
                             tempCompound['study'] = study
                             tempCompound['assay'] = assayNumber
                             tempCompound['species'] = species
-                            tempCompound['mafEntry'] = line
+                            tempCompound['part'] = part
+                            tempCompound['taxid'] = line['taxid']
+                            #tempCompound['mafEntry'] = line
                             compoundsList[dbID].append(tempCompound)
                         tempStudy = {}
                         if study not in studiesList:
@@ -87,11 +100,15 @@ def generateMLStudyCompoundMappingFile(mappingFile):
                             tempStudy['compound'] = dbID
                             tempStudy['assay'] = assayNumber
                             tempStudy['species'] = species
+                            tempStudy['part'] = part
+                            tempCompound['taxid'] = line['taxid']
                             studiesList[study].append(tempStudy)
                         else:
                             tempStudy['compound'] = dbID
                             tempStudy['assay'] = assayNumber
                             tempStudy['species'] = species
+                            tempStudy['part'] = part
+                            tempCompound['taxid'] = line['taxid']
                             studiesList[study].append(tempStudy)
                 assayNumber += 1
             except:
