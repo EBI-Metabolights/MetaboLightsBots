@@ -117,6 +117,8 @@ def _run(command, check_str="is submitted"):
     p.wait()
     res = p.stdout.read().strip().decode()
     err = p.stderr.read().strip().decode()
+    if res == '':
+        return err
     return res
 
 if __name__ == "__main__":
