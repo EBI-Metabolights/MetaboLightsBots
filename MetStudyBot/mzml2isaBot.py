@@ -79,7 +79,7 @@ def main(arguments):
             raise Exception("Output folder doesnt exist")
 
         sub = bsub("mzml2isaJob", verbose=False)
-        sub("mzml2isa -i " + inputLocation + " -o " + outputLocation + " -s test_isa")
+        sub("mzml2isa -i " + inputLocation + " -o " + outputLocation + " -s ''")
         status = {
             "message": "Job submitted successfully",
             "code"  : "PEND"
