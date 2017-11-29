@@ -109,14 +109,13 @@ def main(arguments):
     else:
         requestCompoundsList = utils.fetchMetaboLightsCompoundsList()
         for compound in requestCompoundsList:
-            if (compound == 'MTBLC15355'):
-                logging.info("-----------------------------------------------")
-                logging.info("Fetching compound: " + compound)
-                try:
-                    utils.fetchCompound(compound.strip(), workingDirectory, destinationDirectory, reactomeData, mlMapping)
-                except:
-                    logging.info("Error: " + compound)
-                    pass
+            logging.info("-----------------------------------------------")
+            logging.info("Fetching compound: " + compound)
+            try:
+                utils.fetchCompound(compound.strip(), workingDirectory, destinationDirectory, reactomeData, mlMapping)
+            except:
+                logging.info("Error: " + compound)
+                pass
 
 if __name__ == "__main__":
     sys.exit(main(sys.argv[1:]))

@@ -236,7 +236,7 @@ def getChebiData(chebiId,mlMapping):
                 originDic = {}
                 originDic["SpeciesAccession"] = origin.find("{https://www.ebi.ac.uk/webservices/chebi}speciesAccession").text
                 originDic["SourceType"] = origin.find("{https://www.ebi.ac.uk/webservices/chebi}SourceType").text
-                originDic["SourceAccession"] = origin.find("{https://www.ebiå.ac.uk/webservices/chebi}SourceAccession").text
+                originDic["SourceAccession"] = origin.find("{https://www.ebi.ac.uk/webservices/chebi}SourceAccession").text
                 chebiCompound["Species"][chebispecies].append(originDic)
     except:
         pass
