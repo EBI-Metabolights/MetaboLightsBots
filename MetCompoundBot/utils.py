@@ -18,7 +18,7 @@ MetaboLightsWSCompoundsList = MetaboLightsWSUrl + "compounds/list"
 
 # CHEBI api
 chebiapi ="https://www.ebi.ac.uk/webservices/chebi/2.0/test/getCompleteEntity?chebiId="
-chebiNSMap = {"envelop": "http://schemas.xmlsoap.org/soap/envelope/","chebi":"http://www.ebi.ac.uk/webservices/chebi"}
+chebiNSMap = {"envelop": "http://schemas.xmlsoap.org/soap/envelope/","chebi":"{http://www.ebi.ac.uk/webservices/chebi}"}
 
 # Chemical Translation Service [ http://cts.fiehnlab.ucdavis.edu/ ]
 ctsapi = "http://cts.fiehnlab.ucdavis.edu/service/compound/"
@@ -145,78 +145,77 @@ def init(loggingObject):
 def getChebiData(chebiId,mlMapping):
     global chebiCompound
     chebiRESTResponse = urllib2.urlopen(chebiapi + chebiId).read();
-    root = ET.fromstring(chebiRESTResponse).find("envelop:Body", namespaces=chebiNSMap).find("chebi:getCompleteEntityResponse", namespaces=chebiNSMap).find("chebi:return", namespaces=chebiNSMap)
+    root = ET.fromstring(chebiRESTResponse).find("envelop:Body", namespaces=chebiNSMap).find("{https://www.ebi.ac.uk/webservices/chebi}getCompleteEntityResponse").find("{https://www.ebi.ac.uk/webservices/chebi}return")
+    print root.find("{https://www.ebi.ac.uk/webservices/chebi}chebiId").text
     try:
-        chebiCompound["id"] = root.find("chebi:chebiId", namespaces=chebiNSMap).text
+        chebiCompound["id"] = root.find("{https://www.ebi.ac.uk/webservices/chebi}chebiId").text
     except:
         pass
     
     try:
-        chebiCompound["definition"] = root.find("chebi:definition", namespaces=chebiNSMap).text
+        chebiCompound["definition"] = root.find("{https://www.ebi.ac.uk/webservices/chebi}definition").text
     except:
         pass
 
     try:
-        chebiCompound["smiles"] = root.find("chebi:smiles", namespaces=chebiNSMap).text
+        chebiCompound["smiles"] = root.find("{https://www.ebi.ac.uk/webservices/chebi}smiles").text
+    except:
+        pass
+    try:
+        chebiCompound["inchi"] = root.find("{https://www.ebi.ac.uk/webservices/chebi}inchi").text
     except:
         pass
 
     try:
-        chebiCompound["inchi"] = root.find("chebi:inchi", namespaces=chebiNSMap).text
+        chebiCompound["inchiKey"] = root.find("{https://www.ebi.ac.uk/webservices/chebi}inchiKey").text
     except:
         pass
 
     try:
-        chebiCompound["inchiKey"] = root.find("chebi:inchiKey", namespaces=chebiNSMap).text
+        chebiCompound["charge"] = root.find("{https://www.ebi.ac.uk/webservices/chebi}charge").text
+    except:
+        pass
+    try:
+        chebiCompound["mass"] = root.find("{https://www.ebi.ac.uk/webservices/chebi}mass").tex
     except:
         pass
 
     try:
-        chebiCompound["charge"] = root.find("chebi:charge", namespaces=chebiNSMap).text
-    except:
-        pass
-
-    try:
-        chebiCompound["mass"] = root.find("chebi:mass", namespaces=chebiNSMap).tex
-    except:
-        pass
-
-    try:
-        chebiCompound["chebiAsciiName"] = root.find("chebi:chebiAsciiName", namespaces=chebiNSMap).text
+        chebiCompound["chebiAsciiName"] = root.find("{https://www.ebi.ac.uk/webservices/chebi}chebiAsciiName").text
     except:
         pass
 
     try:
         chebiCompound["Synonyms"] = []
-        for synonymn in root.findall("chebi:Synonyms", namespaces=chebiNSMap):
-            chebiCompound["Synonyms"].append(synonymn.find("chebi:data", namespaces=chebiNSMap).text)
+        for synonymn in root.findall("{https://www.ebi.ac.uk/webservices/chebi}Synonyms"):
+            chebiCompound["Synonyms"].append(synonymn.find("{https://www.ebi.ac.uk/webservices/chebi}data").text)
     except:
         pass
 
     try:
         chebiCompound["IupacNames"] = []
-        for iupacname in root.findall("chebi:IupacNames", namespaces=chebiNSMap):
-            chebiCompound["IupacNames"].append(synonymn.find("chebi:data", namespaces=chebiNSMap).text)
+        for iupacname in root.findall("{https://www.ebi.ac.uk/webservices/chebi}IupacNames"):
+            chebiCompound["IupacNames"].append(synonymn.find("{https://www.ebi.ac.uk/webservices/chebi}data").text)
     except:
         pass
 
     try:
         chebiCompound["Citations"] = []
-        for citation in root.findall("chebi:Citations", namespaces=chebiNSMap):
+        for citation in root.findall("{https://www.ebi.ac.uk/webservices/chebi}Citations"):
             citationDic = {}
-            citationDic["source"] = citation.find("chebi:source", namespaces=chebiNSMap).text
-            citationDic["type"] = citation.find("chebi:type", namespaces=chebiNSMap).text
-            citationDic["value"] = citation.find("chebi:data", namespaces=chebiNSMap).text
+            citationDic["source"] = citation.find("{https://www.ebi.ac.uk/webservices/chebi}source").text
+            citationDic["type"] = citation.find("{https://www.ebi.ac.uk/webservices/chebi}type").text
+            citationDic["value"] = citation.find("{https://www.ebi.ac.uk/webservices/chebi}data").text
             chebiCompound["Citations"].append(citationDic)
     except:
         pass
 
     try:
         chebiCompound["DatabaseLinks"] = []
-        for databaselink in root.findall("chebi:DatabaseLinks", namespaces=chebiNSMap):
+        for databaselink in root.findall("{https://www.ebi.ac.uk/webservices/chebi}DatabaseLinks"):
             databaselinkDic = {}
-            databaselinkDic["source"] = databaselink.find("chebi:type", namespaces=chebiNSMap).text
-            databaselinkDic["value"] = databaselink.find("chebi:data", namespaces=chebiNSMap).text
+            databaselinkDic["source"] = databaselink.find("{https://www.ebi.ac.uk/webservices/chebi}type").text
+            databaselinkDic["value"] = databaselink.find("{https://www.ebi.ac.uk/webservices/chebi}data").text
             chebiCompound["DatabaseLinks"].append(databaselinkDic)
     except:
         pass
@@ -224,24 +223,23 @@ def getChebiData(chebiId,mlMapping):
     try:
         chebiCompound["CompoundOrigins"] = []
         chebiCompound["Species"] = {}
-        for origin in root.findall("chebi:CompoundOrigins", namespaces=chebiNSMap):
-            chebispecies = origin.find("chebi:speciesText", namespaces=chebiNSMap).text.lower()
+        for origin in root.findall("{https://www.ebi.ac.uk/webservices/chebi}CompoundOrigins"):
+            chebispecies = origin.find("{https://www.ebi.ac.uk/webservices/chebi}speciesText").text.lower()
             if chebispecies not in chebiCompound["Species"]:
                 originDic = {}
                 chebiCompound["Species"][chebispecies] = []
-                originDic["SpeciesAccession"] = origin.find("chebi:speciesAccession", namespaces=chebiNSMap).text
-                originDic["SourceType"] = origin.find("chebi:SourceType", namespaces=chebiNSMap).text
-                originDic["SourceAccession"] = origin.find("chebi:SourceAccession", namespaces=chebiNSMap).text
+                originDic["SpeciesAccession"] = origin.find("{https://www.ebi.ac.uk/webservices/chebi}speciesAccession").text
+                originDic["SourceType"] = origin.find("{https://www.ebi.ac.uk/webservices/chebi}SourceType").text
+                originDic["SourceAccession"] = origin.find("{https://www.ebi.ac.uk/webservices/chebi}SourceAccession").text
                 chebiCompound["Species"][chebispecies].append(originDic)
             else:
                 originDic = {}
-                originDic["SpeciesAccession"] = origin.find("chebi:speciesAccession", namespaces=chebiNSMap).text
-                originDic["SourceType"] = origin.find("chebi:SourceType", namespaces=chebiNSMap).text
-                originDic["SourceAccession"] = origin.find("chebi:SourceAccession", namespaces=chebiNSMap).text
+                originDic["SpeciesAccession"] = origin.find("{https://www.ebi.ac.uk/webservices/chebi}speciesAccession").text
+                originDic["SourceType"] = origin.find("{https://www.ebi.ac.uk/webservices/chebi}SourceType").text
+                originDic["SourceAccession"] = origin.find("{https://www.ebiå.ac.uk/webservices/chebi}SourceAccession").text
                 chebiCompound["Species"][chebispecies].append(originDic)
     except:
         pass
-
     try:
         if chebiCompound["id"] in mlMapping['compoundMapping']:
             studyspecies = mlMapping['compoundMapping'][chebiCompound["id"]]
@@ -404,12 +402,12 @@ def fetchCompound(metabolightsID, wd, dd, reactomeData, mlMapping):
         logger.info("Compound Error: "+metabolightsID + "Synonyms not assigned")
         pass
 
-    try:
-        MetaboLightsCompoundJSON["externalIds"] = mapExternalIDS(chebiCompound, ctsc)
-    except:
-        MetaboLightsCompoundJSON["externalIds"] = []
-        logger.info("Compound Error: "+metabolightsID + "External Ids not assigned")
-        pass
+    # try:
+    #     MetaboLightsCompoundJSON["externalIds"] = mapExternalIDS(chebiCompound, ctsc)
+    # except:
+    #     MetaboLightsCompoundJSON["externalIds"] = []
+    #     logger.info("Compound Error: "+metabolightsID + "External Ids not assigned")
+    #     pass
 
     try:
         MetaboLightsCompoundJSON["pathways"] = mapPathways(chebiCompound, ctsc, metabolightsID, reactomeData, MetaboLightsCompoundJSON, chebiCompound["inchiKey"])
@@ -633,10 +631,10 @@ def mapExternalIDS(chebi,ctsc):
 
 def getSynonymns(chebi,ctsc):
     synonyms = chebi["Synonyms"]
-    # cts synonyms
-    for synonym in ctsc["synonyms"]:
-        synonyms.append(synonym["name"])
-    # remove duplicates
+    # # cts synonyms
+    # for synonym in ctsc["synonyms"]:
+    #     synonyms.append(synonym["name"])
+    # # remove duplicates
     synonyms = list(set(name.lower() for name in synonyms))
     return synonyms
 
