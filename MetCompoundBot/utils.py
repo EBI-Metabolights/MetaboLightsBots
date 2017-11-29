@@ -286,7 +286,8 @@ def fetchCompound(metabolightsID, wd, dd, reactomeData, mlMapping):
     MetaboLightsCompoundJSON["flags"]['hasMS'] = "false"
     logger.info("Requesting compound chemical information from CTS:")
     try:
-        ctsc = json.loads(urllib2.urlopen(ctsapi+chebiCompound["inchiKey"]).read())
+        if(chebiCompound["inchiKey"] != null):
+            ctsc = json.loads(urllib2.urlopen(ctsapi+chebiCompound["inchiKey"]).read())
     except:
         pass
     MetaboLightsCompoundJSON["id"] = metabolightsID
@@ -347,21 +348,24 @@ def fetchCompound(metabolightsID, wd, dd, reactomeData, mlMapping):
         pass
 
     try:
-        MetaboLightsCompoundJSON["exactmass"] = ctsc["exactmass"]
+        if ctsc:
+            MetaboLightsCompoundJSON["exactmass"] = ctsc["exactmass"]
     except:
         MetaboLightsCompoundJSON["exactmass"] = "NA"
         logger.info("Compound Error: "+metabolightsID + "Exact Mass not assigned")
         pass
 
     try:
-        MetaboLightsCompoundJSON["molweight"] = ctsc["molweight"]
+        if ctsc:
+            MetaboLightsCompoundJSON["molweight"] = ctsc["molweight"]
     except:
         MetaboLightsCompoundJSON["molweight"] = "NA"
         logger.info("Compound Error: "+metabolightsID + "molweight not assigned")
         pass
 
     try:
-        MetaboLightsCompoundJSON["formula"] = ctsc["formula"]
+        if ctsc:
+            MetaboLightsCompoundJSON["formula"] = ctsc["formula"]
     except:
         MetaboLightsCompoundJSON["formula"] = "NA"
         logger.info("Compound Error: "+metabolightsID + "formula Mass not assigned")
