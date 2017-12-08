@@ -345,13 +345,13 @@ def fetchCompound(metabolightsID, wd, dd, reactomeData, mlMapping):
         logger.info("Compound Error: "+metabolightsID + "Average Mass not assigned")
         pass
 
-    try:
-        if ctsc:
-            MetaboLightsCompoundJSON["exactmass"] = ctsc["exactmass"]
-    except:
-        MetaboLightsCompoundJSON["exactmass"] = "NA"
-        logger.info("Compound Error: "+metabolightsID + "Exact Mass not assigned")
-        pass
+    # try:
+    #     if ctsc:
+    #         MetaboLightsCompoundJSON["exactmass"] = ctsc["exactmass"]
+    # except:
+    #     MetaboLightsCompoundJSON["exactmass"] = "NA"
+    #     logger.info("Compound Error: "+metabolightsID + "Exact Mass not assigned")
+    #     pass
 
     try:
         if ctsc:
@@ -414,7 +414,7 @@ def fetchCompound(metabolightsID, wd, dd, reactomeData, mlMapping):
     #     pass
 
     try:
-        MetaboLightsCompoundJSON["pathways"] = mapPathways(chebiCompound, ctsc, metabolightsID, reactomeData, MetaboLightsCompoundJSON, chebiCompound["inchiKey"])
+        MetaboLightsCompoundJSON["pathways"] = mapPathways(chebiCompound, metabolightsID, reactomeData, MetaboLightsCompoundJSON, chebiCompound["inchiKey"])
     except:
         MetaboLightsCompoundJSON["pathways"] = {}
         logger.info("Compound Error: "+metabolightsID + "Pathways not assigned")
@@ -532,7 +532,7 @@ def fetchReactions(chebi):
         reactions.append(reactionDic)
     return reactions
 
-def mapPathways(chebi,ctsc,compound, reactomeData, MetaboLightsCompoundJSON, InChIKey):
+def mapPathways(chebi, compound, reactomeData, MetaboLightsCompoundJSON, InChIKey):
     tempPathwayDictionary = {}
     tempPathwayDictionary["WikiPathways"] = getWikiPathwaysData(InChIKey)
     tempPathwayDictionary["KEGGPathways"] = getKEGGData(chebi)
@@ -550,7 +550,7 @@ def mapPathways(chebi,ctsc,compound, reactomeData, MetaboLightsCompoundJSON, InC
 def getWikiPathwaysData(InChIKey):
     pathways = {}
     try:
-        wikipathwaysapi = "http://webservice.wikipathways.org/findPathwaysByXref?ids="+InChIKey+"&codes=Ik&format=json"
+        wikipathwaysapi = "https://webservice.wikipathways.org/findPathwaysByXref?ids="+InChIKey+"&codes=Ik&format=json"
         #wikipathwaysapi = "http://webservice.wikipathways.org/index.php?ids="+chebi["id"]+"&codes=Ce&method=findPathwaysByXref&format=json"
         wikipathways =  json.loads(urllib2.urlopen(wikipathwaysapi).read())["result"]
         if len(wikipathways) > 0 :
