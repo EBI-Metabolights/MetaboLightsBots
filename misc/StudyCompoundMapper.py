@@ -34,7 +34,8 @@ def main(arguments):
     for study in studies:
         studyContent = json.loads(urllib2.urlopen(MetaboLightsStudyUrl + study).read())["content"]
         assayNumber = 1
-        for assay in studyContent["assays"]:
+        try:
+            for assay in studyContent["assays"]:
             try:
                 metabolitesLines = json.loads(urllib2.urlopen( MetaboLightsStudyUrl + study + "/assay/" + str(assayNumber) + "/maf").read())["content"]['metaboliteAssignmentLines']
                 for line in metabolitesLines:
@@ -70,6 +71,9 @@ def main(arguments):
             except:
                 print study + " -- assay" + str(assayNumber) + " failed" 
                 pass
+        except:
+            print study + " failed"
+            pass
 
     mt['studyMapping'] = studiesList
     mt['compoundMapping'] = compoundsList
