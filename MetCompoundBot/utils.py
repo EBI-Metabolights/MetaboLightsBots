@@ -81,11 +81,10 @@ def generateMLStudyCompoundMappingFile(mappingFile):
                             compoundsList[dbID] = []
                             tempCompound['study'] = study
                             tempCompound['assay'] = assayNumber
-                            tempCompound['assay'] = assayNumber
                             tempCompound['species'] = species
                             tempCompound['part'] = part
                             tempCompound['taxid'] = line['taxid']
-                            #tempCompound['mafEntry'] = line
+                            tempCompound['mafEntry'] = line
                             compoundsList[dbID].append(tempCompound)
                         else:
                             tempCompound['study'] = study
@@ -93,7 +92,7 @@ def generateMLStudyCompoundMappingFile(mappingFile):
                             tempCompound['species'] = species
                             tempCompound['part'] = part
                             tempCompound['taxid'] = line['taxid']
-                            #tempCompound['mafEntry'] = line
+                            tempCompound['mafEntry'] = line
                             compoundsList[dbID].append(tempCompound)
                         tempStudy = {}
                         if study not in studiesList:
@@ -144,9 +143,11 @@ def init(loggingObject):
 
 def getChebiData(chebiId,mlMapping):
     global chebiCompound
+    print chebiapi + chebiId
     chebiRESTResponse = urllib2.urlopen(chebiapi + chebiId).read();
     root = ET.fromstring(chebiRESTResponse).find("envelop:Body", namespaces=chebiNSMap).find("{https://www.ebi.ac.uk/webservices/chebi}getCompleteEntityResponse").find("{https://www.ebi.ac.uk/webservices/chebi}return")
     print root.find("{https://www.ebi.ac.uk/webservices/chebi}chebiId").text
+    # print root
     try:
         chebiCompound["id"] = root.find("{https://www.ebi.ac.uk/webservices/chebi}chebiId").text
     except:
@@ -175,8 +176,14 @@ def getChebiData(chebiId,mlMapping):
         chebiCompound["charge"] = root.find("{https://www.ebi.ac.uk/webservices/chebi}charge").text
     except:
         pass
+    
     try:
-        chebiCompound["mass"] = root.find("{https://www.ebi.ac.uk/webservices/chebi}mass").tex
+        chebiCompound["mass"] = root.find("{https://www.ebi.ac.uk/webservices/chebi}mass").text
+    except:
+        pass
+
+    try:
+        chebiCompound["monoisotopicMass"] = root.find("{https://www.ebi.ac.uk/webservices/chebi}monoisotopicMass").text
     except:
         pass
 
@@ -196,6 +203,11 @@ def getChebiData(chebiId,mlMapping):
         chebiCompound["IupacNames"] = []
         for iupacname in root.findall("{https://www.ebi.ac.uk/webservices/chebi}IupacNames"):
             chebiCompound["IupacNames"].append(synonymn.find("{https://www.ebi.ac.uk/webservices/chebi}data").text)
+    except:
+        pass
+
+    try:
+        chebiCompound["Formulae"] = root.find("{https://www.ebi.ac.uk/webservices/chebi}Formulae").find("{https://www.ebi.ac.uk/webservices/chebi}data").text
     except:
         pass
 
@@ -345,6 +357,20 @@ def fetchCompound(metabolightsID, wd, dd, reactomeData, mlMapping):
         logger.info("Compound Error: "+metabolightsID + "Average Mass not assigned")
         pass
 
+    try:
+        MetaboLightsCompoundJSON["exactmass"] = chebiCompound["monoisotopicMass"]
+    except:
+        MetaboLightsCompoundJSON["exactmass"] = "NA"
+        logger.info("Compound Error: "+metabolightsID + "Exact Mass not assigned")
+        pass
+
+    try:
+        MetaboLightsCompoundJSON["formula"] = chebiCompound["Formulae"]
+    except:
+        MetaboLightsCompoundJSON["formula"] = "NA"
+        logger.info("Compound Error: "+metabolightsID + "Average Mass not assigned")
+        pass
+
     # try:
     #     if ctsc:
     #         MetaboLightsCompoundJSON["exactmass"] = ctsc["exactmass"]
@@ -353,21 +379,21 @@ def fetchCompound(metabolightsID, wd, dd, reactomeData, mlMapping):
     #     logger.info("Compound Error: "+metabolightsID + "Exact Mass not assigned")
     #     pass
 
-    try:
-        if ctsc:
-            MetaboLightsCompoundJSON["molweight"] = ctsc["molweight"]
-    except:
-        MetaboLightsCompoundJSON["molweight"] = "NA"
-        logger.info("Compound Error: "+metabolightsID + "molweight not assigned")
-        pass
+    # try:
+    #     if ctsc:
+    #         MetaboLightsCompoundJSON["molweight"] = ctsc["molweight"]
+    # except:
+    #     MetaboLightsCompoundJSON["molweight"] = "NA"
+    #     logger.info("Compound Error: "+metabolightsID + "molweight not assigned")
+    #     pass
 
-    try:
-        if ctsc:
-            MetaboLightsCompoundJSON["formula"] = ctsc["formula"]
-    except:
-        MetaboLightsCompoundJSON["formula"] = "NA"
-        logger.info("Compound Error: "+metabolightsID + "formula Mass not assigned")
-        pass
+    # try:
+    #     if ctsc:
+    #         MetaboLightsCompoundJSON["formula"] = ctsc["formula"]
+    # except:
+    #     MetaboLightsCompoundJSON["formula"] = "NA"
+    #     logger.info("Compound Error: "+metabolightsID + "formula not assigned")
+    #     pass
 
     logger.info("Fetching Citations:")
     try:
@@ -400,7 +426,7 @@ def fetchCompound(metabolightsID, wd, dd, reactomeData, mlMapping):
         pass
 
     try:
-        MetaboLightsCompoundJSON["synonyms"] = getSynonymns(chebiCompound,ctsc)
+        MetaboLightsCompoundJSON["synonyms"] = chebiCompound["Synonyms"]
     except:
         MetaboLightsCompoundJSON["synonyms"] = []
         logger.info("Compound Error: "+metabolightsID + "Synonyms not assigned")
@@ -639,7 +665,7 @@ def getSynonymns(chebi,ctsc):
     # for synonym in ctsc["synonyms"]:
     #     synonyms.append(synonym["name"])
     # # remove duplicates
-    synonyms = list(set(name.lower() for name in synonyms))
+    # synonyms = list(set(name.lower() for name in synonyms))
     return synonyms
 
 def getCitations(citationsList):

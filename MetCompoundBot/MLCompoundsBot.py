@@ -96,16 +96,16 @@ def main(arguments):
     with open(mlSCMappingFile) as mapping_file:  
         global mlMapping
         mlMapping = json.load(mapping_file)
-
     if (requestedCompound != "all") :
-        metabolightsFlagsJSONFile = ftp + "ml_flags.json"
-        with open(metabolightsFlagsJSONFile) as flags_file:
-            metabolightsFlagsData = json.load(flags_file)
-        for metabolite in metabolightsFlagsData:
-            logging.info("-----------------------------------------------")
-            logging.info("Fetching compound: " + metabolite)
-            if metabolightsFlagsData[metabolite]['rating'] <= int(importLevel):
-                utils.fetchCompound(metabolite.strip(), workingDirectory, destinationDirectory, reactomeData, mlMapping)
+        # metabolightsFlagsJSONFile = ftp + "ml_flags.json"
+        # with open(metabolightsFlagsJSONFile) as flags_file:
+        #     metabolightsFlagsData = json.load(flags_file)
+        # for metabolite in metabolightsFlagsData:
+        #     print metabolite
+        #     logging.info("-----------------------------------------------")
+        #     logging.info("Fetching compound: " + metabolite)
+            # if metabolightsFlagsData[metabolite]['rating'] <= int(importLevel):
+        utils.fetchCompound(requestedCompound.strip(), workingDirectory, destinationDirectory, reactomeData, mlMapping)
     else:
         requestCompoundsList = utils.fetchMetaboLightsCompoundsList()
         for compound in requestCompoundsList:
