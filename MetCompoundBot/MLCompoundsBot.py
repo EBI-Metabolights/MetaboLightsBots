@@ -47,7 +47,7 @@ def main(arguments):
     parser.add_argument('-w', '--destination', action=readable_dir, help="Output directory", default="/nfs/www-prod/web_hx2/cm/metabolights/prod/reference/")
     parser.add_argument('-c', '--compound', help="- MetaboLights Compound Identifier", default="all")
     parser.add_argument('-s', '--stars', help="- Compounds import level", default="0")
-    parser.add_argument('-f', '--ftp', action=readable_dir, default="/ebi/ftp/pub/databases/metabolights/compounds/", help="FTP directory")
+    parser.add_argument('-f', '--ftp', action=readable_dir, default="/net/isilonP/public/rw/homes/tc_cm01/from_ftp_pub/compounds", help="FTP directory")
     parser.add_argument('-p', '--process', action=readable_dir, default="false", help="Use parallel threads")
     args = parser.parse_args(arguments)
     global workingDirectory

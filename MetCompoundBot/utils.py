@@ -1,9 +1,9 @@
 #!/usr/bin/env python
-
+import errno
 import os
 import json
 import time
-import urllib2
+from urllib import request
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
 from math import ceil, floor
@@ -40,11 +40,11 @@ rheaapi = "http://www.rhea-db.org/rest/1.0/ws/reaction?q="
 chebiCompound = {}
 
 def fetchMetaboLightsStudiesList():
-    response = urllib2.urlopen(MetaboLightsWSStudiesList)
+    response = request.urlopen(MetaboLightsWSStudiesList)
     return json.loads(response.read())['content']
 
 def fetchMetaboLightsCompoundsList():
-    response = urllib2.urlopen(MetaboLightsWSCompoundsList)
+    response = request.urlopen(MetaboLightsWSCompoundsList)
     return json.loads(response.read())['content']
 
 def generateMLStudyCompoundMappingFile(mappingFile):
@@ -55,8 +55,8 @@ def generateMLStudyCompoundMappingFile(mappingFile):
     global MLStudiesList
     MLStudiesList = fetchMetaboLightsStudiesList()
     for study in MLStudiesList:
-        print study
-        studyContent = json.loads(urllib2.urlopen(MetaboLightsWSStudyUrl + study).read())["content"]
+        print(study)
+        studyContent = json.loads(request.urlopen(MetaboLightsWSStudyUrl + study).read())["content"]
         organismData = studyContent["organism"]
         hasMultipleOrganisms = True
         if (len(organismData) == 1):
@@ -64,7 +64,7 @@ def generateMLStudyCompoundMappingFile(mappingFile):
         assayNumber = 1
         for assay in studyContent["assays"]:
             try:
-                metabolitesLines = json.loads(urllib2.urlopen( MetaboLightsWSStudyUrl + study + "/assay/" + str(assayNumber) + "/maf").read())["content"]['metaboliteAssignmentLines']
+                metabolitesLines = json.loads(request.urlopen( MetaboLightsWSStudyUrl + study + "/assay/" + str(assayNumber) + "/maf").read())["content"]['metaboliteAssignmentLines']
                 for line in metabolitesLines:
                     dbID = str(line['databaseIdentifier'])
                     part = ""
@@ -120,7 +120,7 @@ def generateMLStudyCompoundMappingFile(mappingFile):
     writeDataToFile(mappingFile, mt)
 
 def getReactomeData(reactomeFile):
-    reactomeData = urllib2.urlopen(ReactomeUrl).read()
+    reactomeData = request.urlopen(ReactomeUrl).read()
     for line in reactomeData.split("\n"):
         if line:
             dataArray = line.split("\t")
@@ -143,10 +143,10 @@ def init(loggingObject):
 
 def getChebiData(chebiId,mlMapping):
     global chebiCompound
-    print chebiapi + chebiId
-    chebiRESTResponse = urllib2.urlopen(chebiapi + chebiId).read();
+    print(chebiapi + chebiId)
+    chebiRESTResponse = request.urlopen(chebiapi + chebiId).read();
     root = ET.fromstring(chebiRESTResponse).find("envelop:Body", namespaces=chebiNSMap).find("{https://www.ebi.ac.uk/webservices/chebi}getCompleteEntityResponse").find("{https://www.ebi.ac.uk/webservices/chebi}return")
-    print root.find("{https://www.ebi.ac.uk/webservices/chebi}chebiId").text
+    print(root.find("{https://www.ebi.ac.uk/webservices/chebi}chebiId").text)
     # print root
     try:
         chebiCompound["id"] = root.find("{https://www.ebi.ac.uk/webservices/chebi}chebiId").text
@@ -283,7 +283,7 @@ def fetchCompound(metabolightsID, wd, dd, reactomeData, mlMapping):
     logger.info("Process started: " + metabolightsID)
     logger.info("Requesting compound chemical information from ChEBI:")
     chebiId = metabolightsID.replace("MTBLC","").strip();
-    mtblcs = json.loads(urllib2.urlopen(MetaboLightsWSCompoundsUrl+metabolightsID).read())["content"]
+    mtblcs = json.loads(request.urlopen(MetaboLightsWSCompoundsUrl+metabolightsID).read())["content"]
     getChebiData(chebiId, mlMapping);
     logger.info("Initialising MetaboLightsCompoundJSON")
     MetaboLightsCompoundJSON = {}
@@ -297,7 +297,7 @@ def fetchCompound(metabolightsID, wd, dd, reactomeData, mlMapping):
     logger.info("Requesting compound chemical information from CTS:")
     try:
         if(chebiCompound["inchiKey"] != null):
-            ctsc = json.loads(urllib2.urlopen(ctsapi+chebiCompound["inchiKey"]).read())
+            ctsc = json.loads(request.urlopen(ctsapi+chebiCompound["inchiKey"]).read())
     except:
         pass
     MetaboLightsCompoundJSON["id"] = metabolightsID
@@ -419,7 +419,7 @@ def fetchCompound(metabolightsID, wd, dd, reactomeData, mlMapping):
 
     logger.info("Fetching Structure Data:")
     try:
-        MetaboLightsCompoundJSON["structure"] = urllib2.urlopen(cactusapi+chebiCompound["inchiKey"]+"/sdf").read()
+        MetaboLightsCompoundJSON["structure"] = request.urlopen(cactusapi+chebiCompound["inchiKey"]+"/sdf").read()
     except:
         MetaboLightsCompoundJSON["structure"] = "NA"
         logger.info("Compound Error: "+metabolightsID + "Structure not assigned")
@@ -499,7 +499,7 @@ def fetchSpectra(spectra, metabolightsID, dd):
 def fetchMSFromMONA(inchikey, metabolightsID, dd):
     ml_spectrum = []
     url = "http://mona.fiehnlab.ucdavis.edu/rest/spectra/search?query=compound.metaData=q=%27name==\%22InChIKey\%22%20and%20value==\%22"+inchikey+"\%22%27"
-    result = json.load(urllib2.urlopen(url))
+    result = json.load(request.urlopen(url))
     for spectra in result:
         ml_spectra = {}
         ml_spectra['splash'] = spectra['splash']
@@ -544,7 +544,7 @@ def float_round(num, places = 0, direction = floor):
     return direction(num * (10**places)) / float(10**places)
 
 def fetchReactions(chebi):
-    rheaData = urllib2.urlopen(rheaapi+chebi["id"]).read()
+    rheaData = request.urlopen(rheaapi+chebi["id"]).read()
     soup = BeautifulSoup(rheaData, "html.parser")
     reactions = []
     for reaction in soup.findAll("rheareaction"):
@@ -552,7 +552,7 @@ def fetchReactions(chebi):
         reactionDic["id"] = reaction.rheaid.id.string
         for rheauri in reaction.rheaid.findAll("rheauri"):
             reactionDic[rheauri.uriresponseformat.string] =  rheauri.uri.string
-        reactionCML = urllib2.urlopen(reactionDic['cmlreact']).read()
+        reactionCML = request.urlopen(reactionDic['cmlreact']).read()
         reactionRoot = ET.fromstring(reactionCML)
         reactionDic["name"] = reactionRoot.find("{http://www.xml-cml.org/schema/cml2/react}name").text
         reactions.append(reactionDic)
@@ -578,7 +578,7 @@ def getWikiPathwaysData(InChIKey):
     try:
         wikipathwaysapi = "https://webservice.wikipathways.org/findPathwaysByXref?ids="+InChIKey+"&codes=Ik&format=json"
         #wikipathwaysapi = "http://webservice.wikipathways.org/index.php?ids="+chebi["id"]+"&codes=Ce&method=findPathwaysByXref&format=json"
-        wikipathways =  json.loads(urllib2.urlopen(wikipathwaysapi).read())["result"]
+        wikipathways =  json.loads(request.urlopen(wikipathwaysapi).read())["result"]
         if len(wikipathways) > 0 :
             for pathway in wikipathways:
                 if pathway["species"] in pathways:
@@ -621,13 +621,13 @@ def getKEGGData(chebi):
     pathways = []
     try:
         keggapi = "http://rest.kegg.jp/conv/compound/" + chebi["id"].lower()
-        keggid = urllib2.urlopen(keggapi).read().split("\t")[1].strip()
+        keggid = request.urlopen(keggapi).read().split("\t")[1].strip()
         pathwayslistapi = "http://rest.kegg.jp/link/pathway/" + keggid
-        pathwaysData = urllib2.urlopen(pathwayslistapi).read()
+        pathwaysData = request.urlopen(pathwayslistapi).read()
         for line in pathwaysData.strip().split("\n"):
             pathwayId = line.split("\t")[1].strip()
             pathwayapi = "http://rest.kegg.jp/get/" + pathwayId
-            pathwayData = urllib2.urlopen(pathwayapi).read()
+            pathwayData = request.urlopen(pathwayapi).read()
             tempDict = {}
             tempDict["id"] = pathwayId
             for pline in pathwayData.strip().split("\n"):
@@ -674,7 +674,7 @@ def getCitations(citationsList):
         try:
             tempCitation = citation
             epmc = epmcAPI + str(citation['value']) + "&format=json&resulttype=core";
-            epmcData = urllib2.urlopen(epmc).read()
+            epmcData = request.urlopen(epmc).read()
             citationData =  json.loads(epmcData)['resultList']['result'][0]
             tempCitation['title'] = citationData['title']
             tempCitation['abstract'] = citationData['abstractText']
@@ -687,10 +687,10 @@ def getCitations(citationsList):
             epmcList.append(tempCitation)
         except:
             pass
-    return epmcList;
+    return epmcList
 
 def getReactomeData(reactomeFile):
-    reactomeData = urllib2.urlopen(ReactomeUrl).read()
+    reactomeData = urllib.urlopen(ReactomeUrl).read()
     for line in reactomeData.split("\n"):
         if line:
             dataArray = line.split("\t")
